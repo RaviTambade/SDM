@@ -11,30 +11,30 @@ SCM also maintains a history of changes. This is used to resolve conflicts when 
 Source control is important for maintaining a single source of truth for development teams. Using it helps facilitate collaboration and accelerates release velocity.
 Some benefits of source control are:
 
--It allows multiple developers to work on the same codebase.
--Developers can commit and merge code without conflicts.
--Developers can edit shared code without unknowingly overwriting each other’s work.
+- It allows multiple developers to work on the same codebase.
+- Developers can commit and merge code without conflicts.
+- Developers can edit shared code without unknowingly overwriting each other’s work.
 
 
 ### 5 Tips for Source Control Management
 Here are five tips to keep in mind:
 
--Choose the right system. (Helix Core is a great one.)
--Store your code in the system.
--Pull the latest version of the code.
--Commit code often (and make notes).
--Use branches to work in parallel.
--Choosing the right system is important — that’s why it’s the first best practice. 
+- Choose the right system. (Helix Core is a great one.)
+- Store your code in the system.
+- Pull the latest version of the code.
+- Commit code often (and make notes).
+- Use branches to work in parallel.
+- Choosing the right system is important — that’s why it’s the first best practice. 
 
 ### List of Source Control Management Tools
 Source control tools include:
 
--Git
--Helix Core
--Subversion
--ClearCase
--Team Foundation Server
--Mercurial 
+- Git
+- Helix Core
+- Subversion
+- ClearCase
+- Team Foundation Server
+- Mercurial 
 ### Version Control with Git Is One Popular Option
 Git source control is one of the most popular options. Some teams use open source Git. Others use enterprise Git. Some popular Git source control options include GitHub, GitLab, and Bitbucket.
 
