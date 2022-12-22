@@ -22,11 +22,11 @@ The continuous model is inspired by the Toyota Production System. It is about mi
 
 Let is explore Software Development metholodies by doing.
 
-<a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Enggineering</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Requirements</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/SRSDocument.md"> Software Requirements Specification</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Agile Methodolgy</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
-<a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Enggineering</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Requirements</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/SRSDocument.md"> Software Requirements Specification</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Agile Methodolgy</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
