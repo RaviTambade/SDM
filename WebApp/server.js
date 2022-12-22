@@ -1,16 +1,14 @@
-var http=require('http');
-var fs=require('fs');
+var express=require('express');
+var app=express();
 var person={
     'id':23,
     'firstname':'ravi',
     'lastname':'tambade'
 };
 
+app.get('/', (req,res)=>{
+    res.send(person);
+})
 
-var server=http.createServer((req,res)=>{
-    res.write(' <h1> Welcome to Transflower </h1>');
-    res.end();
-});
-
-server.listen(7000);
-console.log( 'server is listening on port 70000');
+app.listen(7000);
+console.log( ' express server is listening on port 70000');
