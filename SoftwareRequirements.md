@@ -76,7 +76,7 @@ Examples -
 - Should comply business rules and administrative functions.
 - Software is developed keeping downward compatibility intact.
 
-Non-Functional Requirements
+## Non-Functional Requirements
 Requirements, which are not related to functional aspect of software, fall into this category. They are implicit or expected characteristics of software, which users make assumption of.
 
 Non-functional requirements include -
