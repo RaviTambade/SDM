@@ -1,6 +1,6 @@
 ## Software Development Methodologies (SDM)
 
-	[a Software Enggineering] (./softwareengg.md)
+	[a Software Enggineering] (softwareengg.md)
     [Software Requirements] (./SoftwareRequirements.md)
     [Software Requirement Specification] (./SRSDocument.md)
     [SDLC] (./agilevswaterfall.md)
