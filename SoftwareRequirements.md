@@ -94,21 +94,10 @@ Non-functional requirements include -
 
 ### Requirements are categorized logically as
 
-- Must Have : 
-	Software cannot be said operational without them.
-- Should have : 
-	Enhancing the functionality of software.
-- Could have : 
-	Software can still properly function with these requirements.
-- Wish list : 
-	These requirements do not map to any objectives of software.
+- Must Have : Software cannot be said operational without them.
+- Should have : Enhancing the functionality of software.
+- Could have : Software can still properly function with these requirements.
+- Wish list : These requirements do not map to any objectives of software.
+
 While developing software, ‘Must have’ must be implemented, ‘Should have’ is a matter of debate with stakeholders and negation, whereas ‘could have’ and ‘wish list’ can be kept for software updates.
 
-## User Interface requirements
-
-UI is an important part of any software or hardware or hybrid system. A software is widely accepted if it is -
-	easy to operate
-	quick in response
-	effectively handling operational errors
-	providing simple yet consistent user interface
-User acceptance majorly depends upon how user can use the software. UI is the only way for users to perceive the system. A well performing software system must also be equipped with attractive, clear, consistent and responsive user interface. Otherwise the functionalities of software system can not be used in convenient way.
