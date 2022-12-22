@@ -22,7 +22,7 @@ The continuous model is inspired by the Toyota Production System. It is about mi
 
 Let is explore Software Development metholodies by doing.
 
-- <a href="https://github.com/RaviTambade/SDM/blob/main/softwarengg.md"> Software Enggineering</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/softwareengg.md"> Software Enggineering</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Requirements</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/SRSDocument.md"> Software Requirements Specification</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
