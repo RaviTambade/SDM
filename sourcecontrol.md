@@ -128,7 +128,7 @@ The git merge command is used to integrate the branches together. The command co
 It is used to merge the changes in the staging branch to the stable branch.
 
 
-### Git Commands: Working With Remote Repositories
+## Git Commands: Working With Remote Repositories
 
 #### git remote 
 The git remote command is used to create, view, and delete connections to other repositories. 
