@@ -92,7 +92,7 @@ Non-functional requirements include -
 - Disaster recovery
 - Accessibility
 
-Requirements are categorized logically as
+### Requirements are categorized logically as
 
 - Must Have : 
 	Software cannot be said operational without them.
