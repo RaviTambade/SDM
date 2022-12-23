@@ -30,3 +30,5 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/dfd.md"> Data Flow Diagrams</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/uml.md"> UML Diagrams</a>
