@@ -34,6 +34,6 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/UML.md"> UML Diagrams</a>
 
 
-- <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignprinciples.md"> Software Design Principles</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 
 
