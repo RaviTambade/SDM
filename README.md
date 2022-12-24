@@ -36,4 +36,7 @@ Let is explore Software Development metholodies by doing.
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 
+- <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
+
+
 
