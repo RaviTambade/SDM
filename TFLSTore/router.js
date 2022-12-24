@@ -1,21 +1,24 @@
-var flowersController =require('./controllers/flowerscontroller');
-var dashboardcontroller=require('./controllers/dashboardcontroller');
-var homeController=require('./controllers/homeconroller');
 
+var flowersController=require('./controllers/flowerscontroller');
+var shoppingCartController=require('./controllers/shoppingcartcontroller');
 module.exports=function(app){
-    //HTTP Request Delegation to controller functions
-    //URL Mapping with callback functions avaialable  withcontroller
-    
-    app.route('/').get(homeController.get);
+
+   // map  product catalog handlers with  REST request types
     app.route('/products')
-        .get(flowersController.getAll)
-        .post(flowersController.insert);
-    
+       .get(flowersController.getAll)
+       .post(flowersController.insert);
     app.route('/products/:flowerid')
-        .get(flowersController.getById)
-        .delete(flowersController.delete)
-        .put(flowersController.update);
+       .put(flowersController.update)
+       .get(flowersController.getById)
+       .delete(flowersController.delete);
 
-    app.route('/products/topten').get(dashboardcontroller.getTopten);
-
+    // map  shoppingcart  handlers with  REST request types
+  
+    app.route('/cart')
+       .get(shoppingCartController.get)
+       .post(shoppingCartController.post);
+    app.route('/cart/:itemid')
+       .put(shoppingCartController.put)
+       .get(shoppingCartController.getById)
+       .delete(shoppingCartController.delete);
 };

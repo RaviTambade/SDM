@@ -1,0 +1,46 @@
+	ECommercePortal
+
+	User Stories:
+	Define  endPoints for reusable services
+
+	Authentication
+		endPoints: Url
+
+		GET http://localhost:3000/api/validate
+		POST http://localhost:3000/api/changepassword
+			content-type:"txt/json"
+			body:  { "username": "ravi',
+				 "oldpassword":"seed",
+				 "newpassowrd" :"transflower"}
+	
+	product catalog :
+		endPoints: Url
+		GET http://localhost:3000/api/products-----------
+		GET http://localhost:30000/api/products/12 ----
+		POST http://localhost:30000/api/products
+			content-type:"txt/json"
+			body:  { "title": 'laptop',
+				 "description":"Smart NOte book",
+				 "stoksavailable":500,
+				 "unitprice":56000}
+
+	ShoppingCart
+
+		endPoints:
+		GET http://localhost:3000/api/cart----------
+		GET http://localhost:3000/api/cart/34----------
+
+	Orderprocessing
+		endPoints:
+		GET http://localhost:3000/api/orders----------
+		GET http://localhost:3000/api/orders/34----------
+
+	crm:
+		endPoints:
+
+	paymentprocessing
+		endPoints:
+
+	Shipment
+		endPoints:
+

@@ -1,25 +1,23 @@
+// CRUD OPERATIONS Againest flower collection from JSON file
+
 var flowers=require('../data/products.json');
 
-exports.getAll=(req, res)=>{
-    res.send(flowers);
+//HTTP callback functions
+
+exports.getAll=function (req, res){
+res.send(flowers);
 };
 
-exports.getById=(req,res)=>{
+exports.getById=function(req,res){
     var idFlower=req.params.flowerid-1;
     res.send(flowers[idFlower]);
 };
 
-exports.insert=(req, res)=>{
-    //extra incomming HTTP request body information
-
+exports.insert=function(req, res){
     var data=req.body;
     console.log(data);
     console.log("POST request is being processed...");
     //append this data to flowers array maintained in json file
-    //array operation
-    //***file IO operation to write data about to be implemented
-
-    flowers.push(data);
 };
 
 exports.update=function(req,res){
@@ -33,6 +31,4 @@ exports.delete=function(req,res){
     var idFlower=req.params.flowerid-1;
     console.log("Item to deleted....." + idFlower);
     console.log("DELETE request is being processed...");
-    //delete exiting object from flower
 };
-
