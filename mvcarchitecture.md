@@ -7,7 +7,7 @@ MVC stands for model-view-controller. Here's what each of those components mean:
 - View: The frontend or graphical user interface (GUI)
 - Controller: The brains of the application that controls how data is displayed
 
-<img src="/images/mvc3.png"/>
+<img src="/images/MVC3.png" />
 
 The concept of MVCs was first introduced by Trygve Reenskaug, who proposed it as a way to develop desktop application GUIs.
 
