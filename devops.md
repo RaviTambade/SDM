@@ -1,4 +1,4 @@
-#DevOps
+# DevOps
 
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/devops/devops_1.png"/>
 
@@ -10,15 +10,15 @@ Under some DevOps models, the merging of development and operations teams also i
 DevOps teams use practices to automate processes and tooling that helps operate and evolve applications faster and with greater reliability. Thanks to DevOps, a team’s overall productivity and velocity are pushed to the limits . This leads to greater benefits way, beyond a company’s margins.
 
 
-Benefits of DevOps
+## Benefits of DevOps
 
-Speed
+### Speed
 
 Speed is definitely one of DevOps must coveted benefits. It allows businesses to push the pedal to the metal when it comes to functionality.
 Faster software release means businesses can make use of the value of the product features. Everyone knows that product testing — necessary as it is — is also very time-consuming. With DevOps, a firm can speed up the process of delivery and modifications via automated integration and testing.
 Not only that, but there’s also an entire team of developers who can keep a close watch on a product throughout its lifecycle. This constant surveillance reduces the time it generally takes teams to locate and fix errors and bugs.
 
-Reliability
+### Reliability
 
 The good thing about a competitive market is that quality will always end up trumping quantity. That’s why software quality is worth its weight in proverbial gold.
 Quality and reliability are two things DevOps can bring to the table. DevOps helps streamline the way a business performs its software testing — rather than testing being one part of the SDLC, DevOps elevates it to be a crucial, over-arching component throughout the SDLC.
@@ -27,7 +27,7 @@ On the other hand, reliability allows a system to function continuously within i
 
 
 
-Improved collaboration
+### Improved collaboration
 
 The thing is, it’s not like people didn’t realize that consolidating development, operations, and QA teams would bring further value to a business before DevOps culture took off.
 However, even then previous software methodologies were missing out on a major element — collaboration. What DevOps did was bring collaboration between departments to the forefront and changed how such units interacted with each other.
@@ -43,27 +43,27 @@ Under DevSecOps the responsibility of security doesn’t fall to one team, rathe
 
 
 
-Why Does DevOps Matter?
+## Why Does DevOps Matter?
 Asking why DevOps matters is like asking why more is always more. That’s just how the equation plays out. But if all my efforts listing the benefits of DevOps haven’t convinced you, I’ll just have to try again.
 There’s no doubt that the world has changed. Software and the internet have modified our lives in just about every way you can imagine. Software is no longer a supplementary component, instead, it’s an integral part of every business.
 Companies use software to reach their customers through apps and services and to streamline the way they do business — be it logistics, operations, or communications. As far as software is concerned, the implementation eventualities are limitless.
 In a time where everything is becoming computerized, software is the key to all innovations. And, DevOps is what differentiates between good software and great software!
 
 
-DevOps Practices
+## DevOps Practices
 
-Continuous integration (CI)
+### Continuous integration (CI)
 
 One of the biggest problems resulting from teams working in isolation is that merging code when work is completed. It’s not only challenging but also time-consuming. That’s where continuous integration (CI) can help big time.
 Developers generally make use of a shared repository (using a version control system such as Git.) with continuous integration. The fact that a continuous integration service simultaneously builds and runs tests on code changes makes it easier to recognize and handle errors. In the long run, continuous integration can help boost developer productivity, address bugs and errors faster, and it can help speed up updates.
 node 
-Continuous delivery
+### Continuous delivery
 
 CD is all about compilation, testing, and the staging environment. This stage of the development lifecycle expands on CI by extending code changes to a testing environment (or a production environment) after the build stage.
 If employed correctly, CD can help developers finetune updates by thorough testing across multiple dimensions before the production stage. Continuous Delivery allows developers to run tests such as UI testing, integration testing, and load testing, etc.
 
 
-Microservices
+### Microservices
 
 Microservices are to software design what production lines are to manufacturing. Or, to put it more verbosely, microservices is a software design architecture that takes a hammer to monolithic systems.
 Microservices allows applications to be built altogether in one big code repository. Each application consists of multiple microservices and every service is tweaked to excel at one specific function.
@@ -71,7 +71,7 @@ For example, let’s look at how Amazon decided to move to microservices. Once u
 Amazon decided to get into microservices. Now, instead of a problematic two-tiered architecture, Amazon has multiple services — one that deals with orders, one service that generates their recommended buys list, a payment service, etc. All these services are actually mini-applications with a single business capability.
 
 
-Infrastructure as code
+### Infrastructure as code
 
 Thanks to technological innovations, servers and critical infrastructure no longer function the way they did a decade ago. Now, you have cloud providers like Google, that manage business infrastructure for thousands upon thousands of customers in huge data warehouses.
 Unsurprisingly, the way engineers manage infrastructure today is way different than what went on previously. And, Infrastructure as Code (IaC) is one of the practices that a DevOps environment may apply to handle a shift in scale.
@@ -83,7 +83,7 @@ Unless one fine day, the powers that be decide to have universal hardware, edge 
 
 
 
-Communication and collaboration
+### Communication and collaboration
 
 One of the fundamental cultural aspects of DevOps is communication and collaboration. DevOps tooling and automation (of the software delivery process) focuses on creating collaboration by combining the processes and efficiencies of development and operations.
 In a DevOps environment, all teams involved work to build cultural norms relating to information sharing and facilitating communication via project tracking systems, chat applications, and so on. This allows quicker communication between developers and helps bring together all parts of an organization to accomplish set goals and projects.
@@ -96,7 +96,7 @@ DevOps is an approach  to cluture, automation, and platform design intended to d
 DevOps describes approaches to speeding up the processes by which an idea (like a new software feature, a request for enhancement, or a bug fix) goes from development to deployment in a production environment where it can provide value to the user. These approaches require that development teams and operations teams communicate frequently and approach their work with empathy for their teammates. Scalability and flexible provisioning are also necessary. With DevOps, those that need power the most, get it—through self service and automation. Developers, usually coding in a standard development environment, work closely with IT operations to speed software builds, tests, and releases—without sacrificing reliability.
 
 
-There's no single definition of DevOps:
+# There's no single definition of DevOps:
 
 DevOps is a cultural, professional movement focused on how we build and operate high-velocity organizations, born from the experiences of its practitioners.
 
@@ -111,7 +111,7 @@ The Devops movement is characterized by people with a multidisciplinary skill se
 
 
 
-Common misconceptions or myths about DevOps?
+## Common misconceptions or myths about DevOps?
 
 DevOps is not just about using tools or automating processes, although these are important. 
 DevOps is not just about people, culture or processes. DevOps requires all of these to work together.
@@ -132,21 +132,8 @@ There are dozens of tools out there to automate every aspect of DevOps. These ar
 Since tool integration requires effort, some vendors offer suites of integrated tools. This can cause problems. Errors in them will propagate through the entire lifecycle. For example, throwing generic errors, tighly coupling pipeline stages to environments, showing ambiguous status or using terminology in the wrong sense can all be problems for a DevOps culture. Instead, adopt single-purpose, focused tools that use open standardized API.
 
 
-DevOps related to Agile and Lean?
+### DevOps related to Agile and Lean?
 
 It's been said that to deliver quality products we need all three: Lean concepts, Agile practices, and DevOps mindset. DevOps is an extension/adoption of Agile because what Agile does for development and testing, DevOps does for operations as well. Agile is a powerful tool that operations can use. Agile was about automating build, test and delivery. DevOps extends automation to deployment.
 
 Lean focuses on end-to-end flow to address bottlenecks and wastages. Lean is also about early product validation via customer feedback. Agile on the other hand employs various techniques to build products faster. DevOps uses Agile practices but also talks about how to integrate, test and deliver the product into the hands of users.
-
-Just grafting operations to an existing Agile development process is not DevOps. Having a DevOps team separate from the development team creates silos and this goes against the spirit of DevOps. The Agile process has to be rethought to include operations from the outset. Theresa Neate put it nicely,
-
-When you have a #DevOps team, you are not doing devops.
-
-
-
-
-
-
-
-
-
