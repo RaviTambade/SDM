@@ -1,6 +1,6 @@
 #DevOps
 
-<img src=""/>
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/devops/devops_1.png"/>
 
 
 DevOps focuses on creating a collaborative environment where software can become more user-centric. It’s not just about speeding up the development lifecycle, it’s also about improving the overall quality of software. That’s probably why it’s best to describe DevOps as a mindset, rather than just a tool that fast-tracks development.
