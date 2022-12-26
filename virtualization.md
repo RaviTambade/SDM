@@ -1,6 +1,6 @@
 # Virtuaization
 
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/devops/concept-of-Virtualization.png"/>
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
 
 
 Today, we witness many startups coming up with innovative solutions and many SaaS products or side projects able to create an impact, and people building their first version of the application within a week and releasing it; all these are possible due to many factors and one of them is Virtualization in Cloud Computing. 
