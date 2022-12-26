@@ -39,4 +39,4 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
-
+- <a href="https://github.com/RaviTambade/SDM/blob/main/cloud.md"> Cloud Computing</a>
