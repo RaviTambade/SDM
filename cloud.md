@@ -1,6 +1,6 @@
 ## Cloud Computing
 
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/devops/devops_1.png"/>
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/CloudComputing/benefits_of_cloud_computing.jpg"/>
 
 ### Benefits of Cloud Computing for Businesses
 
