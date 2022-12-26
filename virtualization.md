@@ -74,7 +74,7 @@ The load balancer as the name suggest handles the request load of a server. The 
 5. Portability
 The virtualization resources are portable, meaning they can be copied and moved from one system to another, and the same functionality can be expected. This allows the users to create and reuse the configuration instead of repeating it.
 
-Types of Virtualizations
+## Types of Virtualizations
 There are a couple of types of virtualization in cloud computing, they are 
 
 1. Server Virtualization
