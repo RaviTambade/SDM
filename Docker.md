@@ -198,3 +198,6 @@ These tasks include:
 - Storing and managing sensitive information, such as usernames and passwords.
 
 Because Kuberentes is a tool to orchestrate containerized workloads, and you can deploy .NET, java, NodeJs, Python  Microservices into containers, you can use Kubernetes to orchestrate your .NET , Java, NodeJs, Python microservices. 
+
+### Complete Picture of CD/CI Piplines in Software Engg.
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/CD_CI.jpg"/>
