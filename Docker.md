@@ -1,8 +1,9 @@
 
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/containers-vs-virtual-machines.jpg"/>
 
 
 # What is a Container?
+
 A standardized unit of software.
 Package Software into Standardized Units for Development, Shipment and Deployment
 
