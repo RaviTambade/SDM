@@ -47,39 +47,26 @@ Containers need a runnable image to exist. Containers are dependent on images, b
 
 According to Docker, there are sets of primary Docker image commands, categorized as child commands; some include the following:
 
-- sudo docker build -t testapp . 
+##### sudo docker build -t testapp . 
 Builds an image from a Dockerfile.
  
-- sudo docker images
+##### sudo docker images
  Lists all docker images downloaded or created in existing environment.
 
-- sudo docker   prune  imageid
+##### sudo docker   prune  imageid
 Removes unused images.
 
-- sudo docker   pull hello-world 
+##### sudo docker   pull hello-world 
 Pulls an image or a repository from a registry.
 
-- sudo docker image push. 
+##### sudo docker image push. 
 Pushes an image or a repository to a registry (Docker Hub).
 
-- sudo docker  rmi imageid
+##### sudo docker  rmi imageid
  Removes  container images whose image id mentioned.
   
 The Docker CLI provides commands that are used to customize Docker images. 
 Examples of Docker image commands include the following:
-
- -docker image history. 
-Shows the history of an image, including changes made to it and its layers.
-- docker update. 
-Enables a user to update the configuration of containers.
-- docker tag. 
-Creates a tag, such as TARGET_IMAGE, which enables users to group and organize container images.
-- docker search. 
-Looks in Docker Hub for whatever the user needs.
-- docker save. 
-Enables a user to save images to an archive.
-- docker compose. 
-Used to handle an environment variable.
 
 Docker images are an important concept and tool to know when working within Docker to create applications in containerized environments.
 
