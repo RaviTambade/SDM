@@ -8,13 +8,13 @@ Docker allows you to package an application with its environment and all of its 
 ### Docker file
 
 ```
-FROM node:7
+FROM node:12
 WORKDIR /app
 COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node server.js
-EXPOSE 8081
+EXPOSE 8000
 ```
 
 A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image. This page describes the commands you can use in a Dockerfile .
