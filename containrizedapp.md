@@ -3,7 +3,7 @@
 
 ## Dockerizing a Node.js web app
 
-<img src="/images/MicroservicesTechStack.jfif">
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/docker.jpg">
 
 
 Docker allows you to package an application with its environment and all of its dependencies into a "box", called a container. Usually, a container consists of an application running in a stripped-to-basics version of a Linux operating system. An image is the blueprint for a container, a container is a running instance of an image.
