@@ -77,13 +77,13 @@ Docker images are an important concept and tool to know when working within Dock
 - 8.Start docker engine.
 - 9.build Docker container image using Docker build command.
 - 10.Ensure Container image is created in Linux machine.
-- 12.start container instance using docker run command.
-- 13.Check website inside container instance by invoking externally.
-- 14.Enure firewall for LInux VM is set to accept HTTP trafic from anywhere.
-- 15.User browser to access web site from local machine.
-- 16.List down all container instance running 
-- 17.List down all container images created in Linux VM
-- 18.Kill unnessary  container intancess running .
-- 19.Remove container images from LInux VM
-- 20.STop Docker running.
-- 21.STop or terminate Linux VM running
+- 11.start container instance using docker run command.
+- 12.Check website inside container instance by invoking externally.
+- 13.Enure firewall for LInux VM is set to accept HTTP trafic from anywhere.
+- 14.User browser to access web site from local machine.
+- 15.List down all container instance running 
+- 16.List down all container images created in Linux VM
+- 17.Kill unnessary  container intancess running .
+- 18.Remove container images from LInux VM
+- 19.STop Docker running.
+- 20.STop or terminate Linux VM running
