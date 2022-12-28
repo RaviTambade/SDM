@@ -22,7 +22,7 @@ A Dockerfile is a text document that contains all the commands a user could call
 
 
 
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/docker.jpg">
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/tflstoredockerizedapp.jpg">
 
 ### Docker image
 
