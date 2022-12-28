@@ -1,6 +1,3 @@
-
-
-
 ## Dockerizing a Node.js web app
 
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/Container/docker.jpg">
@@ -31,7 +28,6 @@ Docker is used to create, run and deploy applications in containers. A Docker im
 
 Docker images have multiple layers, each one originates from the previous layer but is different from it. The layers speed up Docker builds while increasing reusability and decreasing disk use. Image layers are also read-only files. Once a container is created, a writable layer is added on top of the unchangeable images, allowing a user to make changes.
 
-References to disk space in Docker images and containers can be confusing. It's important to distinguish between size and virtual size. Size refers to the disk space that the writable layer of a container uses, while virtual size is the disk space used for the container and the writeable layer. The read-only layers of an image can be shared between any container started from the same image.
 
 ### Docker image use cases
 A Docker image has everything needed to run a containerized application, including code, config files, environment variables, libraries and runtimes. When the image is deployed to a Docker environment, it can be executed as a Docker container. The docker run command creates a container from a specific image.
@@ -42,39 +38,33 @@ Docker images are a reusable asset -- deployable on any host. Developers can tak
 
 A Docker container is a virtualized runtime environment used in application development. It is used to create, run and deploy applications that are isolated from the underlying hardware. A Docker container can use one machine, share its kernel and virtualize the OS to run more isolated processes. As a result, Docker containers are lightweight.
 
-A Docker image is like a snapshot in other types of VM environments. It is a record of a Docker container at a specific point in time. Docker images are also immutable. While they can't be changed, they can be duplicated, shared or deleted. The feature is useful for testing new software or configurations because whatever happens, the image remains unchanged.
+Docker images are also immutable. While they can't be changed, they can be duplicated, shared or deleted. The feature is useful for testing new software or configurations because whatever happens, the image remains unchanged.
 
 Containers need a runnable image to exist. Containers are dependent on images, because they are used to construct runtime environments and are needed to run an application.
-
-
-### Dockerfile method
-This approach requires making a plain text Dockerfile. The Dockerfile makes the specifications for creating an image. This process is more difficult and time-consuming, but it does well in continuous delivery environments. The method includes creating the Dockerfile and adding the commands needed for the image. Once the Dockerfile is started, the user sets up a .dockerignore file to exclude any files not needed for the final build. The .dockerignore file is in the root directory. Next, the Docker build command is used to create a Docker image and an image name and tag are set. Lastly, the Docker images command is used to see the created image.
-
 
 
 ### Docker image commands
 
 According to Docker, there are sets of primary Docker image commands, categorized as child commands; some include the following:
 
-- docker image build. 
+- sudo docker build -t testapp . 
 Builds an image from a Dockerfile.
-- docker image inspect.
- Displays information on one or more images.
-- docker image load.
- Loads an image from a tar archive or streams for receiving or reading input (STDIN).
-- docker image prune. 
-Removes unused images.
-- docker image pull. 
-Pulls an image or a repository from a registry.
-- docker image push. 
-Pushes an image or a repository to a registry.
-- docker image rm.
- Removes one or more images.
-- docker image save. 
-Saves one or more images to a tar archive (streamed to STDOUT by default).
-- docker image tag. 
-Creates a tag TARGET_IMAGE that refers to SOURCE_IMAGE.
+ 
+- sudo docker images
+ Lists all docker images downloaded or created in existing environment.
 
+- sudo docker   prune  imageid
+Removes unused images.
+
+- sudo docker   pull hello-world 
+Pulls an image or a repository from a registry.
+
+- sudo docker image push. 
+Pushes an image or a repository to a registry (Docker Hub).
+
+- sudo docker  rmi imageid
+ Removes  container images whose image id mentioned.
+  
 The Docker CLI provides commands that are used to customize Docker images. 
 Examples of Docker image commands include the following:
 
