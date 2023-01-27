@@ -65,9 +65,4 @@ Configuring automated CI/CD with Jenkins and GitHub is a simple and straightforw
 
 Furthermore, GitHub also supports bi-directional integration, which will automatically initiate a trigger to Jenkins every time there is a change in the GitHub repository.
 
-
-Installation
-To configure automated CI/CD with Jenkins, the first and the most obvious step is to install Jenkins. Jenkins setup, with complete instructions on how to install it, is available here.
-
-
 DevOps is an ever-evolving ecosystem in the development industry, and the CI/CD tools in this domain are highly critical. CI/CD practices effectively handle the misalignment between developers and the operational team. There are several tools built for this purpose in the marketplace today, but Jenkins holds an established position in the industry as well as a promising future ahead of it because of its open-source benefits and a wide range of plugins. Furthermore, it integrates well with GitHub allowing productivity and flexibility in the DevOps cycle.
