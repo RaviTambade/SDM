@@ -1,0 +1,66 @@
+
+Business Requiremnt Specification
+Author:Rajan Patil ( Business Analyst)
+Title:ECommerce Business Requirements of Vijay Sales.
+Stakeholders:
+	  visitor,
+	  existing customer,
+	  Sales representative,
+	  Sellers(Merchant)
+	  Vendors ( Store managers, Shippers)
+	  BOD
+
+Document generated with the help of  series of meetings  held 
+between stake holders, Domain Experts, Business Analysts
+First Draft : 21/06/2023
+Revised Draft: 21/06/2023
+
+Explain about current businss of  Vijay Sales
+VIJAY SALES PVT. LTD. is an Indian electronics retail chain based out of Mumbai. It is headquartered in Jogeshwari, Mumbai. Vijay Sales started as a small TV showroom in Mahim by Mr. Nanu Gupta in 1967.Vijay Sales would give its customers best value, best products and the best available service in the industry. Honesty towards our customers, principals and our associates would be the pillar on which Vijay Sales would stand and grow.
+
+Every great achievement has humble beginnings.
+
+What began as a small TV showroom in Mahim in 1967, has long since evolved into one of Mumbai's leading chain of electronic superstores. Mr.Nanu Gupta, an entrepreneurial skills coupled with astute business acumen, has always focused on giving customers the best in quality and services.
+
+You can shop for 3500+ products across 11+ primary categories in a world-class ambience.
+
+This has been the chief driving force behind 'VIJAY SALES' expanding presence in West & North India.
+
+Today, after more than four decades of successful operation, VIJAY SALES has become a trusted name and synonymous with quality electronic goods. We have grown from one showroom into a chain of showrooms across western region at prominent location in the city of Pune, Surat & Ahmedabad other than Mumbai, in northern region at Delhi, Haryana & Noida, Also the south region Hyderabad, Vijayawada, Warangal each aesthetically designed and conveniently located, catering to customers of all budgets and all preferences.
+
+We have always been a firm believer in servicing customer needs and efficient post-sales services. Our customer-focussed policies together with the intuitive understanding of emerging markets has led VIJAY SALES from strength to strength. Thanks to a very good relationship with more than 100+ suppliers of well-know and established brands, we can offer prompt and reliable after sales services to all customers.
+
+
+Vijay Sales want to expand their Shopping platform all over world using  internet. Vijay sells wants to reach out  every potential customer, Vendor as well as Seller to provide online shopping experience using ECommerc Solution.Business Decesion makers of Vijay sales would be able to have 360 degree view of Their Business Operations using smart devices from anywhere in world.
+Sellers could sell their products easily using Electronic Store provide by Vijay Sales.For every stakholder would be able have personalized Business Insight to take advantage for online shopping Experience.Customers , sellers , Shipping companies would be able to perform online business operations using ease of use.Business Operations Team would have Inventory management information,Customer Relations Information, Order Processing related details at their finger tips. Sales Team would be able to keep track of customers , their orders, stock of products for saling using customized user expereince using EComerce portal.
+Cutomers could update their personal information using Cutomer Profile mantained by ECommerce Portal.
+Sellers would be able to maintain product catalog as per demands of Buiness. ECommerce portal would take advantage of online payment transfer using possible EPayment gateways as well as online payment services available. For each stake holder Business workflows would be available in automated form.
+Shippers would be notified with new shipment for delivery. Cutomers could track orders placed from anywhere using online access to Portal.Shipper would be able to update delivery status of  parcels which are to be delivered from source to destination location.
+Online Solution would be able to increase  business Opertaions, customers and multiple products selling for sellers under one Portal.
+ECommerce solution would provide secure , personalized , simple user interface using smart devices, computer systems  to users of Vijay Sales. Solution would be extensile for future requirements of stakeholders.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
