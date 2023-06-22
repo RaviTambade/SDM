@@ -182,43 +182,51 @@ you can merge in Git)</li>
   <tr>
     <td>SVN</td>
     <td>GIT</td>
-   
-  </tr>
+   </tr>
   <tr>
-    <td>SVN is centralized repository, that means 
-directly we involved in the centralized 
-repository.
-</td>
-    <td>Git is distributed repository, first we are 
-working in our laptop after that we are 
-transferring the code from our laptop to 
-centralized repository. Git have three 
-phases the phases are work space, 
-staging/index, local repo</td>
-    
+    <td>SVN is centralized repository, that means directly we involved in the centralized repository.</td>
+    <td>Git is distributed repository, first we are working in our laptop after that we are transferring the code from our laptop to centralized repository. Git have three phases the phases are work space, staging/index, local repo</td>  
   </tr>
    <tr>
-    <td>We working on SVN means if we are facing 
-any networking issue we can’t work on SVN 
-because of we are directly involve into the 
-centralized repository.
-</td>
-    <td>In git we are doing in local systems only so 
-no need to internet connection, when 
-pushing the code from our system to 
-centralized repository at that time we need 
-network connection. Without network also, 
-we can do some work.</td>
-    
+    <td>We working on SVN means if we are facing any networking issue we can’t work on SVN because of we are directly involve into the centralized repository.</td>
+    <td>In git we are doing in local systems only so no need to internet connection, when pushing the code from our system to centralized repository at that time we need network connection. Without network also, we can do some work.</td>  
   </tr>
    <tr>
-    <td>Developed directly interact with the 
-centralized repository. 
-</td>
-    <td>Developers not directly interact with the 
-Centralized repository.</td>
-    
+    <td>Developed directly interact with the centralized repository. </td>
+    <td>Developers not directly interact with the Centralized repository.</td> 
   </tr>
-
 </table>
 </details>
+
+<details>
+  <summary>5. What is a repository in GIT?</summary>
+  <p>A Git repository contains the history of a files.</p>
+</details>
+
+
+<details>
+  <summary>6. How can you create a local repository in Git? </summary>
+  <p>By using # git init command create a local repository</p>
+</details>
+
+
+<details>
+  <summary>7.What is ‘bare repository’ in GIT</summary>
+  <p>A bare repository in Git just contains the version control information and no working files (no tree) and it doesn’t contain the special .git sub-directory.</p>
+</details>
+
+
+
+<details>
+  <summary>8. How to configure GitHub repository locally? </summary>
+  <p># git config --global user.name "user_name" </p>
+  <p># git config --global user.email "user_email"</p>
+</details>
+
+
+<details>
+  <summary>1. What is GIT?</summary>
+  <p># git config --global user.name "user_name" </p>
+ 
+</details>
+
