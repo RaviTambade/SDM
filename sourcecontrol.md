@@ -225,8 +225,144 @@ you can merge in Git)</li>
 
 
 <details>
-  <summary>1. What is GIT?</summary>
-  <p># git config --global user.name "user_name" </p>
+  <summary>9. How to Create Alias to git commands</summary>
+
+  # git config --global alias.lo "log --oneline" -----> To create an Alias to Command
+# git config --global --unset alias.lo -----> To Remove an Alias 
+# git config --global --unset user.name -----> to remove username
  
 </details>
 
+
+
+
+10. What is the git clone? 
+To download an existing repository from Centralized (Github) to local system.
+# git clone <url>
+11. What is ‘git add’?
+To add files from work area to Index/staging/cache area. 
+# git add <file_name1> <file_name2>
+12. What is Staging Area? 
+staging area means “holding area”. Before the commits, it can be formatted and reviewed in 
+an intermediate area known as staging or Index Area.
+13. What is the use of ‘git log’? 
+To see the commits. Also, we can find specific commits in your project history- by author, 
+date, content or history.
+# git log -----> To show the Git Commits
+# git log -5 -----> To show Recent 5 Commits
+# git log --oneline -----> To Display the each commit in one line
+# git log --since=2018-01-21
+# git log --until=2018-03-18
+# git log --author="user_name"
+# git log --grep="Index"
+# git log --oneline --author="user_name"
+14. How can we add modified/updated/edited files to the staging area and commit then 
+at the same time?
+# git commit -a -m "Do Something once more"
+15. How to edit an incorrect commit message in Git? Or How can you fix a broken 
+commit?
+# git commit --amend -m "This is your new Git Message"
+16. How to get back a commit to staging area?
+# git reset --soft <previous_commit id>
+17. How to get back a file from staging area to working area?
+# git reset head <file_name>
+18. How to get back a commit to work area?
+# git reset --mixed <previous commit id>
+19. What is git reset?
+Reset the current HEAD state to specific state.
+20. What is ‘head’ in git and how many heads can be created in a repository?
+A ‘head’ is simply a reference to a commit object. In every repository, there is a default 
+head referred as “Master”. A repository can contain any number of heads.
+21. What is .gitignore file?
+Keep the files names in .gitignore then that files not add and commit, just skip that files 
+while adding and committing.
+22. How to see the difference between 2 commits?
+# git diff <commit_id1>..<commit_id2>
+23. when file have staging area or file have committed if file is deleted in local repository 
+unfortunately how to get back that file to staging area?
+# git checkout --<file_name>
+24. How to create a branch?
+# git branch <branch_name>
+25. How to checkout to branch?
+# git checkout <branch_name>
+26. How to create branch while checkout?
+# git checkout -b <branch_name>
+27. How do you rename the local branch?
+# git branch -m <old_branch_name> <new_branch_name>
+28. How to see the branch list?
+# git branch 
+29. How to see the remote branch list?
+# git branch -r
+Or
+# git remote show origin
+30. How to see the local and remote branch list?
+# git branch -a
+31. How to delete a branch?
+# git branch -d <branch_name>
+Or
+# git branch -D <branch_name>
+32. How to delete a Remote Branch? 
+# git push origin -d <branch_name>
+33. How to see the difference between 2 branches
+# git diff <branch1>..<branch2 >
+34. What is git push? 
+git push is to push commits from your local repository to a remote repository. 
+35. How do you push the files to master branch in remote repo?
+#git push (you must be in master branch)
+36. How do you push files from local to particular branch in remote repo?
+#git push origin <branch_name> 
+(or)
+#git push --set-upstream <branch_name>
+37. How to push new branch and its data to remote repository?
+#git push <github_repository_path> <branch_name>
+(or)
+#git push --set-upstream <branch_name>
+38. What is git pull? 
+Git pull downloads and merges a ‘branch data’ from remote repository to local repository.
+It may also lead to ‘merge conflicts’ if your local changes are not yet committed. Use ‘git 
+stash’ command to Hide your local changes before git pull.
+# git pull (git fetch + git merge.)
+39. How do you pull a file from particular remote branch?
+# git pull origin <branch_name>
+40. How do you download a remote branch to local without merge?
+# git fetch origin <branch_name>
+# git checkout <downloaded_branchname>
+41. What is git Fetch? 
+git fetch is only downloads new data from a remote repository, but it doesn’t integrate 
+any of the downloaded data into your working files. All it does is provide a view of this 
+data.
+# git fetch <branch_name>
+# git fetch origin <branch_name>
+42. What is difference between git clone & git pull? 
+• If you want to download whole existing repository than use Git Clone.
+• If you have already repository but you want to take new updates of existing 
+repository than use git pull command.
+43. What is git merge? 
+Git merge is used to combine two branches.
+# git merge <branch_name>
+Note: you should be in target branch. Then run the command
+44. What is git conflict? What is the scenario you will get git conflict error?
+For example, if you and another person both edited the same file on the same lines in 
+different branches of the same Git repository, you'll get a merge conflict error when you 
+try to merge these branches. You must resolve this merge conflict with a new commit 
+before you can merge these branches.
+45. How do you resolve merge conflict?
+Will inform the developers regarding this merge conflict. They will change the code and 
+inform us. edit the files to fix the conflicting changes and then add & commit.
+46. How do you skip from merge conflict?
+#git merge --abort
+47. What is the function of ‘git rm’? 
+To remove the file from the work area/staging area and also from your disk ‘git rm’ is 
+used. You can revert a deleted file.
+if it is deleted using ‘git rm’. If you deleted a file ‘rm’ command then you can’t get it.
+48. How will you know in GIT if a branch has been already merged into master? 
+git branch -merged It lists the branches that have been merged into the current branch.
+git branch -no-merged It lists the branches that have not been merged.
+49. What is branching? What is the purpose of branching in GIT? 
+Git supports branching which means that you can work on different versions of your 
+collection of files. A branch allows the user to switch between these versions so that he 
+can work on different changes independently from each other.
+50. What is the criteria u merge two branches?
+We have developed one module in one branch and another module in another branch. 
+After the development, based on the requirement we do merge these two branches.
+Or One branch is development branch, another branch is test branch.
