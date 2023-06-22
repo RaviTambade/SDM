@@ -178,26 +178,47 @@ you can merge in Git)</li>
 
 <details>
   <summary>4. What is difference between SVN and Git</summary>
- | SVN  | GIT | 
-| :------------------------------------------------------------------------------------------- | :--------------------: | 
-| SVN is centralized repository, that means directly we involved in the centralized repository.          |   Git is distributed repository, first we are 
+ <table style="width:100%">
+  <tr>
+    <td>SVN</td>
+    <td>GIT</td>
+   
+  </tr>
+  <tr>
+    <td>SVN is centralized repository, that means 
+directly we involved in the centralized 
+repository.
+</td>
+    <td>Git is distributed repository, first we are 
 working in our laptop after that we are 
 transferring the code from our laptop to 
 centralized repository. Git have three 
 phases the phases are work space, 
-staging/index, local repo.   |   
-|We working on SVN means if we are facing 
+staging/index, local repo</td>
+    
+  </tr>
+   <tr>
+    <td>We working on SVN means if we are facing 
 any networking issue we can’t work on SVN 
 because of we are directly involve into the 
-centralized repository.        |    In git we are doing in local systems only so 
+centralized repository.
+</td>
+    <td>In git we are doing in local systems only so 
 no need to internet connection, when 
 pushing the code from our system to 
 centralized repository at that time we need 
 network connection. Without network also, 
-we can do some work    |     
-|Developed directly interact with the 
-centralized repository. |     Developers not directly interact with the 
-Centralized repository.
-|     
-      
+we can do some work.</td>
+    
+  </tr>
+   <tr>
+    <td>Developed directly interact with the 
+centralized repository. 
+</td>
+    <td>Developers not directly interact with the 
+Centralized repository.</td>
+    
+  </tr>
+
+</table>
 </details>
