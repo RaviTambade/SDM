@@ -151,7 +151,8 @@ The command is used after a local repository has been modified, and the modifica
 The git log command shows the order of the commit history for a repository.
 The command helps in understanding the state of the current branch by showing the commits that lead to this state.
 
-##GIT Interview Questions & Answers
+### GIT Interview Questions & Answers
+
 1. What is GIT? 
 GIT is a distributed version control system and source code management (SCM) system 
 with an emphasis to handle small and large projects with speed and efficiency. 
