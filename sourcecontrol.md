@@ -166,14 +166,17 @@ The command helps in understanding the state of the current branch by showing th
  
  <details>
   <summary>1. What is GIT version control? </summary>
-  <p>GIT version control allows you to track the history of a collection of files (code files).</p>
-<p>It supports creating different versions of file collection. Each version captures a 
+  <ul>
+  <li>GIT version control allows you to track the history of a collection of files (code files).</li>
+<li>It supports creating different versions of file collection. Each version captures a 
 snapshot of the files at a certain point of time and You can revert the collection of 
 files using the snapshot. (You can develop the code in different versions of java. and 
-you can merge in Git)</p>
-<p> VCS allows you to switch between these versions. These versions are stored in a 
+you can merge in Git)</li>
+<li> VCS allows you to switch between these versions. These versions are stored in a 
 specific place, typically called as repository. (You can switch between different 
-versions of java in between development process</p>
+versions of java in between development process</li>
+  </ul>
+  
 </details>
  
 
