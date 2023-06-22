@@ -153,7 +153,8 @@ The command helps in understanding the state of the current branch by showing th
 
 ### GIT Interview Questions & Answers
 
-1. What is GIT? 
+1. **What is GIT?** 
+
 GIT is a distributed version control system and source code management (SCM) system 
 with an emphasis to handle small and large projects with speed and efficiency. 
 2. What is Distributed Control System? 
