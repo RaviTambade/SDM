@@ -226,44 +226,74 @@ you can merge in Git)</li>
 
 <details>
   <summary>9. How to Create Alias to git commands</summary>
+    <ol>
+        <li> # git config --global alias.lo "log --oneline" -----> To create an Alias to Command</li>
+        <li># git config --global --unset alias.lo -----> To Remove an Alias </li>
+        <li> # git config --global --unset user.name -----> to remove username</li>
+    <ol>
+</details>
 
-  # git config --global alias.lo "log --oneline" -----> To create an Alias to Command
-# git config --global --unset alias.lo -----> To Remove an Alias 
-# git config --global --unset user.name -----> to remove username
- 
+
+<details>
+  <summary>10. What is the git clone? </summary>
+        <p> To download an existing repository from Centralized (Github) to local system.</p>
+</details>
+
+
+<details>
+  <summary>11. What is ‘git add’?</summary>
+        <p>To add files from work area to Index/staging/cache area.</p>
+        <p># git add <file_name1> <file_name2><p>
+</details>
+
+
+ <details>
+  <summary>12. What is Staging Area?  </summary>
+        <p> staging area means “holding area”. Before the commits, it can be formatted and reviewed in an intermediate area known as staging or Index Area.</p>
+</details>
+
+
+
+ <details>
+  <summary>13. What is the use of ‘git log’?  </summary>
+        <p> To see the commits. Also, we can find specific commits in your project history- by author, date, content or history.</p>
+         <ol>
+            <li> # git log -----> To show the Git Commits</li>
+            <li># git log -5 -----> To show Recent 5 Commits</li>
+            <li># git log --oneline -----> To Display the each commit in one line</li>
+            <li> # git log --since=2018-01-21</li>
+            <li># git log --until=2018-03-18</li>
+            <li># git log --author="user_name"</li>
+            <li># git log --grep="Index"</li>
+            <li># git log --oneline --author="user_name"</li>
+        <ol>
+</details>
+
+
+ <details>
+  <summary>14. How can we add modified/updated/edited files to the staging area and commit then at the same time? </summary>
+        <p> # git commit -a -m "Do Something once more"</p>
+</details>
+
+
+ <details>
+  <summary>15. How to edit an incorrect commit message in Git? Or How can you fix a broken commit?</summary>
+        <p># git commit --amend -m "This is your new Git Message"</p>
+</details>
+
+
+
+ <details>
+  <summary>16. How to get back a commit to staging area?</summary>
+        <p># git reset --soft <previous_commit id></p>
 </details>
 
 
 
 
-10. What is the git clone? 
-To download an existing repository from Centralized (Github) to local system.
-# git clone <url>
-11. What is ‘git add’?
-To add files from work area to Index/staging/cache area. 
-# git add <file_name1> <file_name2>
-12. What is Staging Area? 
-staging area means “holding area”. Before the commits, it can be formatted and reviewed in 
-an intermediate area known as staging or Index Area.
-13. What is the use of ‘git log’? 
-To see the commits. Also, we can find specific commits in your project history- by author, 
-date, content or history.
-# git log -----> To show the Git Commits
-# git log -5 -----> To show Recent 5 Commits
-# git log --oneline -----> To Display the each commit in one line
-# git log --since=2018-01-21
-# git log --until=2018-03-18
-# git log --author="user_name"
-# git log --grep="Index"
-# git log --oneline --author="user_name"
-14. How can we add modified/updated/edited files to the staging area and commit then 
-at the same time?
-# git commit -a -m "Do Something once more"
-15. How to edit an incorrect commit message in Git? Or How can you fix a broken 
-commit?
-# git commit --amend -m "This is your new Git Message"
-16. How to get back a commit to staging area?
-# git reset --soft <previous_commit id>
+
+
+
 17. How to get back a file from staging area to working area?
 # git reset head <file_name>
 18. How to get back a commit to work area?
