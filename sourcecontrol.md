@@ -153,16 +153,16 @@ The command helps in understanding the state of the current branch by showing th
 
 ### GIT Interview Questions & Answers
 
-<span style="color:red;">1. What is GIT?</span>
+<span style="color:red">1. What is GIT?</span>
 <p>GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.</p>
 
 
-<span style="color:red;">2. What is Distributed Control System?</span>
+<span style="color:red">2. What is Distributed Control System?</span>
 <p>We work in our local machine and later we transfer the code to Centralized repository 
 (GitHub). We don’t need to connect to centralized repository to work.</p>
 
  
-<span style="color:red;">3. What is GIT version control? </span></summary>
+<span style="color:red">3. What is GIT version control? </span></summary>
   <ul>
   <li>GIT version control allows you to track the history of a collection of files (code files).</li>
     <li>It supports creating different versions of file collection. Each version captures a snapshot of the files at a certain point of time and You can revert the collection of files using the snapshot. (You can develop the code in different versions of java. and 
@@ -171,7 +171,7 @@ you can merge in Git)</li>
     </ul>
 
 
-<span style="color:red;">4. What is difference between SVN and Git </span>
+<span style="color:red">4. What is difference between SVN and Git </span>
  <table style="width:100%">
   <tr>
     <td>SVN</td>
@@ -192,7 +192,7 @@ you can merge in Git)</li>
 </table>
 
 
-<span style="color:red;">5. What is a repository in GIT? </span>
+<span style="color:red">5. What is a repository in GIT? </span>
   <p>A Git repository contains the history of a files.</p>
 
 
