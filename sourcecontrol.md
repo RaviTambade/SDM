@@ -153,7 +153,8 @@ The command helps in understanding the state of the current branch by showing th
 
 ### GIT Interview Questions & Answers
 
-<span style="color:red">1. What is GIT?</span>
+$${\color{red}1. What is GIT?}$$
+
 <p>GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.</p>
 
 
