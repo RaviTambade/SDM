@@ -192,7 +192,7 @@ you can merge in Git)</li>
 </table>
 
 
-<span style="color:red">5. What is a repository in GIT? </span>
+< span style="color:blue">5. What is a repository in GIT? </span>
   <p>A Git repository contains the history of a files.</p>
 
 
