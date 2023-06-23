@@ -153,31 +153,25 @@ The command helps in understanding the state of the current branch by showing th
 
 ### GIT Interview Questions & Answers
 
-<details>
-  <summary>1. What is GIT?</summary>
-  <p>GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.</p>
-</details>
+<span style="color:red;">1. What is GIT?</span>
+<p>GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.</p>
 
-<details>
-  <summary>2. What is Distributed Control System?</summary>
-  <p>We work in our local machine and later we transfer the code to Centralized repository 
+
+<span style="color:red;">2. What is Distributed Control System?</span>
+<p>We work in our local machine and later we transfer the code to Centralized repository 
 (GitHub). We don’t need to connect to centralized repository to work.</p>
-</details>
+
  
- <details>
-  <summary>3. What is GIT version control? </summary>
+<span style="color:red;">3. What is GIT version control? </span></summary>
   <ul>
   <li>GIT version control allows you to track the history of a collection of files (code files).</li>
     <li>It supports creating different versions of file collection. Each version captures a snapshot of the files at a certain point of time and You can revert the collection of files using the snapshot. (You can develop the code in different versions of java. and 
 you can merge in Git)</li>
 <li> VCS allows you to switch between these versions. These versions are stored in a specific place, typically called as repository. (You can switch between different versions of java in between development process</li>
     </ul>
-  
-</details>
- 
 
-<details>
-  <summary>4. What is difference between SVN and Git</summary>
+
+<span style="color:red;">4. What is difference between SVN and Git </span>
  <table style="width:100%">
   <tr>
     <td>SVN</td>
@@ -196,12 +190,11 @@ you can merge in Git)</li>
     <td>Developers not directly interact with the Centralized repository.</td> 
   </tr>
 </table>
-</details>
 
-<details>
-  <summary>5. What is a repository in GIT?</summary>
+
+<span style="color:red;">5. What is a repository in GIT? </span>
   <p>A Git repository contains the history of a files.</p>
-</details>
+
 
 
 <details>
@@ -288,111 +281,429 @@ you can merge in Git)</li>
         <p># git reset --soft <previous_commit id></p>
 </details>
 
+ <details>
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+  <summary>18. How to get back a commit to work area?</summary>
+        <p># git reset --mixed <previous commit id></p>
+</details>
 
 
-
-
-
-
-17. How to get back a file from staging area to working area?
-# git reset head <file_name>
-18. How to get back a commit to work area?
-# git reset --mixed <previous commit id>
-19. What is git reset?
+ <details>
+ 19. What is git reset?
 Reset the current HEAD state to specific state.
-20. What is ‘head’ in git and how many heads can be created in a repository?
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 20. What is ‘head’ in git and how many heads can be created in a repository?
 A ‘head’ is simply a reference to a commit object. In every repository, there is a default 
 head referred as “Master”. A repository can contain any number of heads.
-21. What is .gitignore file?
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 21. What is .gitignore file?
 Keep the files names in .gitignore then that files not add and commit, just skip that files 
 while adding and committing.
-22. How to see the difference between 2 commits?
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git diff <commit_id1>..<commit_id2>
-23. when file have staging area or file have committed if file is deleted in local repository 
-unfortunately how to get back that file to staging area?
+  <summary>22. How to see the difference between 2 commits?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git checkout --<file_name>
-24. How to create a branch?
+  <summary>23. when file have staging area or file have committed if file is deleted in local repository unfortunately how to get back that file to staging area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git branch <branch_name>
-25. How to checkout to branch?
+  <summary>24. How to create a branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git checkout <branch_name>
-26. How to create branch while checkout?
+  <summary>25. How to checkout to branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git checkout -b <branch_name>
-27. How do you rename the local branch?
+  <summary>26. How to create branch while checkout?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
+
 # git branch -m <old_branch_name> <new_branch_name>
-28. How to see the branch list?
+  <summary>27. How do you rename the local branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git branch 
-29. How to see the remote branch list?
+  <summary>28. How to see the branch list?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git branch -r
 Or
 # git remote show origin
-30. How to see the local and remote branch list?
+  <summary>29. How to see the remote branch list?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
+
 # git branch -a
-31. How to delete a branch?
+  <summary>30. How to see the local and remote branch list?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git branch -d <branch_name>
 Or
 # git branch -D <branch_name>
-32. How to delete a Remote Branch? 
+  <summary>31. How to delete a branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git push origin -d <branch_name>
-33. How to see the difference between 2 branches
+  <summary>32. How to delete a Remote Branch? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git diff <branch1>..<branch2 >
-34. What is git push? 
+  <summary>33. How to see the difference between 2 branches</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 34. What is git push? 
 git push is to push commits from your local repository to a remote repository. 
-35. How do you push the files to master branch in remote repo?
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 35. How do you push the files to master branch in remote repo?
 #git push (you must be in master branch)
-36. How do you push files from local to particular branch in remote repo?
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 36. How do you push files from local to particular branch in remote repo?
 #git push origin <branch_name> 
 (or)
 #git push --set-upstream <branch_name>
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 37. How to push new branch and its data to remote repository?
 #git push <github_repository_path> <branch_name>
 (or)
 #git push --set-upstream <branch_name>
-38. What is git pull? 
+  <summary>17. How to get back a file from staging area to working area?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 Git pull downloads and merges a ‘branch data’ from remote repository to local repository.
 It may also lead to ‘merge conflicts’ if your local changes are not yet committed. Use ‘git 
 stash’ command to Hide your local changes before git pull.
 # git pull (git fetch + git merge.)
-39. How do you pull a file from particular remote branch?
+  <summary>38. What is git pull? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git pull origin <branch_name>
-40. How do you download a remote branch to local without merge?
+  <summary>39. How do you pull a file from particular remote branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 # git fetch origin <branch_name>
 # git checkout <downloaded_branchname>
-41. What is git Fetch? 
+  <summary>40. How do you download a remote branch to local without merge?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+
+ <details>
+
+
 git fetch is only downloads new data from a remote repository, but it doesn’t integrate 
 any of the downloaded data into your working files. All it does is provide a view of this 
 data.
 # git fetch <branch_name>
 # git fetch origin <branch_name>
-42. What is difference between git clone & git pull? 
+  <summary>41. What is git Fetch? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 • If you want to download whole existing repository than use Git Clone.
 • If you have already repository but you want to take new updates of existing 
 repository than use git pull command.
-43. What is git merge? 
+
+  <summary>42. What is difference between git clone & git pull? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+
 Git merge is used to combine two branches.
 # git merge <branch_name>
 Note: you should be in target branch. Then run the command
-44. What is git conflict? What is the scenario you will get git conflict error?
-For example, if you and another person both edited the same file on the same lines in 
-different branches of the same Git repository, you'll get a merge conflict error when you 
-try to merge these branches. You must resolve this merge conflict with a new commit 
-before you can merge these branches.
-45. How do you resolve merge conflict?
+  <summary> 43. What is git merge? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+  <summary>44. What is git conflict? What is the scenario you will get git conflict error?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+ <details>
+ 
 Will inform the developers regarding this merge conflict. They will change the code and 
 inform us. edit the files to fix the conflicting changes and then add & commit.
-46. How do you skip from merge conflict?
+  <summary>45. How do you resolve merge conflict?</summary>
+        <p>For example, if you and another person both edited the same file on the same lines in different branches of the same Git repository, you'll get a merge conflict error when you 
+try to merge these branches. You must resolve this merge conflict with a new commit before you can merge these branches.</p>
+</details>
+
+ <details>
+ 
 #git merge --abort
-47. What is the function of ‘git rm’? 
+  <summary>46. How do you skip from merge conflict?</summary>
+        <p># git reset head <file_name></p>
+</details>
+ <details>
+
 To remove the file from the work area/staging area and also from your disk ‘git rm’ is 
 used. You can revert a deleted file.
 if it is deleted using ‘git rm’. If you deleted a file ‘rm’ command then you can’t get it.
-48. How will you know in GIT if a branch has been already merged into master? 
+
+  <summary> 47. What is the function of ‘git rm’? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
 git branch -merged It lists the branches that have been merged into the current branch.
 git branch -no-merged It lists the branches that have not been merged.
-49. What is branching? What is the purpose of branching in GIT? 
+
+  <summary> 48. How will you know in GIT if a branch has been already merged into master? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+ 
 Git supports branching which means that you can work on different versions of your 
 collection of files. A branch allows the user to switch between these versions so that he 
 can work on different changes independently from each other.
-50. What is the criteria u merge two branches?
+
+  <summary>49. What is branching? What is the purpose of branching in GIT? </summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
 We have developed one module in one branch and another module in another branch. 
 After the development, based on the requirement we do merge these two branches.
 Or One branch is development branch, another branch is test branch.
+
+  <summary> 50. What is the criteria u merge two branches?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+Feature branching
+A feature branch model keeps all of the changes for a particular feature inside of a branch. 
+When the feature is fully tested and validated by automated tests, the branch is then 
+merged into master.
+Task branching
+In this model each task is implemented on its own branch with the task key included in the 
+branch name. It is easy to see which code implements which task, just look for the task key
+in the branch name.
+Release branching
+Once the develop branch has acquired enough features for a release, you can clone that 
+branch to form a Release branch. Creating this branch starts the next release cycle, so no 
+new features can be added after this point, only bug fixes, documentation generation, and 
+other release-oriented tasks should go in this branch. Once it is ready to ship, the release 
+gets merged into master and tagged with a version number. In addition, it should be merged 
+back into develop branch, which may have progressed since the release was initiated.
+
+  <summary>51. Describe branching strategy you have used?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+Stashing takes the Temporary stored state of your working directory.
+# git stash save "<message>" ------> to store the data into stash
+# git stash list ------> to see the stash list
+# git stash apply <stash#> ------> to copy the data into branches
+# git stash pop <stash#> ------> to move the data into branches
+# git stash drop <stash#> ------> to delete the particular stash
+# git stash clear ------> delete the entire stash list
+  <summary>52. What is git stash?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+ 
+• If you are checking out from one branch to another branch but you have 
+uncommitted file that you don't want to move then keep that file in stash area.
+• When you are merging two branches and you don't want some files to merge, then 
+we move that files to stash area.
+• When you are pulling (fetch + merge) a branch/file and you don't want some files to 
+merge, then we move that files to stash area.
+
+  <summary>53. When we use git Stash?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+# git rebasing command is an alternative to merging in git.
+
+  <summary>54. What is another option for merging in git?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+
+
+<details>
+ 
+• git merge applies all unique commits from branch A into branch B in one commit with 
+final result.
+• git rebase gets all unique commits from both branches and applies them one by one.
+• git merge doesn’t rewrite commit history, just adds one new commit
+• git rebase rewrites commit history but doesn’t create extra commit for merging
+  <summary>55. What is difference between git merge and git rebase?</summary>
+        <p># git reset head <file_name></p>
+</details>
+<details>
+
+# git revert <commit_id>
+
+  <summary> 56. How do you undo the last commit?</summary>
+        <p># git reset head <file_name></p>
+</details>
+<details>
+
+# git remote set-url origin git://this.is.new.url
+
+  <summary>57. How to Change the URL for a remote Git repository?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+Take some changes from a particular branch and bring them into another branch.
+
+  <summary>58. What is pull request?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+Git is an opensource version control system; it will allow you to run ‘version' of a project. 
+Multiple developers can check out, and upload changes and each change can then be 
+attributed to a specific developer.
+
+  <summary>59. Why GIT better than Subversion (SVN)?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+ 
+• On GitHub, navigate to the main page of the repository.
+• Under your repository name, click Settings.
+• In the left menu, click Branches.
+• Select the branch you want to mark protected using the drop-down menu.
+• Select Protect this branch.
+
+  <summary>60. How to Lock a branch? why we need to lock a branch?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+ 
+• On GitHub, navigate to the main page of the repository.
+• Under your repository name, click Settings.
+• Scroll to the bottom of the page and you will find Delete this repository button
+• When you click on that button, another pop up will appear, here you need to type in 
+the name of your repository name and click on the button bellow which says: I 
+understand the consequences, delete the repository.
+  <summary>61. How to delete Repository in GitHub?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+<details>
+
+You can invite users to become collaborators to your personal repository.
+• Under your repository name, click Settings.
+• In the left sidebar, click Collaborators.
+• Under "Collaborators", start typing the collaborator's username.
+• Select the collaborator's username from the drop-down menu.
+• Click Add collaborator.
+• The user will receive an email inviting them to the repository. Once they accept your 
+invitation, they will have collaborator access to your repository
+
+  <summary>62. how to give an access to a specific person to repository?</summary>
+        <p># git reset head <file_name></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
