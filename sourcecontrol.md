@@ -153,17 +153,16 @@ The command helps in understanding the state of the current branch by showing th
 
 ### GIT Interview Questions & Answers
 
-GIT Interview Questions & Answers 
-1.	What is GIT?  
+✔ 1.	What is GIT?  
 GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.  
-2.	What is Distributed Control System?  
+✔ 2.	What is Distributed Control System?  
 We work in our local machine and later we transfer the code to Centralized repository (GitHub). We don’t need to connect to centralized repository to work. 
-3.	What is GIT version control?  
+✔ 3.	What is GIT version control?  
 •	GIT version control allows you to track the history of a collection of files (code files). 
 •	It supports creating different versions of file collection. Each version captures a snapshot of the files at a certain point of time and You can revert the collection of files using the snapshot. (You can develop the code in different versions of java. and you can merge in Git) 
 •	VCS allows you to switch between these versions. These versions are stored in a 
 specific place, typically called as repository. (You can switch between different versions of java in between development process) 
-4.	What is difference between SVN and Git?  
+✔ 4.	What is difference between SVN and Git?  
 SVN 	GIT 
 SVN is centralized repository, that means directly we involved in the centralized repository. 	Git is distributed repository, first we are working in our laptop after that we are transferring the code from our laptop to centralized repository. Git have three phases the phases are work space, staging/index, local repo. 
 We working on SVN means if we are facing any networking issue we can’t work on SVN because of we are directly involve into the centralized repository.  	In git we are doing in local systems only so no need to internet connection, when pushing the code from our system to centralized repository at that time we need network connection. Without network also, we can do some work. 
