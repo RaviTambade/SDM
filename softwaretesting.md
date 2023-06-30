@@ -398,7 +398,7 @@ Software Test Automation demands considerable investments of money and resources
 		</ol>
 	</li>
 
-	<li><p>Planning, Design, and Development</p></li>
+	<li><p>Planning, Design, and Development</p><
 		<ol>
 		<li>Automation tools selected</li>
 		<li>Framework design and its features</li>
@@ -406,7 +406,6 @@ Software Test Automation demands considerable investments of money and resources
 		<li>Automation testbed preparation</li>
 		<li>Schedule and Timeline of scripting and execution</li>
 		<li>Deliverables of Automation Testing</li>
-
 		</ol>
 	</li>
 
