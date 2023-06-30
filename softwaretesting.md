@@ -126,20 +126,19 @@ Exit Criteria:
 		2.Test metrics
         
 
-Verfication Vs. Validatation
+### Verfication Vs. Validatation
 <ul>
 <li>Verification process includes checking of documents, design, code and program whereas Validation process includes testing and validation of the actual product.</li>
 <li>Verification uses methods like reviews, walkthroughs, inspections and desk-checking whereas Validation uses methods like black box testing, white box testing and non-functional testing.</li>
 <li>Verification checks whether the software confirms a specification whereas Validation checks whether the software meets the requirements and expectations.</li>
 <li>Verification finds the bugs early in the development cycle whereas Validation finds the bugs that verification can not catch.</li>
-<li>Comparing validation and verification in software testing, Verification process targets on software architecture, design, database, etc. while Validation process targets the actual software product.<li>
-</li>
+<li>Comparing validation and verification in software testing, Verification process targets on software architecture, design, database, etc. while Validation process targets the actual software product.</li>
 Verification is done by the QA team while Validation is done by the involvement of testing team with QA team.</li>
 <li>Comparing Verification vs Validation testing, Verification process comes before validation whereas Validation process comes after verification.</li>
 </ull>
 
 
-STLC Phases:
+### STLC Phases:
 
 1.Requirement Analysis
 	Activities:
@@ -386,54 +385,70 @@ Software Test Automation demands considerable investments of money and resources
 #### Test tool selection
 	Test Tool selection largely depends on the technology the Application Under Test is built on
 
-	Define the scope of Automation
-		The features that are important for the business
-		Scenarios which have a large amount of data
-		Common functionalities across applications
-		Technical feasibility
-		The extent to which business components are reused
-		The complexity of test cases
-		Ability to use the same test cases for cross-browser testing
+<ol>
+	<li><p>Define the scope of Automation</p>
+		<ol>
+		<li>The features that are important for the business</li>
+		<li>Scenarios which have a large amount of data</li>
+		<li>Common functionalities across applications</li>
+		<li>Technical feasibility</li>
+		<li>The extent to which business components are reused</li>
+		<li>The complexity of test cases</li>
+		<li>Ability to use the same test cases for cross-browser testing</li>
+		</ol>
+	<li>
 
-	Planning, Design, and Development
-		Automation tools selected
-		Framework design and its features
-		In-Scope and Out-of-scope items of automation
-		Automation testbed preparation
-		Schedule and Timeline of scripting and execution
-		Deliverables of Automation Testing
+	<li><p>Planning, Design, and Development</p>
+		<ol>
+		<li>Automation tools selected</li>
+		<li>Framework design and its features</li>
+		<li>In-Scope and Out-of-scope items of automation</li>
+		<li>Automation testbed preparation</li>
+		<li>Schedule and Timeline of scripting and execution</li>
+		<li>Deliverables of Automation Testing</li>
 
+		</ol>
+	<li>
 
-	Test Execution
-		Automation Scripts are executed during this phase. 
-		The scripts need input test data before there are set to run. 
-		Once executed they provide detailed test reports.
+	<li><p>Test Execution</p>
+		<ol>
+		<li>Automation Scripts are executed during this phase.</li>
+		<li>The scripts need input test data before there are set to run.</li>
+		<li>Once executed they provide detailed test reports.</li>
+		</ol>
+	<li>
 
+	<li><p>Framework for Automation</p>
+		<ol>
+		<li>Maintaining consistency of Testing</li>
+		<li>Improves test structuring</li>
+		<li>Minimum usage of code</li>
+		<li>Less Maintenance of code</li>
+		<li>Improve re-usability</li>
+		<li>Non Technical testers can be involved in code</li>
+		<li>The training period of using the tool can be reduced</li>
+		<li>Involves Data wherever appropriate</li>
+		</ol>
+	<li>
+</ol>
 	
-	Framework for Automation
-		Maintaining consistency of Testing
-		Improves test structuring
-		Minimum usage of code
-		Less Maintenance of code
-		Improve re-usability
-		Non Technical testers can be involved in code
-		The training period of using the tool can be reduced
-		Involves Data wherever appropriate
-		
-	Benefits of Automation Testing
-		70% faster than the manual testing
-		Wider test coverage of application features
-		Reliable in results
-		Ensure Consistency
-		Saves Time and Cost
-		Improves accuracy
-		Human Intervention is not required while execution
-		Increases Efficiency
-		Better speed in executing tests
-		Re-usable test scripts
-		Test Frequently and thoroughly
-		More cycle of execution can be achieved through automation
-		Early time to market
+	#### Benefits of Automation Testing
+
+	<ol>
+		<li>70% faster than the manual testing</li>
+		<li>Wider test coverage of application features</li>
+		<li>Reliable in results</li>
+		<li>Ensure Consistency</li>
+		<li>Saves Time and Cost</li>
+		<li>Improves accuracy</li>
+		<li>Human Intervention is not required while execution</li>
+		<li>Increases Efficiency</li>
+		<li>Better speed in executing tests</li>
+		<li>Re-usable test scripts</li>
+		<li>Test Frequently and thoroughly</li>
+		<li>More cycle of execution can be achieved through automation</li>
+		<li>Early time to market</li>
+	</ol>
 
 #### Types of Automated Testing
 		Smoke Testing
