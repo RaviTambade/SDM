@@ -398,7 +398,7 @@ Software Test Automation demands considerable investments of money and resources
 		</ol>
 	</li>
 
-	<li><p>Planning, Design, and Development</p><
+	<li><p>Planning, Design, and Development</p>
 		<ol>
 		<li>Automation tools selected</li>
 		<li>Framework design and its features</li>
@@ -415,7 +415,7 @@ Software Test Automation demands considerable investments of money and resources
 		<li>The scripts need input test data before there are set to run.</li>
 		<li>Once executed they provide detailed test reports.</li>
 		</ol>
-	<li>
+	</li>
 
 	<li><p>Framework for Automation</p>
 		<ol>
@@ -428,7 +428,7 @@ Software Test Automation demands considerable investments of money and resources
 		<li>The training period of using the tool can be reduced</li>
 		<li>Involves Data wherever appropriate</li>
 		</ol>
-	<li>
+	</li>
 </ol>
 	
 	#### Benefits of Automation Testing
