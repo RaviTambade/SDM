@@ -383,22 +383,22 @@ Software Test Automation demands considerable investments of money and resources
 
 
 #### Test tool selection
-	Test Tool selection largely depends on the technology the Application Under Test is built on
+	<p>Test Tool selection largely depends on the technology the Application Under Test is built on.</p>
 
 <ol>
 	<li><p>Define the scope of Automation</p>
 		<ol>
-		<li>The features that are important for the business</li>
-		<li>Scenarios which have a large amount of data</li>
-		<li>Common functionalities across applications</li>
-		<li>Technical feasibility</li>
-		<li>The extent to which business components are reused</li>
-		<li>The complexity of test cases</li>
-		<li>Ability to use the same test cases for cross-browser testing</li>
+			<li>The features that are important for the business</li>
+			<li>Scenarios which have a large amount of data</li>
+			<li>Common functionalities across applications</li>
+			<li>Technical feasibility</li>
+			<li>The extent to which business components are reused</li>
+			<li>The complexity of test cases</li>
+			<li>Ability to use the same test cases for cross-browser testing</li>
 		</ol>
-	<li>
+	</li>
 
-	<li><p>Planning, Design, and Development</p>
+	<li><p>Planning, Design, and Development</p></li>
 		<ol>
 		<li>Automation tools selected</li>
 		<li>Framework design and its features</li>
@@ -408,7 +408,7 @@ Software Test Automation demands considerable investments of money and resources
 		<li>Deliverables of Automation Testing</li>
 
 		</ol>
-	<li>
+	</li>
 
 	<li><p>Test Execution</p>
 		<ol>
