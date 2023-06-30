@@ -126,24 +126,17 @@ Exit Criteria:
 		2.Test metrics
         
 
-KEY DIFFERENCE
-<ol>
+Verfication Vs. Validatation
+<ul>
 <li>Verification process includes checking of documents, design, code and program whereas Validation process includes testing and validation of the actual product.</li>
-<li>Verification uses methods like reviews, walkthroughs, inspections and desk-checking whereas Validation uses methods like black box testing, white box testing and non-functional testing.<li>
-<li>Verification checks whether the software confirms a specification whereas Validation checks whether the software meets the requirements and expectations.<li>
-<li>Verification finds the bugs early in the development cycle whereas Validation finds the bugs that verification can not catch.<li>
+<li>Verification uses methods like reviews, walkthroughs, inspections and desk-checking whereas Validation uses methods like black box testing, white box testing and non-functional testing.</li>
+<li>Verification checks whether the software confirms a specification whereas Validation checks whether the software meets the requirements and expectations.</li>
+<li>Verification finds the bugs early in the development cycle whereas Validation finds the bugs that verification can not catch.</li>
 <li>Comparing validation and verification in software testing, Verification process targets on software architecture, design, database, etc. while Validation process targets the actual software product.<li>
-<li>
-Verification is done by the QA team while Validation is done by the involvement of testing team with QA team.<li>
-<li>Comparing Verification vs Validation testing, Verification process comes before validation whereas Validation process comes after verification.<li>
-</ol>
-
-
-
-
-
-
-
+</li>
+Verification is done by the QA team while Validation is done by the involvement of testing team with QA team.</li>
+<li>Comparing Verification vs Validation testing, Verification process comes before validation whereas Validation process comes after verification.</li>
+</ull>
 
 
 STLC Phases:
