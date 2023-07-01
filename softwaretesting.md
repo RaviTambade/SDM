@@ -397,7 +397,8 @@ Software Test Automation demands considerable investments of money and resources
 			<li>Ability to use the same test cases for cross-browser testing</li>
 		</ol>
 	</li>
-
+<ol>
+<ol>
 	<li><p>Planning, Design, and Development</p>
 		<ol>
 		<li>Automation tools selected</li>
@@ -408,7 +409,8 @@ Software Test Automation demands considerable investments of money and resources
 		<li>Deliverables of Automation Testing</li>
 		</ol>
 	</li>
-
+</ol>
+<ol>
 	<li><p>Test Execution</p>
 		<ol>
 		<li>Automation Scripts are executed during this phase.</li>
@@ -416,7 +418,9 @@ Software Test Automation demands considerable investments of money and resources
 		<li>Once executed they provide detailed test reports.</li>
 		</ol>
 	</li>
+<ol>
 
+<ol>
 	<li><p>Framework for Automation</p>
 		<ol>
 		<li>Maintaining consistency of Testing</li>
