@@ -17,7 +17,7 @@ Project management is needed because software development is always subject to b
 
 
 ### The Iron Triangle 
-<img src="/images/01_IronTriangle.jpg" />
+<img src="/images/pmp/01_IronTriangle.jpg" />
 
 
 ### Software management distinctions
@@ -140,11 +140,11 @@ The unexpected always happens. Always allow contingency in planning.
 
 
 ### Activity Bart Chart
-<img src="/images/02_ActivityBarChart.jpg" />
+<img src="/images/pmp/02_ActivityBarChart.jpg" />
 
 
 ### Staff Allocation Chart
-<img src="/images/03_StaffAllocationChart.jpg" />
+<img src="/images/pmp/03_StaffAllocationChart.jpg" />
 
 ### Agile planning
 
