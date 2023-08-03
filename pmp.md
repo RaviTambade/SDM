@@ -20,7 +20,7 @@ Project management is needed because software development is always subject to b
 <img src="/images/PMP/01_IronTriangle.jpg" />
 
 
-### Software management distinctions
+### Software Management Distinctions
 
 The product is intangible. 
 Software cannot be seen or touched. Software project managers cannot see progress by simply looking at the artefact that is being constructed. 
@@ -32,32 +32,32 @@ We still cannot reliably predict when a particular software process is likely to
 
 
 
-### Management activities
+### Management Activities
 
-#### Project planning
+#### Project Planning
 Project managers are responsible for planning. estimating and scheduling project development and assigning people to tasks. 
 
 
-#### Reporting & controlling 
+#### Reporting & Controlling 
 Project managers are usually responsible for reporting on the progress of a project to customers and to the managers of the company developing the software. 
 
-#### Risk management
+#### Risk Management
 Project managers assess the risks that may affect a project, monitor these risks and take action when problems arise
 
 
 
-### Management activities 
+### Management Activities 
 
-#### People management:
+#### People Management:
 Project managers have to choose people for their team and establish ways of working that leads to effective team performance 
 
-#### Project planning:
+#### Project Planning:
 Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. 
 
 The project plan, which is created at the start of a project, is used to communicate how the work will be done to the project team and customers, and to help assess progress on the project. 
 
 
-### Planning stages 
+### Planning Stages 
 
 At the proposal stage, when you are bidding for a contract to develop or provide a software system.
 During the project startup phase, when you have to plan who will work on the project, how the project will be broken down into increments, how resources will be allocated across your company, etc. 
@@ -65,7 +65,7 @@ Periodically throughout the project, when you modify your plan in the light of e
 
 
 
-### Plan-driven development 
+### Plan-Driven Development 
 
 * Plan-driven or plan-based development is an approach to software engineering where the development process is planned in detail. 
 * Plan-driven development is based on engineering project management techniques and is the ‘traditional’ way of managing large software development projects
@@ -73,14 +73,14 @@ Periodically throughout the project, when you modify your plan in the light of e
 * Managers use the plan to support project decision making and as a way of measuring progress. 
 
 
-### Plan-driven development – pros and cons 
+### Plan-Driven Development – Pros and Cons 
 
 The arguments in favor of a plan-driven approach are that early planning allows organizational issues (availability of staff, other projects, etc.) to be closely taken into account, and that potential problems and dependencies are discovered before the project starts, rather than once the project is underway.
 The principal argument against plan-driven development is that many early decisions have to be revised because of changes to the environment in which the software is to be developed and used.
 
-### Project plans 
+### Project Plans 
 In a plan-driven development project, a project plan sets out the resources available to the project, the work breakdown and a schedule for carrying out the work. 
-##### Plan sections
+##### Plan Sections
 
 	* Introduction
 	* Project organization
@@ -91,7 +91,7 @@ In a plan-driven development project, a project plan sets out the resources avai
 	* Monitoring and reporting mechanisms
 
 
-### Project plan supplements
+### Project Plan Supplements
 
 
 Plan                    | Description
@@ -103,21 +103,21 @@ Maintenance plan        | Predicts the maintenance requirements, costs, and effo
 Staff development plan 	| Describes how the skills and experience of the project team members will be developed.
 			
 
-### The planning process 
+### The Planning Process 
 
 Project planning is an iterative process that starts when you create an initial project plan during the project startup phase.
 Plan changes are inevitable. As more information about the system and the project team becomes available during the project, you should regularly revise the plan to reflect requirements, schedule and risk changes. 
 Changing business goals also leads to changes in project plans. As business goals change, this could affect all projects, which may then have to be re-planned. 
 
 
-### Project scheduling
+### Project Scheduling
 
 Project scheduling is the process of deciding how the work in a project will be organized as separate tasks, and when and how these tasks will be executed. 
 You estimate the calendar time needed to complete each task, the effort required and who will work on the tasks that have been identified. 
 You also have to estimate the resources needed to complete each task, such as the disk space required on a server, the time required on specialized hardware, such as a simulator, and what the travel budget will be
 
 
-### Project scheduling activities 
+### Project Scheduling Activities 
 
 Split project into tasks and estimate time and resources required to complete each task. 
 Organize tasks concurrently to make optimal use of workforce. 
@@ -125,13 +125,13 @@ Minimize task dependencies to avoid delays caused by one task waiting for anothe
 Dependent on project managers intuition and experience. 
 
 
-### Milestones and deliverables
+### Milestones and Deliverables
 
 Milestones are points in the schedule against which you can assess progress, for example, the handover of the system for testing. 
 Deliverables are work products that are delivered to the customer, e.g. a requirements document for the system.
 
 
-### Scheduling problems 
+### Scheduling Problems 
 
 Estimating the difficulty of problems and hence the cost of developing a solution is hard. 
 Productivity is not proportional to the number of people working on a task. 
@@ -146,7 +146,7 @@ The unexpected always happens. Always allow contingency in planning.
 ### Staff Allocation Chart
 <img src="/images/PMP/03_StaffAllocationChart.jpg" />
 
-### Agile planning
+### Agile Planning
 
 Agile methods of software development are iterative approaches where the software is developed and delivered to customers in increments.
 Unlike plan-driven approaches, the functionality of these increments is not planned in advance but is decided during the development. 
@@ -154,14 +154,14 @@ The decision on what to include in an increment depends on progress and on the c
 The customer’s priorities and requirements change so it makes sense to have a flexible plan that can accommodate these changes. 
 
 
-### Agile planning stages
+### Agile Planning Stages
 
 Release planning, which looks ahead for several months and decides on the features that should be included in a release of a system. 
 Iteration planning, which has a shorter term outlook, and focuses on planning the next increment of a system.
 This is typically 2-4 weeks of work for the team.
 
 
-### Story-based planning 
+### Story-Based Planning 
 
 The system specification in XP is based on user stories that reflect the features that should be included in the system. 
 The project team read and discuss the stories and rank them in order of the amount of time they think it will take to implement the story. 
