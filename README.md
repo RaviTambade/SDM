@@ -27,6 +27,7 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/SRSDocument.md"> Software Requirements Specification</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/pmp.md"> Planning and  Management of Software Projects </a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
