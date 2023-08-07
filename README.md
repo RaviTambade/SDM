@@ -29,7 +29,8 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/pmp.md"> Planning and  Management of Software Projects </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/RequirementEngg.md">Requirement Engineering </a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Software Modeling </a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/DataModeling.md">Data Modeling </a>
+- <a href="https://github.com/RaviTambade/SDM/blob/mainFunctionalModeling.md">Functional Modeling </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
