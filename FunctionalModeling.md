@@ -15,9 +15,9 @@ The four main parts of a DFD are −
 * Actors, and
 * Data Stores.
 
-### What is a data flow diagram (DFD)?
+### What is a Data Flow Diagram (DFD)?
 
-A data flow diagram (DFD) is a visual representation of the information flow through a process or system. DFDs help you better understand process or system operation to discover potential problems, improve efficiency, and develop better processes. They range from simple overviews to complex, granular displays of a process or system.
+A Data Flow Diagram (DFD) is a visual representation of the information flow through a process or system. DFDs help you better understand process or system operation to discover potential problems, improve efficiency, and develop better processes. They range from simple overviews to complex, granular displays of a process or system.
 
 DFDs became popular in the 1970s and have maintained their widespread use by being easy to understand. Visually displaying how a process or system works can hold people’s attention and explain complex concepts better than blocks of text can, so DFDs are able to help almost anyone grasp a system’s or process’ logic and functions.
 
