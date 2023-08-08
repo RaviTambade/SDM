@@ -5,7 +5,6 @@ Software Development Methodologies are developed to benefit both the development
 Let is explore Software Development metholodies by doing.
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwareengg.md"> Software Enggineering</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/SoftwareRequirements.md"> Software Requirements</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/pmp.md"> Planning and  Management of Software Projects </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
