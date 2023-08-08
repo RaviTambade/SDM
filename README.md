@@ -30,12 +30,12 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/RequirementEngg.md">Requirement Engineering </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/Modeling.md">Software Modeling </a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/UML.md"> UML Diagrams</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
+
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/dfd.md"> Data Flow Diagrams</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/UML.md"> UML Diagrams</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
