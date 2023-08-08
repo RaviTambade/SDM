@@ -190,7 +190,7 @@ Entity-Relationship Model is a structural diagram model. An ER diagram contains 
 
 An entity is referred to as an object. For example: students, products, companies and relationships are among these objects. When we say relationships we’re referring to how these objects are related to each other.
 
-<img src="/images/Modeling/ER_Diagrams/01_ERDComponents.webp" />
+<img src="/images/Modeling/ER_Diagrams/01_ERDComponents.jpg" />
 
 ### How to Generate an ER Diagram
 * Confirm the purpose of the ERD model. Try to separate the levels of abstraction, so that on each abstraction you know what each level is missing.
