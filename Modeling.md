@@ -178,11 +178,11 @@ Before you start mapping out data flow diagrams you need to follow four best pra
 
 
 ### Logical Data Flow Diagram
-<img src="/images/Modeling/DFD/4_LogicalDataFlowDiagram.jpg />
+<img src="/images/Modeling/DFD/4_LogicalDataFlowDiagram.jpg" />
 
 ### Physical Data Flow Diagram
 
-<img src="/images/Modeling/DFD/5_PhysicalDFDExample.jpg />
+<img src="/images/Modeling/DFD/5_PhysicalDFDExample.jpg" />
 
 ##ER Diagrams (Entity-Relationship Model)
 
