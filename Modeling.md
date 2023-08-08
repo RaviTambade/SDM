@@ -228,36 +228,36 @@ There are two main categories; structure diagrams and behavioral diagrams
 Class diagrams are the main building block of any object-oriented solution. It shows the classes in a system, attributes, and operations of each class and the relationship between each class.
  
 In most modeling tools, a class has three parts. Name at the top, attributes in the middle and operations or methods at the bottom. In a large system with many related classes, classes are grouped together to create class diagrams. Different relationships between classes are shown by different types of arrows.
- <img src="/images/Modeling/UML/class-diagram.jpg" width="200" height="200"/>
+ <img src="/images/Modeling/UML/class-diagram.jpg" width="300" height="300"/>
 
 #### Component Diagram
 A component diagram displays the structural relationship of components of a software system. These are mostly used when working with complex systems with many components. Components communicate with each other using interfaces. The interfaces are linked using connectors. The image below shows a component diagram.
 
- <img src="/images/Modeling/UML/component-diagram.jpg" width="200" height="200"/>
+ <img src="/images/Modeling/UML/component-diagram.jpg"  width="300" height="300"/>
 
 #### Deployment Diagram
 A deployment diagram shows the hardware of your system and the software in that hardware. Deployment diagrams are useful when your software solution is deployed across multiple machines with each having a unique configuration. Below is an example deployment diagram.
 
- <img src="/images/Modeling/UML/07_Deployment-Diagram.png" width="200" height="200" />
+ <img src="/images/Modeling/UML/07_Deployment-Diagram.png"  width="300" height="300"/>
 
 #### Object Diagram
 Object Diagrams, sometimes referred to as Instance diagrams are very similar to class diagrams. Like class diagrams, they also show the relationship between objects but they use real-world examples.
 
 They show what a system will look like at a given time. Because there is data available in the objects, they are used to explain complex relationships between objects.
- <img src="/images/Modeling/UML/03_Object-Diagram.png" width="200" height="200"/>
+ <img src="/images/Modeling/UML/03_Object-Diagram.png" width="300" height="300"/>
 
 
 #### Package Diagram
 As the name suggests, a package diagram shows the dependencies between different packages in a system.
- <img src="/images//Modeling/UML/05_Package-Diagram.jpg" width="200" height="200"//>
+ <img src="/images//Modeling/UML/05_Package-Diagram.jpg"  width="300" height="300" />
 
 #### Composite Structure Diagram
- <img src="/images/Modeling/UML/Composite-Structure-Diagram.jpg" width="200" height="200"//>
+ <img src="/images/Modeling/UML/Composite-Structure-Diagram.jpg"  width="300" height="300"/>
 
 
 #### Use Case Diagram
  Use case diagrams give a graphic overview of the actors involved in a system, different functions needed by those actors and how these different functions interact.
-  <img src="/images/Modeling/UML/01_Use-Case-Diagram.png" width="200" height="200"/>
+  <img src="/images/Modeling/UML/01_Use-Case-Diagram.png"  width="300" height="300"/>
 
 
  #### Activity Diagram
