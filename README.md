@@ -10,7 +10,6 @@ Let is explore Software Development metholodies by doing.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/RequirementEngg.md">Requirement Engineering </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/Modeling.md">Software Modeling </a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/UML.md"> UML Diagrams</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
