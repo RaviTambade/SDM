@@ -118,31 +118,33 @@ Functional Modelling is represented through a hierarchy of DFDs. The DFD is a gr
 
 Rumbaugh et al. have defined DFD as, “A data flow diagram is a graph which shows the flow of data values from their sources in objects through processes that transform them to their destinations on other objects.”
 
-### What is a data flow diagram (DFD)?
-
 A data flow diagram (DFD) is a visual representation of the information flow through a process or system. DFDs help you better understand process or system operation to discover potential problems, improve efficiency, and develop better processes. They range from simple overviews to complex, granular displays of a process or system.
 
-DFDs became popular in the 1970s and have maintained their widespread use by being easy to understand. Visually displaying how a process or system works can hold people’s attention and explain complex concepts better than blocks of text can, so DFDs are able to help almost anyone grasp a system’s or process’ logic and functions.
+* DFDs became popular in the 1970s and have maintained their widespread use by being easy to understand. Visually displaying how a process or system works can hold people’s attention and explain complex concepts better than blocks of text can, so DFDs are able to help almost anyone grasp a system’s or process’ logic and functions.
 
-There are two types of DFDs — logical and physical. Logical diagrams display the theoretical process of moving information through a system, like where the data comes from, where it goes, how it changes, and where it ends up.
+* There are two types of DFDs — logical and physical. Logical diagrams display the theoretical process of moving information through a system, like where the data comes from, where it goes, how it changes, and where it ends up.
 
-Physical diagrams show you the practical process of moving information through a system, like how your system’s specific software, hardware, files, employees, and customers influences its flow of information.
+* Physical diagrams show you the practical process of moving information through a system, like how your system’s specific software, hardware, files, employees, and customers influences its flow of information.
 
-You can either use logical or physical diagrams to describe the same flow of information or you can use them in conjunction to understand a process or system on a more granular level. But, before you can use a DFD to understand your system or process’ flow of information, you need to know the standard notations or symbols used to describe it.
+* You can either use logical or physical diagrams to describe the same flow of information or you can use them in conjunction to understand a process or system on a more granular level. But, before you can use a DFD to understand your system or process’ flow of information, you need to know the standard notations or symbols used to describe it.
 
 
-Professionals in various industries, like software engineering, IT, ecommerce, and product management & design, can use DFDs to better understand, refine, or implement a new system or process.
+* Professionals in various industries, like software engineering, IT, ecommerce, and product management & design, can use DFDs to better understand, refine, or implement a new system or process.
 
 
 ### Data Flow Diagram Symbols
 
 Data Flow Diagram symbols are standardized notations, like rectangles, circles, arrows, and short-text labels, that describe a system or process’ data flow direction, data inputs, data outputs, data storage points, and its various sub-processes.
 
-There are four common methods of notation used in DFDs: Yourdon & De Marco, Gene & Sarson, SSADM and Unified. All use the same labels and similar shapes to represent the four main elements of a DFD — external entity, process, data store, and data flow.
+Four main elements of a DFD — external entity, process, data store, and data flow.
+
+<img src="/images/Modeling/DFD/01_ProcessExample.jpg" />
 
 
 - External Entity
 An external entity, which are also known as terminators, sources, sinks, or actors, are an outside system or process that sends or receives data to and from the diagrammed system. They’re either the sources or destinations of information, so they’re usually placed on the diagram’s edges. External entity symbols are similar across models except for Unified, which uses a stick-figure drawing instead of a rectangle, circle, or square.
+
+
 
 - Process
 Process is a procedure that manipulates the data and its flow by taking incoming data, changing it, and producing an output with it. A process can do this by performing computations and using logic to sort the data, or change its flow of direction. Processes usually start from the top left of the DFD and finish on the bottom right of the diagram.
@@ -153,6 +155,8 @@ Data stores hold information for later use, like a file of documents that’s wa
 - Data Flow
 Data flow is the path the system’s information takes from external entities through processes and data stores. With arrows and succinct labels, the DFD can show you the direction of the data flow.
 
+<img src="/images/Modeling/DFD/1_DFD.jpg" />
+
 Before you start mapping out data flow diagrams you need to follow four best practices to create a valid DFD.
 
 1. Each process should have at least one input and one output.
@@ -162,3 +166,37 @@ Before you start mapping out data flow diagrams you need to follow four best pra
 3. A system’s stored data must go through a process.
 
 4. All processes in a DFD must link to another process or data store.
+
+<img src="/images/Modeling/DFD/02_DataFlowExample.jpg" />
+
+
+### DFD Level 1
+<img src="/images/Modeling/DFD/2_Level1DFD.jpg" />
+
+### DFD Level 2
+<img src="/images/Modeling/DFD/3_Level2DFD.jpg" />
+
+
+### Logical Data Flow Diagram
+<img src="/images/Modeling/DFD/4_LogicalDataFlowDiagram.jpg />
+
+### Physical Data Flow Diagram
+
+<img src="/images/Modeling/DFD/5_PhysicalDFDExample.jpg />
+
+##ER Diagrams (Entity-Relationship Model)
+
+Entity-Relationship Model is a structural diagram model. An ER diagram contains connectors and symbols. It’s called an Entity Relationship Diagram because we are referring to entities within the system scope and their relationships.
+
+An entity is referred to as an object. For example: students, products, companies and relationships are among these objects. When we say relationships we’re referring to how these objects are related to each other.
+
+<img src="/images/Modeling/ER_Diagrams/01_ERDComponents.webp" />
+
+### How to Generate an ER Diagram
+* Confirm the purpose of the ERD model. Try to separate the levels of abstraction, so that on each abstraction you know what each level is missing.
+* Create your entities and the relationships between them. Start with three tables and then try to separate them if you’re getting repetitive data.
+* If you started with three tables you can easily end up with five tables or more. This means you can access information more easily after separating them. Believe me, it’s easier to filter information with primary and foreign keys than with 100 columns holding the same information.
+* Give your entities columns and name the attributes that you need for each of them.
+* Finally set up your attributes, give them specific data types and set up your primary keys and foreign keys. Also, don’t forget for each data type to set up their restrictions and requirements.
+
+<img src="/images/Modeling/ER_Diagrams/02_ERDBookStore.webp" />
