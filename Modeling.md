@@ -69,6 +69,8 @@ Following are the questions of Data Architecture.
 
 Without proper data architecture, things tend to grow increasingly chaotic over time as you add new tools and tech solutions on an ad-hoc basis. Letting this go on without a clear structure will mean not only a loss in productivity and control but usually also high costs. 
 
+<img src="/images/Modeling/DataArchitecture.jpg" />
+
 Below are some examples of what data architecture concerns:
 
 * Cloud Storage
