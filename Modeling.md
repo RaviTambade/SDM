@@ -262,8 +262,7 @@ As the name suggests, a package diagram shows the dependencies between different
 
 #### Use Case Diagram
  Use case diagrams give a graphic overview of the actors involved in a system, different functions needed by those actors and how these different functions interact.
-  <img src="/images/Modeling/UML/01_Use-Case-Diagram.png"/>
-
+  <img src="/images/Modeling/UML/01_Use-Case-Diagram.png" width="200" height="200"/>
 
 
  #### Activity Diagram
@@ -276,15 +275,3 @@ State machine diagrams are similar to activity diagrams, although notations and 
 #### Sequence Diagram
 
 Sequence diagrams in UML show how objects interact with each other and the order those interactions occur. It’s important to note that they show the interactions for a particular scenario. The processes are represented vertically and interactions are shown as arrows. 
-
-#### Communication Diagram
-Communication diagrams are similar to sequence diagrams, but the focus is on messages passed between objects. The same information can be represented using a sequence diagram and different objects.
-
-
-#### Interaction Overview Diagram
-Interaction overview diagrams are very similar to activity diagrams. While activity diagrams show a sequence of processes, Interaction overview diagrams show a sequence of interaction diagrams.
-
-They are a collection of interaction diagrams and the order they happen. As mentioned before, there are seven types of interaction diagrams, so any one of them can be a node in an interaction overview diagram.
-
-#### Timing Diagram
-Timing diagrams are very similar to sequence diagrams. They represent the behavior of objects in a given time frame. If it’s only one object, the diagram is straightforward. But, if there is more than one object is involved, a Timing diagram is used to show interactions between objects during that time frame.
