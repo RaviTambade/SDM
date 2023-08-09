@@ -10,13 +10,11 @@ Also Business teams would like to be flexible scale for market peek times They w
 
 Software architecture is, simply, the organization of a system. This organization includes all components, how they interact with each other, the environment in which they operate, and the principles used to design the software. In many cases, it can also include the evolution of the software into the future.
 
-- monolithic architecture 
-- Layered (n-tier) architecture.
-- Microservices architecture.
+- Monolithic Architecture 
+- Layered (n-tier) Architecture.
+- Microservices Architecture.
 
-
-### monolithic architecture 
-
+## Monolithic Architecture 
 <img src="/images/Modeling/SoftwareArchitecture/3_ProblemsWithOnlineApps.webp" />
 
 A monolithic architecture is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications. The word “monolith” is often attributed to something large and glacial, which isn't far from the truth of a monolith architecture for software design.
@@ -27,7 +25,7 @@ Business teams are separated teams as per departments; Product, Sale, Payment. A
 
 Also Business teams would like to be flexible scale for market peek times They want to provide best customer experience at blackfriday sales that means it requires to handle and process millions of request in a acceptable latency with better performance.
 
-### Multi Layered (n-tier) Architecture
+## Multi Layered (n-tier) Architecture
 
 <img src="/images/Modeling/SoftwareArchitecture/03_LayeredArchitecture.png" />
 Layered architectures are said to be the most common and widely used architectural framework in software development. It is also known as an n-tier architecture and describes an architectural pattern composed of several separate horizontal layers that function together as a single unit of software
@@ -38,25 +36,18 @@ Layered architectures are said to be the most common and widely used architectur
 
 * <b>Business rules layer</b>: This layer contains rules that determine the behavior of the whole application, such as, “If an invoice is printed, then send an email to the customer, select all items sold, and decrease their stock in the stock management module.” 
 
-*<b> Application core layer</b>: This server contains the main programs, code definitions, and basic functions of the application. Programmers work in this layer most of the time. 
+* <b>Application core layer</b>: This server contains the main programs, code definitions, and basic functions of the application. Programmers work in this layer most of the time. 
 
-*<b> Database layer</b>: This layer contains the tables, indexes, and data managed by the application. Searches and insert/delete/update operations are executed here. 
+*<b>Database layer</b>: This layer contains the tables, indexes, and data managed by the application. Searches and insert/delete/update operations are executed here. 
 
 
-### Microservices architecture
+## Microservices architecture
 
 <img src="/images/Modeling/SoftwareArchitecture/4_MicroServicesArchiteture.webp" />
 
 Microservices are small, independent, and loosely coupled services. So Microservices are small business services that can work together and can be deployed independently and autonomously. Each service is a separate codebase, which can be managed by a small development team. A single small team of developers can write and maintain a particular microservice.
 
-
-
-### What, Why, and How of a Microservices Architecture
-
 For many years now we have been building systems and getting better at it. Several technologies, architectural patterns, and best practices have emerged over those years. Microservices is one of those architectural patterns which has emerged from the world of domain-driven design, continuous delivery, platform and infrastructure automation, scalable systems, polyglot programming and persistence.
-
-
-A microservices architecture takes this same approach and extends it to the loosely coupled services which can be developed, deployed, and maintained independently. Each of these services is responsible for discrete task and can communicate with other services through simple APIs to solve a larger complex business problem.
 
 ### Key Benefits of a Microservices Architecture
 As the constituent services are small, they can be built by one or more small teams from the beginning separated by service boundaries which make it easier to scale up the development effort if need be.
