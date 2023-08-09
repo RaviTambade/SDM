@@ -1,5 +1,5 @@
 
-## software  Architecture
+# Software  Architecture
 
 <img src="/images/Modeling/SoftwareArchitecture/0_SoftwareArchitectureJourney.webp" />
 The software architecture of a system represents the design decisions related to overall system structure and behavior. Architecture helps stakeholders understand and analyze how the system will achieve essential qualities such as modifiability, availability, and security.
