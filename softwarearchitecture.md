@@ -56,3 +56,4 @@ Once developed, these services can also be deployed independently of each other 
 
 Another advantage which a microservices architecture brings to the table is making it easier to choose the technology stack (programming languages, databases, etc.) which is best suited for the required functionality (service) instead of being required to take a more standardized, one-size-fits-all approach.
 
+<img src="/images/Modeling/SoftwareArchitecture/2_MicroServices.webp" />
