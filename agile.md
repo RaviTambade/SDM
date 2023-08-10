@@ -19,7 +19,7 @@ Agile project management brings together Agile teams of programmers, stakeholder
 * Agile Methodology operates according to its <a href="https://agilemanifesto.org/">Manifesto </a> which contains four, core principles:
 
 
-###4 values of Agile
+### The 4 values of Agile
 
 The four core values of Agile software development as stated in the Agile Manifesto are as follows:
 
