@@ -1,18 +1,14 @@
+# Agile methodology
 
-
-<img src="/images/AgileSprintMechanism.jpg" />
-
-
-### What is meant by Agile methodology?
 The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating
 
-### Why use Agile Methodology?
+<img src="/images/AgileSprintMechanism.jpg" />
 
 Teams choose to adopt an Agile approach because it helps break workloads into manageable chunks, drive continual improvement of products and internal processes, and typically results in faster, incremental delivery.
 
 In contrast to a Waterfall Methodology, which is a linear approach building up to a more definitive ‘launch’, Agile results in gradual but continual improvement. It’s ongoing, more flexible and adaptable to change, producing outcomes faster and improving them over time
 
-### What is the Agile Manifesto?
+## Agile Manifesto
 
 The Agile Manifesto is a document that identifies four key values and 12 principles that its authors believe software developers should use to guide their work. Formally called the Manifesto for Agile Software Development, it was produced by 17 developers during an outing on Feb. 11-13, 2001, at The Lodge at Snowbird ski resort in Utah.
 
@@ -20,22 +16,10 @@ The developers called themselves the Agile Alliance. They were seeking an altern
 
 Agile project management brings together Agile teams of programmers, stakeholders and users to support Agile principles. Team members conduct face-to-face conversations, both in person and remotely, and they communicate regularly as part of the primary measure of progress. This approach supports the key aspect of the Agile process -- developing software in increments with user input along the way, as opposed to a final product with minimal user interaction.
 
-### How do you implement Agile?
+* Agile Methodology operates according to its <a href="https://agilemanifesto.org/">Manifesto </a> which contains four, core principles:
 
-Agile Methodology operates according to its <a href="https://agilemanifesto.org/">Manifesto </a> which contains four, core principles:
 
-* Individuals and interactions over processes and tools
-* Working software over comprehensive documentation
-* Customer collaboration over contract negotiation
-* Responding to change over following a plan
-
-The emphasis ought to be on collaboration, creation and iteration rather than laborious planning and documentation.
-
-Several Agile frameworks exist. Popular options include Scrum and Kanban, with their structures and processes true to Agile approach. Various tools and resources are available to facilitate project management that follows these frameworks.
-
-The commitment to creating software incrementally, with regular increases and stages, is what defines the Agile approach to software development. The approach offers users new versions, or releases, of software following brief periods of work, often called sprints.
-
-#### 4 values of Agile
+###4 values of Agile
 
 The four core values of Agile software development as stated in the Agile Manifesto are as follows:
 
@@ -44,7 +28,7 @@ The four core values of Agile software development as stated in the Agile Manife
 * Customer collaboration over contract negotiation.
 * Responding to change over following a project plan.
 
-#### The 12 principles
+### The 12 principles
 
 The Agile Manifesto goes beyond scoping out a software project and then developing and releasing it. Perhaps the most important aspect of the manifesto is the close coordination and regular interactions with those who will be using the new or updated software.
 
@@ -63,12 +47,11 @@ The following are the 12 principles of the Agile Manifesto:
 * Recognizing that the best work emerges from self-organized teams that deliver the best architectures and designs.
 * Reflecting regularly on how the team can be more effective and fine-tuning and adjusting the approach.
 
-
-### Agile Framework
+## Agile Framework
 
 An agile framework can be defined as a specific Software-Development Approach based on the Agile Philosophy articulated in the Agile Manifesto. Most agile teams use frameworks only as a starting point for their agile transformation, eventually customizing elements to meet their unique needs. Various organizations use many popular frameworks. Often these organizations modify parts of the frameworks as they see fit and iterate on their own agile processes. 
 
-#### Popular Frameworks
+### Popular Frameworks
 
 * Scrum
 * eXtreme Programming (XP)
@@ -81,7 +64,7 @@ An agile framework can be defined as a specific Software-Development Approach ba
 * Scaled Agile Framework (SAFe)
 * Rapid Application Development (RAD)
 
-#### Which Agile Framework is Best?
+### Which Agile Framework is Best?
 
 There is no one-size-fits-all way to practice Agile Software Development. Many factors may influence which framework you choose to work with. Such as:
 
@@ -92,4 +75,3 @@ There is no one-size-fits-all way to practice Agile Software Development. Many f
 * Structure/size of your product portfolio
 
 Each framework has its own unique set of strengths and weaknesses. And the framework that works for someone else’s team might not be the right one for you. So ultimately, you’ll have to experiment a bit and figure out what works best for you.
-
