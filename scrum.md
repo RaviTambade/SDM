@@ -1,7 +1,7 @@
 ### What is meant by scrum?
 Scrum is a framework for project management that emphasizes teamwork, accountability and iterative progress toward a well-defined goal. The framework begins with a simple premise: Start with what can be seen or known. After that, track the progress and tweak, as necessary.
 
-<img src="/images/ScrumFramework.jpg"/>
+<img src="/images/Scrum/ScrumFramework.jpg"/>
 
 
 ### Scrum's Approach to Work
