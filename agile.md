@@ -54,15 +54,25 @@ An agile framework can be defined as a specific Software-Development Approach ba
 ### Popular Frameworks
 
 * Scrum
+It is about managing knowledge work, with an assurance on the new improvement of the software. It was created for small teams that are consist of three to nine members, they will divide their tasks to a number of activities which will be done inside the timeboxed iterations, called " sprints ", and these activities will not exceed one month to be done and most usually couple of weeks to finish these activities, at that point tracking the progress and then planning again in 15-minute stand-up gatherings, called day by day scrums. 
+
 * eXtreme Programming (XP)
+The main purposes are to improve the software’s quality and responsiveness to changing customer requirements. As a kind of agile progress, it advocates visit "deliveries" in a short time of improvement cycles, which is intended to upgrade efficiency and present checkpoints at which new customer requirements can be embraced. 
+
 * Dynamic Systems Development Method (DDSM)
+Rather than settling measures of functionality in an item, afterward changing time and assets that will achieve the functionality, will be better to fix the time and resources, then afterward modifying all measure of functionality appropriately. 
+
 * Feature Driven Development (FDD)
-* Adaptive Software Development (ASD)
+The main focus is the designing and building stages and the priority is the quality viewpoints all through the whole progress and incorporates repeated and sensible deliveries, alongside with careful observation of the project’s process. 
+
 * The Crystal Method
+It focuses on individuals and the communication among them while they work on a software development project. There is additional attention on business-criticality and
+business-need of the framework under development. Unlike traditional development methods, Crystal doesn't fix the apparatuses and systems of development, however, it keeps individuals International Journal of Computer Science & Information Technology (IJCSIT) Vol 11, No 4, August 2019 and processes at the center of the improvement processes. Also, it isn't just the people or the processes that are matters, rather the communication between the two that is what matters the
+most. 
+
+
 * Lean Software Development (LSD)
-* Disciplined Agile (DA)
-* Scaled Agile Framework (SAFe)
-* Rapid Application Development (RAD)
+Lean agile is a development method that helps teams identify waste and refine processes. It’s a guiding mindset that facilitates efficiency, effectiveness, and continuous improvement. Consider this: You probably work a lot better when your desk isn’t completely covered with a mess of things you don’t need.
 
 ### Which Agile Framework is Best?
 
