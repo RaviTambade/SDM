@@ -14,6 +14,7 @@ Let is explore Software Development metholodies by doing.
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/UserStory.md"> User Stories</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
