@@ -4,7 +4,7 @@
 ### Example #1
 
 <p>As a website user I want to able to search on the webpage So that I can find necessary information </p>
-#### Scenario:
+Scenario:
 	* Given that I’m in a role of registered or guest user
 	* When I open the “Products” page
 	* Then the system shows me the list of all products
@@ -18,7 +18,7 @@
 #### Example #2
 <p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </p>
 
-#### Scenario: 
+Scenario: 
 	User submits feedback form with the valid data
 	* “Given I’m in a role of logged-in or guest user
 	* When I open the Feedback page
@@ -34,7 +34,8 @@
 
 #### Example 3
 <p>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues </p>
-####### Acceptance Scenario:
+Acceptance Scenario:
+
 	*  Given I’m in a role of signed-in user
 	*  When I open the page with a specific blog post
 	*  Then the system shows the “Comments” section below the blog post with the list of comments added by other users
