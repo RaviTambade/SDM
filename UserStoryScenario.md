@@ -34,7 +34,7 @@
 
 #### Example 3
 <p>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues </p>
-#######Acceptance Scenario:
+####### Acceptance Scenario:
 	*  Given I’m in a role of signed-in user
 	*  When I open the page with a specific blog post
 	*  Then the system shows the “Comments” section below the blog post with the list of comments added by other users
