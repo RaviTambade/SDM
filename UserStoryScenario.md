@@ -31,29 +31,29 @@ As a website user I want to able to submit feedback So that the website owners c
 	* And the system clears the fields of the Submit Feedback form”
 
 
-#### Example #3
+#### Example 3
 As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues
 Scenario:
-	* Given I’m in a role of signed-in user
-	* When I open the page with a specific blog post
-	* Then the system shows the “Comments” section below the blog post with the list of comments added by other users
-	* And the system shows the “Add a Comment” field in the top of the “Comments” section
-	* When I fill in the “Add a Comment” field with my comment
-	* And I click the “Submit” button
-	* Then the system saves my comment
-	* And the system shows my comment in the top of the “Comments” section
-	* And the system shows my username and profile picture on the left side from my comment
-	* And the system shows “Remove” and “Edit” icons opposite my comment
+	*  Given I’m in a role of signed-in user
+	*  When I open the page with a specific blog post
+	*  Then the system shows the “Comments” section below the blog post with the list of comments added by other users
+	*  And the system shows the “Add a Comment” field in the top of the “Comments” section
+	*  When I fill in the “Add a Comment” field with my comment
+	*  And I click the “Submit” button
+	*  Then the system saves my comment
+	*  And the system shows my comment in the top of the “Comments” section
+	*  And the system shows my username and profile picture on the left side from my comment
+	*  And the system shows “Remove” and “Edit” icons opposite my comment
 
 
-#### Example #4
+#### Example 4
 As a project manager, I want to review workflow management software so I can choose a new platform for my team.
 Acceptance criteria:
-	* Ensure that user reviews and testimonials are published on our product site.
+	*  Ensure that user reviews and testimonials are published on our product site.
 	* Verify that user reviews for our product are available on third-party forums.
 	* Proactively acquire new user reviews by sending feedback requests to current users and past clients.
 
-#### Example #5
+#### Example 5
 As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.
 Acceptance criteria:
 	* Display statement balance upon authentication. Say for example $1560
@@ -62,7 +62,7 @@ Acceptance criteria:
 	* Show Payment due date. For example May 16th of the current month
 	* Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
 
-#### Example #6
+#### Example 6
 As a teacher, I want to generate assessment report, so I can evaluate student performance.
 Acceptance criteria:
 	* Show a student’s current assessment score.
