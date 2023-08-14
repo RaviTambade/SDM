@@ -234,7 +234,7 @@ Then route the user to the “registration” page
 
 
 
-###Rules-Driven Stories
+### Rules-Driven Stories
 
 There are also stories where the focus needs to be on the business rules. The user actions do not have much relevance within the scope of the story (there could be related stories where the user action is in focus).
 
@@ -393,8 +393,6 @@ Example 2) Order submission for fulfillment: “As a customer who made a purchas
 * Order with at least one item with a sale price
 * Order with an order-level promotion
 * Order with an item-level promotion
-
-
 
 ### Granularity of a Story
 
