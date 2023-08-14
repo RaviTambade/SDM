@@ -5,6 +5,7 @@
 
 <p>As a website user I want to able to search on the webpage So that I can find necessary information </p>
 Scenario:
+
 	* Given that I’m in a role of registered or guest user
 	* When I open the “Products” page
 	* Then the system shows me the list of all products
@@ -19,6 +20,7 @@ Scenario:
 <p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </p>
 
 Scenario: 
+
 	User submits feedback form with the valid data
 	* “Given I’m in a role of logged-in or guest user
 	* When I open the Feedback page
@@ -81,6 +83,7 @@ Example #7
 <p>As a User I want to view a list of products so I can select some to purchase </p>
 
 Accepted Criteria:
+
 	* See a thumbnail image for each product
 	* Click to view details for product
 	* Add to cart from detail page
@@ -95,7 +98,9 @@ Accepted Criteria:
 As an Acquisition Gateway User, I need to access the Acquisition ordering platform behind a secure login so that I can purchase products.
 
 <p>As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it. </p>
+
 Accepted Criteria:
+
 Ensure the Acquisition Gateway User is able to:
 	* log in to Acquisition Gateway 
 	* navigate to the Auction page 
