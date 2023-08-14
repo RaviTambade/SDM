@@ -76,7 +76,7 @@ Avoid focusing on the specific features—instead, consider what the end user is
 
 Example need: Help team members understand how individual tasks contribute to larger business goals
 
-#####Step 3. Define the purpose
+##### Step 3. Define the purpose
 Define the purpose by analyzing the bigger picture of the software release. Consider how the software feature fits into your internal goals. 
 
 Ask yourself these questions to help define the purpose:
@@ -100,9 +100,6 @@ Why write user stories in the first place? Because they offer numerous benefits 
 
 Though the benefits of writing user stories are significant, a product manager must also consider the potential disadvantages.
 
-
-
-
 ### Disadvantages of user stories
 Here are a few user story pitfalls to watch out for:
 
@@ -112,7 +109,7 @@ Here are a few user story pitfalls to watch out for:
 Before you start your story, take some time to identify potential risks or disadvantages and outline how you aim to counteract them.
 
 
-# Let us write User Story to Build an eCommerce Store
+## Let us write User Story to Build an eCommerce Store
 
 Developing user stories - or an informal, natural description of your customer’s potential online journey - can help guide the development of your user experience, product management, web design, and more.
 
