@@ -1,8 +1,9 @@
-////
+# Examples of User Stories with Acceptance Scenarios
+<hr/>
 
 ### Example #1
 
-As a website user I want to able to search on the webpage So that I can find necessary information
+<p>As a website user I want to able to search on the webpage So that I can find necessary information </p>
 #### Scenario:
 	* Given that I’m in a role of registered or guest user
 	* When I open the “Products” page
@@ -15,7 +16,7 @@ As a website user I want to able to search on the webpage So that I can find nec
 
 
 #### Example #2
-As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates
+<p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </p>
 
 #### Scenario: 
 	User submits feedback form with the valid data
@@ -32,7 +33,7 @@ As a website user I want to able to submit feedback So that the website owners c
 
 
 #### Example 3
-As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues
+<p>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues </p>
 Scenario:
 	*  Given I’m in a role of signed-in user
 	*  When I open the page with a specific blog post
@@ -47,15 +48,17 @@ Scenario:
 
 
 #### Example 4
-As a project manager, I want to review workflow management software so I can choose a new platform for my team.
+<p>As a project manager, I want to review workflow management software so I can choose a new platform for my team. </p>
 Acceptance criteria:
+
 	*  Ensure that user reviews and testimonials are published on our product site.
 	* Verify that user reviews for our product are available on third-party forums.
 	* Proactively acquire new user reviews by sending feedback requests to current users and past clients.
 
 #### Example 5
-As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.
+<p>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due. </p>
 Acceptance criteria:
+
 	* Display statement balance upon authentication. Say for example $1560
 	* Display total balance. For example $3560. Here the balance due from the current period is $2560 and past balance due is $2000.
 	* Show Minimum payment due. For example $140
@@ -63,8 +66,9 @@ Acceptance criteria:
 	* Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
 
 #### Example 6
-As a teacher, I want to generate assessment report, so I can evaluate student performance.
-Acceptance criteria:
+<p>As a teacher, I want to generate assessment report, so I can evaluate student performance.
+Acceptance criteria: </p>
+
 	* Show a student’s current assessment score.
 	* Display past assessment score of the student.
 	* Provide an option to Print / Save / Share. (By the way, this could be split as a separate user story by itself).
@@ -72,7 +76,9 @@ Acceptance criteria:
 
 
 Example #7
-As a User I want to view a list of products so I can select some to purchase
+
+<p>As a User I want to view a list of products so I can select some to purchase </p>
+
 Accepted Criteria:
 	* See a thumbnail image for each product
 	* Click to view details for product
@@ -84,11 +90,10 @@ Accepted Criteria:
 
 ### EPIC-- UserStory- Scenario
 
-Epic:
+##### Epic:
 As an Acquisition Gateway User, I need to access the Acquisition ordering platform behind a secure login so that I can purchase products.
 
-User Story:
-As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it.
+<p>As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it. </p>
 Accepted Criteria:
 Ensure the Acquisition Gateway User is able to:
 	* log in to Acquisition Gateway 
@@ -96,8 +101,7 @@ Ensure the Acquisition Gateway User is able to:
 	* able to select a product(s) to bid on
 
 
-User Story:
-As an Acquisition Gateway User, I need to review my previous bids in the Acquisition ordering platform so that I can remove expired bids.
+<p>As an Acquisition Gateway User, I need to review my previous bids in the Acquisition ordering platform so that I can remove expired bids.</p>
 
 Accepted Criteria:
 Ensure the Acquisition Gateway User is able to:
@@ -106,11 +110,12 @@ Ensure the Acquisition Gateway User is able to:
 	* select one, or multiple, expired bids
 	* remove expired bids
 
-Epic:
+##### Epic:
+
 As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers
 
-User Story:
-As a Content Owner, I want to be able to create product content so that I can provide information and market to customers.
+<b>User Story: </b>
+<p>As a Content Owner, I want to be able to create product content so that I can provide information and market to customers.</p>
 
 Accepted Criteria:
 Ensure the Content Owner is able to:
