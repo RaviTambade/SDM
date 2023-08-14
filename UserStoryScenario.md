@@ -1,9 +1,7 @@
 # Examples of User Stories with Acceptance Scenarios
 <hr/>
 
-### Example #1
-
-<p>As a website user I want to able to search on the webpage So that I can find necessary information </p>
+<p><b>As a website user I want to able to search on the webpage So that I can find necessary information</b> </p>
 Scenario:
 
 	* Given that I’m in a role of registered or guest user
@@ -17,8 +15,7 @@ Scenario:
 
 
 #### Example #2
-<p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </p>
-
+<p><b>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </b></p>
 Scenario: 
 
 	User submits feedback form with the valid data
@@ -35,7 +32,7 @@ Scenario:
 
 
 #### Example 3
-<p>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues </p>
+<p> <b>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</b> </p>
 Acceptance Scenario:
 
 	*  Given I’m in a role of signed-in user
@@ -50,16 +47,16 @@ Acceptance Scenario:
 	*  And the system shows “Remove” and “Edit” icons opposite my comment
 
 
-#### Example 4
-<p>As a project manager, I want to review workflow management software so I can choose a new platform for my team. </p>
+
+<p><b>As a project manager, I want to review workflow management software so I can choose a new platform for my team. </b></p>
 Acceptance criteria:
 
 	*  Ensure that user reviews and testimonials are published on our product site.
 	* Verify that user reviews for our product are available on third-party forums.
 	* Proactively acquire new user reviews by sending feedback requests to current users and past clients.
 
-#### Example 5
-<p>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due. </p>
+
+<p><b>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.</b> </p>
 Acceptance criteria:
 
 	* Display statement balance upon authentication. Say for example $1560
@@ -68,9 +65,9 @@ Acceptance criteria:
 	* Show Payment due date. For example May 16th of the current month
 	* Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
 
-#### Example 6
-<p>As a teacher, I want to generate assessment report, so I can evaluate student performance.
-Acceptance criteria: </p>
+
+<p> <b>As a teacher, I want to generate assessment report, so I can evaluate student performance. </b></p>
+Acceptance criteria:
 
 	* Show a student’s current assessment score.
 	* Display past assessment score of the student.
@@ -78,10 +75,7 @@ Acceptance criteria: </p>
 	* Display error message if service not responding. (If a team chooses to add the Error Message as their definition of done for all stories – 		where ever applicable, it could be omitted from the acceptance criteria).
 
 
-Example #7
-
 <p>As a User I want to view a list of products so I can select some to purchase </p>
-
 Accepted Criteria:
 
 	* See a thumbnail image for each product
