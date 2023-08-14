@@ -1,6 +1,5 @@
 # Examples of User Stories with Acceptance Scenarios
 <hr/>
-
 <p><b>As a website user I want to able to search on the webpage So that I can find necessary information</b> </p>
 Scenario:
 
@@ -14,7 +13,7 @@ Scenario:
 	*And the system shows the number of search results in the top of the Search Results section”
 
 
-#### Example #2
+
 <p><b>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates </b></p>
 Scenario: 
 
@@ -30,8 +29,6 @@ Scenario:
 	* And the system shows the “You’ve successfully submitted your feedback” flash message
 	* And the system clears the fields of the Submit Feedback form”
 
-
-#### Example 3
 <p> <b>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</b> </p>
 Acceptance Scenario:
 
@@ -85,11 +82,18 @@ Accepted Criteria:
 	* View products by category
 
 
-
 ### EPIC-- UserStory- Scenario
 
-##### Epic:
-As an Acquisition Gateway User, I need to access the Acquisition ordering platform behind a secure login so that I can purchase products.
+
+Lis of Epic Esmaples:
+
+* As a project manager, I want a robust work management platform that empowers my team to take advantage of the Agile methodology.
+* As a product subscriber, I want to be able to cancel my monthly membership using self-service tools.
+* As a product subscriber, I want to be able to cancel my monthly membership using self-service tools.
+
+
+<b>As an Acquisition Gateway User, I need to access the Acquisition ordering platform behind a secure login so that I can purchase products.</b>
+
 
 <p>As an Acquisition Gateway User, I need to select an Auction product in the Acquisition ordering platform so that I can bid on it. </p>
 
@@ -110,9 +114,10 @@ Ensure the Acquisition Gateway User is able to:
 	* select one, or multiple, expired bids
 	* remove expired bids
 
-##### Epic:
 
-As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers
+
+
+<b>As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers</b>
 
 <b>User Story: </b>
 <p>As a Content Owner, I want to be able to create product content so that I can provide information and market to customers.</p>
@@ -138,8 +143,3 @@ ensure the Editor is able to:
 	schedule content publish
 
 
-Epic:
-
-As a project manager, I want a robust work management platform that empowers my team to take advantage of the Agile methodology.
-As a product subscriber, I want to be able to cancel my monthly membership using self-service tools.
-As a product subscriber, I want to be able to cancel my monthly membership using self-service tools.
