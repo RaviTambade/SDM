@@ -1,6 +1,9 @@
 ## User Story
 A user story is an informal explanation of a software feature written from the perspective of the end user. These stories should be written using non-technical language to provide context to the development team.
 
+<img src="/images/UserStories/00_UserStories.jpg"/>
+
+
 A user story is typically told in one sentence, following the format:<b> “As a [persona], I want to [software goal], so that [result].”</b>
 
 #### Tips for achieving an effective user story
