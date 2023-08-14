@@ -24,7 +24,7 @@ The 3 Cs help to break down a user story into simple tasks. This gives a clear d
 Agile teams assess the quality of stories by using the INVEST acronym. This stands for:
 
 * <b>Independent</b>: The user story should be independent of all others. Because they are not connected, they can be worked on in any order.
-* <b>Negotiable:<b> A user story should be flexible enough to allow for negotiation between the customer and product owner.
+* <b>Negotiable:</b> A user story should be flexible enough to allow for negotiation between the customer and product owner.
 * <b>Valuable: </b>What value does the user story bring? If you cannot find any value, the story should not be completed.
 * Estimable: You should be able to estimate how long a user story will take so that you can effectively manage your time.
 * <b>Small:</b> The story must be small enough to be completed within a single sprint.
@@ -32,6 +32,7 @@ Agile teams assess the quality of stories by using the INVEST acronym. This stan
 
 
 ### How to write a good user story
+
 A user story is written in three steps and represents the end user’s viewpoint. 
 
 
