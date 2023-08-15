@@ -11,7 +11,9 @@ Developing user stories(an informal, natural description of your customer’s po
 A user story is an informal, natural description of your customer’s potential online journey. These stories should be written using non-technical language to provide context to the development team. In agile software development, user stories are specifically written from an end-user perspective, describing the type of user, what they want, and why they want it. How often do your teams read a complex, long, technical requirements document? User stories cut through the density while still providing essential communication to teams responsible for designing and implementing user-focused systems. User Stories ensure delivery of rapidly-developed, cost-effective, and customer-centric experiences.
 
 
-A user story is typically told in one sentence, following the format:<b> “As a [persona], I want to [need], so that [purpose].”</b>
+<p>A user story is typically told in one sentence.</p>
+Following the format:
+<p><b> “As a [persona], I want to [need], so that [purpose].”</b> </p>
 
 * <b>Persona:</b> The end user’s character
 
