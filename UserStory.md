@@ -6,6 +6,7 @@ A user story is an informal, natural description of your customer’s potential 
 <p>A user story is typically told in one sentence.</p>
 Following the format:
 <p><b> “As a [persona], I want to [need], so that [purpose].”</b> </p>
+
 * <b>Persona:</b> The end user’s character
 * <b>Need: </b>The goal the software feature has on the end user’s journey
 * <b>Purose:</b> The goal of the end user’s experience with the software feature
