@@ -192,14 +192,9 @@ Acceptance Criteria:
 
 
 ## Types of User Stories
-<img src="/images/UserStories/0_Types of User Stories.webp" />
-There are five different kinds of user stories that we typically encounter:
-* 1.Behavior-driven stories
-* 2.Rules-driven stories
-* 3.Content-driven stories
-* 4.Improvement stories
-* 5.Integration stories
 Once a Product Owner is able to recognize the type of story needed, it becomes easier for them to focus on the criteria that are important for the story acceptance. 
+<img src="/images/UserStories/0_Types of User Stories.webp" />
+
 
 #### 1.Behavior-Driven Stories
 
