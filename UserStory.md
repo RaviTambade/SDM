@@ -227,11 +227,11 @@ Acceptance criteria:
     2) For finding the categories that match the search criteria, use the following attributes in the order listed below.
         * Category name
         * Category short description    
-3) Both full and partial match should be attempted.
-4) For a partial match, at least 3 characters should match.
-5) Ignore all standard stop words while attempting a match.
-6) Use synonyms to find a match. Refer to <link> for the list of synonyms.
-7) A minimum of 3 characters needs to be entered to find a match.
+    3) Both full and partial match should be attempted.
+    4) For a partial match, at least 3 characters should match.
+    5) Ignore all standard stop words while attempting a match.
+    6) Use synonyms to find a match. Refer to <link> for the list of synonyms.
+    7) A minimum of 3 characters needs to be entered to find a match.
 
 ### 3.Content-Driven Stories
 These are stories that revolve around content generation and display.
@@ -244,33 +244,31 @@ Keep in mind that the need for many of these stories are likely to come up only 
 
 <p> <b>“As a customer, I need to be informed of the benefits of the loyalty program so that I benefit from the program.</b></p>
 Acceptance criteria:
-1) The loyalty program benefits needs to be displayed as a banner over the header.
-2) It should be possible to configure via the administration console the date range during which this banner needs to be displayed. 
-The user should be mandated to enter both the ‘from’ and ‘to’ dates for the date range.
- The banner should automatically appear and disappear according to the date range.
-3) It should be possible to configure the banner such that it is personalized for each user. The following four user segments should be available for this configuration.
 
-* Anonymous user
-* Signed-in user who is not a loyalty program member
-* Signed-in user who is a loyalty program member but has no loyalty points
-* Signed-in user who is a loyalty program member and has at least one loyalty point
-4) For each user segment, it should be possible to configure the image and the link upon clicking the image.
-5) Set up the banner with the following images and links.
+    1) The loyalty program benefits needs to be displayed as a banner over the header.
+    2) It should be possible to configure via the administration console the date range during which this banner needs to be displayed. The user should be mandated to enter both the ‘from’ and ‘to’ dates for the date range.
+    The banner should automatically appear and disappear according to the date range.
+    3) It should be possible to configure the banner such that it is personalized for each user. The following four user segments should be available for this configuration.
+        * Anonymous user
+        * Signed-in user who is not a loyalty program member
+        * Signed-in user who is a loyalty program member but has no loyalty points
+        * Signed-in user who is a loyalty program member and has at least one loyalty point
+    4) For each user segment, it should be possible to configure the image and the link upon clicking the image.
+    5) Set up the banner with the following images and links.
+        * Anonymous user - <image link> - link to “registration page”
+        * Signed-in user who is not a loyalty program member - <image link> - link to “profile page”
+        * Signed-in user who is a loyalty program member but has no loyalty points - <image link> - no link
+        * Signed-in user who is a loyalty program member and has at least one loyalty point - <image link> - no link
 
-* Anonymous user - <image link> - link to “registration page”
-* Signed-in user who is not a loyalty program member - <image link> - link to “profile page”
-* Signed-in user who is a loyalty program member but has no loyalty points - <image link> - no link
-* Signed-in user who is a loyalty program member and has at least one loyalty point - <image link> - no link
-
-6) When the banner has not been configured (correctly) for a specific user segment, then do not display the banner for those users.
-
+    6) When the banner has not been configured (correctly) for a specific user segment, then do not display the banner for those users.
 
 ### 4.Improvement Stories
 There are often situations where we need to make a small improvement over a story that has already been built. 
 Here is an example. Let’s say we had a site where all the error messages on the registration page were in ‘black’ color. After getting some real customer feedback, it was understood that the error messages need to be in ‘red’ color for them to be noticed. So we would have a story that goes as follows.
 <p> <b>As a customer trying to register for an account, I need to be informed clearly if I am making any errors, so that I can fix them quickly. </b></p>
 Acceptance criteria:
-Change the font color of all error messages in registration page to ‘red’ for all error scenarios. 
+
+    Change the font color of all error messages in registration page to ‘red’ for all error scenarios. 
 
 
 ### 5.Integration Stories
@@ -282,58 +280,61 @@ Figuring out the technical details of the integration is outside the purview of 
 <#### Credit card authorization:
 <p> <b>As a customer about to make a purchase, I need to be able to submit my credit card details and get authorization so that I can complete my checkout.</b></p>
 Acceptance criteria:
-* Scenario 1: Successful authorization
-When the user enters the credit-card-number, year-and-month-of-expiry and cvv and selects “sign-in” CTA and authorization is successful, then display “payment confirmation” message and persist authorization token for future reference (i.e, for sending for settlement)
-* Scenario 2: Unsuccessful authorization - Incorrect card details
-When the user enters incorrect credit-card-number or year-and-month-of-expiry or cvv and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
-* Scenario 3: Unsuccessful authorization - Insufficient balance
-When the user enters the correct credit-card-number, year-and-month-of-expiry, cvv of a card with insufficient balance and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
-* Scenario 4: Unsuccessful authorization - Fraud
-When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and authorization fails due to suspected fraud, then display “error page” and keep the order on hold for ‘suspected fraud’
-* Scenario 5: Payment gateway connectivity problem
-When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and connection to payment gateway fails, then display “call customer service” message and reset the payment fields
+
+    Scenario 1: Successful authorization
+        When the user enters the credit-card-number, year-and-month-of-expiry and cvv and selects “sign-in” CTA and authorization is successful, then display “payment confirmation” message and persist authorization token for future reference (i.e, for sending for settlement)
+    Scenario 2: Unsuccessful authorization - Incorrect card details
+        When the user enters incorrect credit-card-number or year-and-month-of-expiry or cvv and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
+    Scenario 3: Unsuccessful authorization - Insufficient balance
+        When the user enters the correct credit-card-number, year-and-month-of-expiry, cvv of a card with insufficient balance and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
+    Scenario 4: Unsuccessful authorization - Fraud
+        When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and authorization fails due to suspected fraud, then display “error page” and keep the order on hold for ‘suspected fraud’
+    Scenario 5: Payment gateway connectivity problem
+        When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and connection to payment gateway fails, then display “call customer service” message and reset the payment fields
 
 #### Order submission for fulfillment: 
 <p><b>“As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.</b></p>
 Acceptance criteria:
-1) Send order details to the fulfillment system within 30 minutes of customer completing the checkout process.
-2) Send all required data so that picking, packing, settlement and shipping can happen for all order scenarios. Consider the following order scenarios:
-* Order placed by a guest user
-* Order placed by a registered user
-* Order placed by a registered user with a loyalty account
-* Order with just one item
-* Order with multiple items
-* Order with at least one item with quantity >1
-* Order with payment via credit card
-* Order with payment via gift card
-* Order with payment via both credit card and gift card
-* Order where shipping and billing address are same
-* Order where shipping and billing address are not the same
-* Order with multiple shipping addresses
-* Order with express shipping
-* Order with standard shipping
-* Order with free shipping
-* Order with shipping to a state with no sales tax
-* Order with at least one item with a sale price
-* Order with an order-level promotion
-* Order with an item-level promotion
+    1) Send order details to the fulfillment system within 30 minutes of customer completing the checkout process.
+    2) Send all required data so that picking, packing, settlement and shipping can happen for all order scenarios. Consider the following order scenarios:
+        * Order placed by a guest user
+        * Order placed by a registered user
+        * Order placed by a registered user with a loyalty account
+        * Order with just one item
+        * Order with multiple items
+        * Order with at least one item with quantity >1
+        * Order with payment via credit card
+        * Order with payment via gift card
+        * Order with payment via both credit card and gift card
+        * Order where shipping and billing address are same
+        * Order where shipping and billing address are not the same
+        * Order with multiple shipping addresses
+        * Order with express shipping
+        * Order with standard shipping
+        * Order with free shipping
+        * Order with shipping to a state with no sales tax
+        * Order with at least one item with a sale price
+        * Order with an order-level promotion
+        * Order with an item-level promotion
 
 ### Granularity of a Story
 
-Regardless of the type of story that is being written, there are two rules that govern the granularity of a story.
-* The first rule: The story needs to represent a meaningful product increment to the product user.
-For example, if we are building a registration page, having two stories - one to display the form, and another to submit the form doesn’t make sense. Each individual story in this case doesn’t make any sense to the product user. We need a single story that can display the form and accept form submission. If there are any optional independent sections on the form (say a loyalty registration section), we could have a separate story to cover just that. 
-* The second rule: The story needs to be small enough for the team to implement in one sprint.
-A story may need to be split into multiple stories depending on the team’s experience and sprint duration. It’s perfectly fine to wait until refinement or planning with the team before doing this splitting. 
+Regardless of the type of story that is being written, there are two rules that govern the granularity of a story:
+
+    The first rule: The story needs to represent a meaningful product increment to the product user.
+        For example, if we are building a registration page, having two stories - one to display the form, and another to submit the form doesn’t make sense. Each individual story in this case doesn’t make any sense to the product user. We need a single story that can display the form and accept form submission. If there are any optional independent sections on the form (say a loyalty registration section), we could have a separate story to cover just that. 
+    The second rule: The story needs to be small enough for the team to implement in one sprint.
+        A story may need to be split into multiple stories depending on the team’s experience and sprint duration. It’s perfectly fine to wait until refinement or planning with the team before doing this splitting. 
 
 ### Readability of a Story
 It seems obvious, but it’s worth stating: a story needs to be easily readable. 
 Here are some tips:
-* Pay attention to spelling and grammar.
-* Use numbered lists wherever possible. In cases where numbering doesn’t make sense for a list, use bullets.
-* Use indentation where applicable.
-* When providing links to UX/UI artifacts, or other specifications as part of acceptance criteria, use plain text for the “hyperlink text” instead of the URL to avoid clutter.
-* Use white space (line breaks) between sections or scenarios.
+
+    Pay attention to spelling and grammar.
+    Use numbered lists wherever possible. In cases where numbering doesn’t make sense for a list, use bullets.
+    Use indentation where applicable.
+    When providing links to UX/UI artifacts, or other specifications as part of acceptance criteria, use plain text for the “hyperlink text” instead of the URL to avoid clutter.
+    Use white space (line breaks) between sections or scenarios.
 
 ### User Story vs. Task
 Finally, a team may often need to perform multiple activities as part of realizing a story. Some common examples are the following:
