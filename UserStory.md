@@ -199,13 +199,15 @@ Once a Product Owner is able to recognize the type of story needed, it becomes e
 
 <img src="/images/UserStories/2_BehaviourProductShoe.webp" />
 
-These are stories where the user’s actions or decisions are the focus. These stories typically have a number of scenarios to be considered.
+These are stories where the user’s actions or decisions are the focus.
+ These stories typically have a number of scenarios to be considered.
 <p> <b>As a customer, I need to authenticate myself so that I can see my account details and past orders.</b></p>
-In this example, there are multiple possible scenarios:
-* 1:User entered the correct credentials for authentication
-* 2:User entered incorrect credentials for authentication
-* 3:User realizes that they forgot the credentials
-* 4:User realizes that they do not have an account, and wants to create one now
+Multiple  scenarios:
+   
+    1:User entered the correct credentials for authentication
+    2:User entered incorrect credentials for authentication
+    3:User realizes that they forgot the credentials
+    4:User realizes that they do not have an account, and wants to create one now
 
 ### 2.Rules-Driven Stories
 There are also stories where the focus needs to be on the business rules. The user actions do not have much relevance within the scope of the story (there could be related stories where the user action is in focus).
@@ -215,15 +217,16 @@ There are also stories where the focus needs to be on the business rules. The us
 This story is about the business rules to be built to support search. There would be other stories to cover the user behavior around using the ‘search’ function. 
 
 Acceptance criteria:
--1) For finding the products that match the search criteria, use the following attributes in the order listed below.
-* Product name
-* Product variation name 
-* Product short description
-* Product long description
-* Product reviews
--2) For finding the categories that match the search criteria, use the following attributes in the order listed below.
-* Category name
-* Category short description
+
+    1) For finding the products that match the search criteria, use the following attributes in the order listed below.
+        * Product name
+        * Product variation name 
+        * Product short description
+        * Product long description
+        * Product reviews
+    2) For finding the categories that match the search criteria, use the following attributes in the order listed below.
+        * Category name
+        * Category short description    
 3) Both full and partial match should be attempted.
 4) For a partial match, at least 3 characters should match.
 5) Ignore all standard stop words while attempting a match.
