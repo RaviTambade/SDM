@@ -103,7 +103,7 @@ For example: <b> “As an online customer, I need to search for products, so tha
 
 The acceptance criteria should cover all the nuances that must be built in the product in order to implement the feature. While the feature is written from the user’s point of view, the acceptance criteria is written from the product’s point of view. 
 <p><b>As an online customer, I need to search for products, so that I can find the ones I want to buy.</b> </p>
- * Accptance criteria:
+ Accptance criteria:
     Search for a product by name or category
     View products by category
     View images and details for each product
@@ -112,7 +112,8 @@ The acceptance criteria should cover all the nuances that must be built in the p
 It is important to clearly number each acceptance criteria. This makes it easier to reference during refinement, demos, and acceptance testing.
 
 <p><b>As a website user I want to able to search on the webpage So that I can find necessary information.</b></p>
-* Acceptance Scenario:
+Acceptance Scenario:
+
     Given that I’m in a role of registered or guest user
 
     When I open the “Products” page
@@ -125,7 +126,7 @@ It is important to clearly number each acceptance criteria. This makes it easier
     And the system shows the number of search results in the top of the Search Results section”
 
 <p><b>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates</b></p>
-* Acceptance Scenario:
+Acceptance Scenario:
    
     User submits feedback form with the valid data
 
@@ -157,7 +158,7 @@ It is important to clearly number each acceptance criteria. This makes it easier
     When I fill in the “Add a Comment” field with my comment and I click the “Submit” button, Then the system saves my comment and the system shows my comment in the top of the “Comments” section and the system shows my username and profile picture on the left side from my comment and the system shows “Remove” and “Edit” icons opposite my comment
 
 <p><b>As a project manager, I want to review workflow management software so I can choose a new platform for my team.</b></p>
-* Acceptance criteria:
+Acceptance criteria:
    
     Ensure that user reviews and testimonials are published on our product site.
     Verify that user reviews for our product are available on third-party forums.
@@ -173,7 +174,7 @@ It is important to clearly number each acceptance criteria. This makes it easier
     Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
 
 <p><b>As a teacher, I want to generate assessment report, so I can evaluate student performance.</b></p>
-* Acceptance criteria:
+Acceptance criteria:
    
     Show a student’s current assessment score.
     Display past assessment score of the student.
@@ -181,13 +182,14 @@ It is important to clearly number each acceptance criteria. This makes it easier
     Display error message if service not responding. (If a team chooses to add the Error Message as their definition of done for all stories –ere ever applicable, it could be omitted from the acceptance criteria).
 
 <p><b>As a User I want to view a list of products so I can select some to purchase</b><p>
-* Accepted Criteria:
+Acceptance Criteria:
    
     See a thumbnail image for each product
     Click to view details for product
     Add to cart from detail page
     Search for a product
     View products by category
+
 
 ## Types of User Stories
 <img src="/images/UserStories/0_Types of User Stories.webp" />
