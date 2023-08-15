@@ -46,18 +46,16 @@ Following the format:
 
 
 ### Tips for achieving an effective user story
-an effective user story should follow the<b> 3 Cs</b> and</b> INVEST</b> acronym. Both of these help to take your user stories to the next level, resulting in more effective software updates. 
-
+An effective user story should follow the<b> 3 Cs</b> and</b> INVEST</b> acronym. 
+Both of these help to take your user stories to the next level, resulting in more effective software updates. 
 #### 3 Cs
 The 3 Cs break each user story into three different benchmarks, creating a more organized process: 
 * <b>Card:</b> A written description of the user story used for sprint planning. To create and share story cards, try using a work management tool. 
 * <b>Conversation: </b>A discussion between customers, users, and developers around the priority and potential solutions to the user story.
 * <b>Confirmation:</b> An agreement between stakeholders that user story objectives and solutions have been reached.
 The 3 Cs help to break down a user story into simple tasks. This gives a clear direction for involved stakeholders.
-
 ### INVEST
 Agile teams assess the quality of stories by using the INVEST acronym: 
-
 * <b>Independent</b>: The user story should be independent of all others. Because they are not connected, they can be worked on in any order.
 * <b>Negotiable:</b> A user story should be flexible enough to allow for negotiation between the customer and product owner.
 * <b>Valuable: </b>What value does the user story bring? If you cannot find any value, the story should not be completed.
@@ -67,17 +65,13 @@ Agile teams assess the quality of stories by using the INVEST acronym:
 
 
 ### Steps for writing a good user story
-
 A user story is written in three steps and represents the end user’s viewpoint. 
-
 #### Step 1. Identify the persona
 Identify the end user’s persona by evaluating your target audience. Consider who will be impacted by the software feature. 
 Here are some questions to ask yourself and your team when identifying the user persona:
-
 * Who are we building this software feature for?
 * What kind of product features does the end user want?
 * What are the demographics and psychographics of the end user?
-
 There may be multiple personas in a given user story depending on the size of the target audience. 
 ##### Example persona:<b> Kat, a project manager who leads 10 team members</b>
 
@@ -86,7 +80,6 @@ Describe how the end user will use your software feature and why. This is critic
 Consider these questions when analyzing the intent of the end user:
 * What is the end user trying to accomplish?
 * How will your software feature help the end user accomplish their goals?
-
 Avoid focusing on the specific features—instead, consider what the end user is searching for and how your software will help them reach their goals. 
 ##### Example need: <b>Help team members understand how individual tasks contribute to larger business goals</b>
 
@@ -99,23 +92,6 @@ Ask yourself these questions to help define the purpose:
 The purpose here is to define the value of your software feature related to big-picture goals.
 
 ##### Example purpose: <b>To increase efficiency by creating a clear path</b>
-
-### Benefits of user stories
-User stories offer numerous benefits for an Agile project. 
-Here are a few examples:
-
-* <b>Simplified format:</b> User stories are written in easy-to-understand language. This eliminates confusion and makes it easier to grasp what the customer is looking for.
-* <b>Increased flexibility:</b> Because user stories don’t go into technical detail, they can be molded to fit changing situations.
-* <b>Improved collaboration:</b> When team members are aligned on one goal, they can work better together and collaborate easily with other project stakeholders.
-
-
-### Disadvantages of user stories
-Though the benefits of writing user stories are significant, a product manager must also consider the potential disadvantages. Here are a few user story pitfalls to watch out for:
-
-* <b>Incomplete stories:</b> Though the language is intended to be informal, sometimes user stories are far too vague and exclude necessary details.
-* <b>Insufficient time:</b> Writing a good story takes time. It requires extensive research and regular communication with stakeholders, a fact that is sometimes overlooked.
-* <b>Narrow vision:</b> Because user stories focus on one single requirement, they can be hard to scale, and teams can sometimes lose sight of the bigger picture (in this case, an epic).
-Before you start your story, take some time to identify potential risks or disadvantages and outline how you aim to counteract them.
 
 
 ## The Anatomy of a User Story
@@ -231,19 +207,16 @@ Accepted Criteria:
 
 
 ## Types of User Stories
-
 <img src="/images/UserStories/0_Types of User Stories.webp" />
-
 There are five different kinds of user stories that we typically encounter:
-* Behavior-driven stories
-* Rules-driven stories
-* Content-driven stories
-* Improvement stories
-* Integration stories
-
+* 1.Behavior-driven stories
+* 2.Rules-driven stories
+* 3.Content-driven stories
+* 4.Improvement stories
+* 5.Integration stories
 Once a Product Owner is able to recognize the type of story needed, it becomes easier for them to focus on the criteria that are important for the story acceptance. 
 
-#### Behavior-Driven Stories
+#### 1.Behavior-Driven Stories
 
 <img src="/images/UserStories/2_BehaviourProductShoe.webp" />
 
@@ -255,53 +228,31 @@ In this example, there are multiple possible scenarios:
 * 3:User realizes that they forgot the credentials
 * 4:User realizes that they do not have an account, and wants to create one now
 
-
-
-
-
-### Rules-Driven Stories
-
+### 2.Rules-Driven Stories
 There are also stories where the focus needs to be on the business rules. The user actions do not have much relevance within the scope of the story (there could be related stories where the user action is in focus).
-
 <img src="/images/UserStories/3_ruleDrivenUS.webp" />
 
-For example: “As a customer searching for a product, I need to be presented the most appropriate choices, so that I am likely to find what I am looking for.”
-
+<p> <b>As a customer searching for a product, I need to be presented the most appropriate choices, so that I am likely to find what I am looking for.</b></p>
 This story is about the business rules to be built to support search. There would be other stories to cover the user behavior around using the ‘search’ function. 
 
-
-Thus, the acceptance criteria for this story would look like:
-
-
+Acceptance criteria:
 -1) For finding the products that match the search criteria, use the following attributes in the order listed below.
-
 * Product name
 * Product variation name 
 * Product short description
 * Product long description
 * Product reviews
-
 -2) For finding the categories that match the search criteria, use the following attributes in the order listed below.
-
 * Category name
 * Category short description
-
 3) Both full and partial match should be attempted.
-
 4) For a partial match, at least 3 characters should match.
-
 5) Ignore all standard stop words while attempting a match.
-
 6) Use synonyms to find a match. Refer to <link> for the list of synonyms.
-
 7) A minimum of 3 characters needs to be entered to find a match.
 
-
-
-### Content-Driven Stories
-
+### 3.Content-Driven Stories
 These are stories that revolve around content generation and display.
-
 <img src="/images/UserStories/4_contentdrivenus.webp" />
 The content-driven stories are a hybrid between behavior-driven and rules-driven stories. They do have a behavior aspect, but the rules behind the content generation/display are often more complex than the user behavior itself. 
 
@@ -309,15 +260,10 @@ So, a rules-driven format is more suitable than a behavior-driven format for the
 
 Keep in mind that the need for many of these stories are likely to come up only when UX/UI discussions happen. So it’s quite possible that none of these stories show up when the Product Owner does the first round of user story mapping with the product stakeholders.
 
-
-Here is an example: “As a customer, I need to be informed of the benefits of the loyalty program so that I benefit from the program.”
-
-
-### Acceptance criteria:
+<p> <b>“As a customer, I need to be informed of the benefits of the loyalty program so that I benefit from the program.</b></p>
+Acceptance criteria:
 1) The loyalty program benefits needs to be displayed as a banner over the header.
-
 2) It should be possible to configure via the administration console the date range during which this banner needs to be displayed. 
-
 The user should be mandated to enter both the ‘from’ and ‘to’ dates for the date range.
  The banner should automatically appear and disappear according to the date range.
 3) It should be possible to configure the banner such that it is personalized for each user. The following four user segments should be available for this configuration.
@@ -327,7 +273,6 @@ The user should be mandated to enter both the ‘from’ and ‘to’ dates for 
 * Signed-in user who is a loyalty program member but has no loyalty points
 * Signed-in user who is a loyalty program member and has at least one loyalty point
 4) For each user segment, it should be possible to configure the image and the link upon clicking the image.
-
 5) Set up the banner with the following images and links.
 
 * Anonymous user - <image link> - link to “registration page”
@@ -338,67 +283,39 @@ The user should be mandated to enter both the ‘from’ and ‘to’ dates for 
 6) When the banner has not been configured (correctly) for a specific user segment, then do not display the banner for those users.
 
 
-### Improvement Stories
+### 4.Improvement Stories
 There are often situations where we need to make a small improvement over a story that has already been built. 
-
 Here is an example. Let’s say we had a site where all the error messages on the registration page were in ‘black’ color. After getting some real customer feedback, it was understood that the error messages need to be in ‘red’ color for them to be noticed. So we would have a story that goes as follows.
-
-“As a customer trying to register for an account, I need to be informed clearly if I am making any errors, so that I can fix them quickly.”
-
-Now there is no point in writing a detailed acceptance criteria covering all error scenarios. This must have already been covered in the story/stories that were built. So, simple acceptance criteria is all that is needed in this case.
-
-#### Acceptance criteria:
-
-Change the font color of all error messages in registration page to ‘red’ for all error scenarios. Refer to story <provide link> for the list of error scenarios.
+<p> <b>As a customer trying to register for an account, I need to be informed clearly if I am making any errors, so that I can fix them quickly. </b></p>
+Acceptance criteria:
+Change the font color of all error messages in registration page to ‘red’ for all error scenarios. 
 
 
-### Integration Stories
+### 5.Integration Stories
 When building a product backlog, there will be a need to write stories that result in a technical integration work. For example, between eCommerce store and OMS (Order Management System), or between eCommerce Store and a Payment Gateway. 
-
 Figuring out the technical details of the integration is outside the purview of the story definition. However, the story needs to define sufficient scenarios to drive the downstream technical analysis. 
 
 <img src="/images/UserStories/5_IntegrationDriven.webp" />
 
-
-
-Example 1) Credit card authorization: “As a customer about to make a purchase, I need to be able to submit my credit card details and get authorization so that I can complete my checkout.”
-
-
-#### Acceptance criteria:
-
+<#### Credit card authorization:
+<p> <b>As a customer about to make a purchase, I need to be able to submit my credit card details and get authorization so that I can complete my checkout.</b></p>
+Acceptance criteria:
 * Scenario 1: Successful authorization
-When the user enters the credit-card-number, year-and-month-of-expiry and cvv and selects “sign-in” CTA and authorization is successful
-
-Then display “payment confirmation” message and persist authorization token for future reference (i.e, for sending for settlement)
-
+When the user enters the credit-card-number, year-and-month-of-expiry and cvv and selects “sign-in” CTA and authorization is successful, then display “payment confirmation” message and persist authorization token for future reference (i.e, for sending for settlement)
 * Scenario 2: Unsuccessful authorization - Incorrect card details
-When the user enters incorrect credit-card-number or year-and-month-of-expiry or cvv and selects “sign-in” CTA and authorization fails
-
-Then display “payment failed” error-message and reset the payment fields
-
+When the user enters incorrect credit-card-number or year-and-month-of-expiry or cvv and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
 * Scenario 3: Unsuccessful authorization - Insufficient balance
-When the user enters the correct credit-card-number, year-and-month-of-expiry, cvv of a card with insufficient balance and selects “sign-in” CTA and authorization fails
-
-Then display “payment failed” error-message and reset the payment fields
-
+When the user enters the correct credit-card-number, year-and-month-of-expiry, cvv of a card with insufficient balance and selects “sign-in” CTA and authorization fails, then display “payment failed” error-message and reset the payment fields
 * Scenario 4: Unsuccessful authorization - Fraud
-When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and authorization fails due to suspected fraud
-
-Then display “error page” and keep the order on hold for ‘suspected fraud’
-
+When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and authorization fails due to suspected fraud, then display “error page” and keep the order on hold for ‘suspected fraud’
 * Scenario 5: Payment gateway connectivity problem
-When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and connection to payment gateway fails
+When the user enters the credit-card-number, year-and-month-of-expiry, cvv and selects “sign-in” CTA and connection to payment gateway fails, then display “call customer service” message and reset the payment fields
 
-Then display “call customer service” message and reset the payment fields
-
-
-Example 2) Order submission for fulfillment: “As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.”
-
-#### Acceptance criteria:
-1) Send order details to the fulfillment system within 30 minutes of customer completing the checkout process
-
+#### Order submission for fulfillment: 
+<p><b>“As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.</b></p>
+Acceptance criteria:
+1) Send order details to the fulfillment system within 30 minutes of customer completing the checkout process.
 2) Send all required data so that picking, packing, settlement and shipping can happen for all order scenarios. Consider the following order scenarios:
-
 * Order placed by a guest user
 * Order placed by a registered user
 * Order placed by a registered user with a loyalty account
@@ -422,40 +339,42 @@ Example 2) Order submission for fulfillment: “As a customer who made a purchas
 ### Granularity of a Story
 
 Regardless of the type of story that is being written, there are two rules that govern the granularity of a story.
-
 * The first rule: The story needs to represent a meaningful product increment to the product user.
-
 For example, if we are building a registration page, having two stories - one to display the form, and another to submit the form doesn’t make sense. Each individual story in this case doesn’t make any sense to the product user. We need a single story that can display the form and accept form submission. If there are any optional independent sections on the form (say a loyalty registration section), we could have a separate story to cover just that. 
-
 * The second rule: The story needs to be small enough for the team to implement in one sprint.
-
 A story may need to be split into multiple stories depending on the team’s experience and sprint duration. It’s perfectly fine to wait until refinement or planning with the team before doing this splitting. 
-
-
 
 ### Readability of a Story
 It seems obvious, but it’s worth stating: a story needs to be easily readable. 
-
 Here are some tips:
-
 * Pay attention to spelling and grammar.
 * Use numbered lists wherever possible. In cases where numbering doesn’t make sense for a list, use bullets.
 * Use indentation where applicable.
 * When providing links to UX/UI artifacts, or other specifications as part of acceptance criteria, use plain text for the “hyperlink text” instead of the URL to avoid clutter.
 * Use white space (line breaks) between sections or scenarios.
 
-
 ### User Story vs. Task
 Finally, a team may often need to perform multiple activities as part of realizing a story. Some common examples are the following:
-
-* Conducting user research
-* Building wireframes
-* Analysis and design
-* Documentation of the design
-* Building UI components
-* Writing test cases
-* Automating test cases
+* 1.Conducting user research
+* 2.Building wireframes
+* 3.Analysis and design
+* 4.Documentation of the design
+* 5.Building UI components
+* 6.Writing test cases
+* 7.Automating test cases
 
 These are tasks and not user stories. Therefore they do not need to follow user story guidelines. Rather, the team is expected to come up with the list of tasks required for a story during planning. 
 
-At conclusion, User stories not only allow you to rapidly, concisely, and clearly communicate a product’s requirements, but they deliver this information in a format that digestible for team members.
+### Benefits of user stories
+User stories offer numerous benefits for an Agile project. 
+Here are a few examples:
+* <b>Simplified format:</b> User stories are written in easy-to-understand language. This eliminates confusion and makes it easier to grasp what the customer is looking for.
+* <b>Increased flexibility:</b> Because user stories don’t go into technical detail, they can be molded to fit changing situations.
+* <b>Improved collaboration:</b> When team members are aligned on one goal, they can work better together and collaborate easily with other project stakeholders.
+
+### Disadvantages of user stories
+Though the benefits of writing user stories are significant, a product manager must also consider the potential disadvantages. Here are a few user story pitfalls to watch out for:
+* <b>Incomplete stories:</b> Though the language is intended to be informal, sometimes user stories are far too vague and exclude necessary details.
+* <b>Insufficient time:</b> Writing a good story takes time. It requires extensive research and regular communication with stakeholders, a fact that is sometimes overlooked.
+* <b>Narrow vision:</b> Because user stories focus on one single requirement, they can be hard to scale, and teams can sometimes lose sight of the bigger picture (in this case, an epic).
+Before you start your story, take some time to identify potential risks or disadvantages and outline how you aim to counteract them.
