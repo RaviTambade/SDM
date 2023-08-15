@@ -61,3 +61,83 @@ During sprint planning, the developers pull a chunk from the top of the product 
 At the end of the sprint, the work should be potentially shippable and ready to be used by a user or shown to a stakeholder. After each sprint, the team conducts a sprint review on the Increment and a retrospective on the process. Then they choose the next chunk of the backlog and the cycle repeats.
 
 Transitioning to an agile framework such as scrum requires a new mindset and overall cultural adjustments. And like all change, it doesn't come easy. But when teams and organizations fully commit to scrum, they'll discover a new sense of flexibility, creativity, and inspiration - all of which will lead to greater results. 
+
+## Scrum : Epic, User Story and Task
+
+Every successful project to product transformation relies heavily on the ability to break down complex objectives into manageable, executable parts, understanding the intricacies of Scrum Work Hierarchy, which includes concepts such as Epic, User Story, and Task, is therefore vital for navigating this transformative process.
+ 
+The moment you start using Scrum, you will encounter a lot of technical terms that you have to be familiar with. But that’s fine. Three terms that you will be using in all your Scrum activities are epic, user story, and task. It is important to fully understand what they are so your team can overcome big or small challenges in delivering a product that meets the expectations of your customers.
+
+Scrum is a framework for product management commonly used in software development, although it has been used in other fields including research, sales, marketing, and advanced technologies.
+
+The Scrum Methodology is a mandatory framework for any leader that is serious about building a Digital Product Company.
+
+As you continue incorporating Scrum into your agile team, you will realize that this framework is the best way to complete a project and develop a product that your customers want.
+
+### Epic
+An epic is a large story that cannot be simply achieved in a single sprint. Usually, it takes months to accomplish an epic. It typically refers to a set of requirements that have not been rationalized into user stories yet. Think of it as a big goal that is yet to be simplified and divided into several tasks for your agile team to work on them. 
+
+Epics are usually broad in scope, lacking in details, and are meant to be split into multiple, smaller stories before they can be worked on. Epic is usually regarded as the ‘top tier’ or a work hierarchy. Breaking it down into daily tasks, called ‘user stories’, helps an organization achieve its overall business goals.
+
+
+#### Important guidelines when creating an epic:
+
+* Create epics that managers and executives would want to track.
+* An epic could be a product feature, customer request, or business requirement.
+*Let your organizational culture dictate the size of your epic.
+* Epics should not take too short or too long to complete.
+
+Burndown charts can be used to measure epics and give an actual and estimated amount of work to be done.
+
+#### Examples of Epics:
+
+As a bank, we want to extend our services by offering life and health insurance.
+We want to add biometric recognition to increase security without hassle.
+As the marketing department, we want to create an interactive app to cater to more customers.
+
+### User Story
+The User Story is simply the list of items that need to be done within a project. Think of it as a to-do list. This is owned by the Scrum Product Owner. The Scrum master, stakeholders, and the scrum team contribute to the completion of the backlog items.
+
+The idea is to break down a product into shippable pieces so that the large project can be done successfully. Epics can involve multiple teams and multiple projects, and can be tracked on multiple boards.
+
+A user story is a very high-level definition of the project requirements. It contains just enough information to give the Scrum team proper context as to what the final product should be like, and for them to calculate an estimation for the completion. It is an agile approach that helps shift the focus from writing to talking about them.
+
+#### Important guidelines when writing a user story:
+* User stories are short, simple descriptions written throughout the Agile project.
+* Although it is owned by the PO, anyone can write the user story.
+* It is expressed in plain language so the customer can understand what the final product is all about (in the case of software, what it should accomplish).
+* It answers the ‘who’, ‘what’, and ‘why’ of a project in simple language.
+* User stories are regarded as the “heart of Scrum” because they serve as the ‘building blocks’ of the sprint.
+
+Template for writing a user story:
+
+<b>As a < type of user >, I want < some goal > so that < some reason >. </b>
+
+#### Examples of User Stories
+* As a user, I want to migrate all my data backups in a cloud system to free up my device.
+* As a student, I can order official transcripts online to save time.
+* As a consumer, I want to shop for grocery items from a mobile app so that I could skip the lines in the store.
+
+### Task
+Below each epic is a more detailed set of user stories. And for those stories to turn into workable components, the Scrum team has to identify and sort tasks.
+Scrum tasks are detailed pieces of work that are necessary to complete a story.
+Tasks can range from a few hours to several hours (usually up to 12) and are assigned to team members who have the skills or expertise to do them.
+Take note that a story is not considered complete until all tasks under it are done.
+Tasks are placed on a Scrum Board for easy tracking. Generally, the Scrum Board is composed of the following categories:
+* Stories
+* Not started – the tasks that are yet to be worked on.
+* In progress – tasks that the Scrum team are doing.
+* Done – tasks that are completed.
+
+
+The Scrum Board serves as a very useful visual tool that lets your agile team easily keep track of the sprint. The board should be updated on a daily basis. This does not only help your team sustain momentum but also gives you a clear idea of where you’re at in a particular sprint (whether you are lagging behind or just on time) and make adjustments as necessary.
+
+<img src="/images/Scrum/Scrumboard.webp"/>
+
+It is usually the Scrum master who creates the task board but it is the responsibility of everyone, particularly the agile team members to update it.
+
+For a successful Scrum Sprint, learning how to write epics, stories and tasks is essential. Basically, these three are the foundations of a sprint, giving your agile team a crystal-clear picture of what needs to be done, who needs to do it, and why it should be done.
+
+One unique characteristic of the scrum methodology is that it is very time-sensitive. It is designed to accomplish goals in less time, with less error. To do this, it all starts with creating a high-level goal for the project or product development, known as the epic.
+
+To achieve the epic, there has to be a more detailed use story, followed by a set of tasks that are specific and time-bound. Of course, there are tools that can be used to simplify these processes and make agile teamwork efficient and productively.
