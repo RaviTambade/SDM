@@ -192,9 +192,8 @@ Acceptance Criteria:
 
 
 ## Types of User Stories
+<img src="/images/UserStories/0_Types of User Stories.webp" width="200" height="200" />
 Once a Product Owner is able to recognize the type of story needed, it becomes easier for them to focus on the criteria that are important for the story acceptance. 
-<img src="/images/UserStories/0_Types of User Stories.webp" />
-
 
 #### 1.Behavior-Driven Stories
 
