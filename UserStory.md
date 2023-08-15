@@ -96,9 +96,7 @@ Agile User Stories are short and simple.
 
 For example: <b> “As an online customer, I need to search for products, so that I can find the ones I want to buy.” </b>
 <p>This short sentence alone conveys three key pieces of information:</p>
-* <b>Who cares about this feature?</b> (the shopper)
-* <b>What do they want?</b> (to search products)
-* <b>Why do they want it?</b> (so they can buy some)
+<b>Who cares about this feature?</b> (the shopper)  <b>What do they want?</b> (to search products) <b>Why do they want it?</b> (so they can buy some)
 
 
 #### The Acceptance Criteria
