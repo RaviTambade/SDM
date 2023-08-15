@@ -22,27 +22,27 @@ Following the format:
 * <b>Purpose:</b> The goal of the end user’s experience with the software feature
 
 ### Examples of User Story
-* As a customer, I need to authenticate myself so that I can see my account details and past orders
-* As a customer, I need to be informed of the benefits of the loyalty program so that I benefit from the program.
-* As a customer I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates.
-* As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues.
+* As a customer, I need to authenticate myself, so that I can see my account details and past orders
+* As a customer, I need to be informed of the benefits of the loyalty program, so that I benefit from the program.
+* As a customer I want to able to submit feedback, so that the website owners can consider my opinion or concern during future website updates.
+* As a signed-in user I want to able to comment on a blog post, so that I can get feedback on issues.
 * As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.
-* As a teacher, I want to generate assessment report, so I can evaluate student performance.
-* As a User I want to view a list of products so I can select some to purchase
-* As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers
-* As a Content Owner, I want to be able to create product content so that I can provide information and market to customers.
-* As an Editor, I want to review content before it is published so that I can assure it is optimized with correct grammar and tone.
-* As a customer, I want to be able to create an account, save my payment information, and view my order history, so I can have a personalized shopping experience and easily track my purchases.
+* As a teacher, I want to generate assessment report, so that I can evaluate student performance.
+* As a User I want to view a list of products, so that I can select some to purchase
+* As a Marketing Lead, I want to have a content management system, so that I can manage and provide quality content and experience to my readers
+* As a Content Owner, I want to be able to create product content, so that I can provide information and market to customers.
+* As an Editor, I want to review content before it is published, so that I can assure it is optimized with correct grammar and tone.
+* As a customer, I want to be able to create an account, save my payment information, and view my order history, so that I can have a personalized shopping experience and easily track my purchases.
 * As a customer, I want to be able to view product details, including images, descriptions, prices, and customer reviews, so I can make informed purchasing decisions.
-* As a customer, I want to be able to apply discount codes, promotions, and gift cards to my purchase, so I can take advantage of special offers and discounts.
-* As a customer, I want to receive email notifications about my order status, including order confirmation, shipping updates, and delivery notifications, so I can stay informed about my purchases.
-* As a customer, I want to be able to provide feedback and reviews on products, so I can share my experiences and help other customers make informed purchasing decisions.
-* As a store owner, I want to be able to manage my product inventory, update product details, and track sales and revenue, so I can effectively manage my online store and make data-driven decisions about my business.
-* As a marketing manager, I want to view real-time dashboards of customer behavior and engagement, so I can optimize marketing campaigns and improve customer retention.
-* As a sales representative, I want to access detailed reports on customer interactions and sales performance, so I can identify sales trends and opportunities to improve performance.
-* As a finance analyst, I want to generate ad-hoc reports on financial metrics and KPIs, so I can analyze financial performance and identify areas for cost reduction and optimization.
-* As an operations manager, I want to monitor key performance indicators for operational efficiency, such as cycle time, throughput, and inventory levels, so I can identify opportunities to improve operational performance.
-* As a product manager, I want to track customer feedback and sentiment data, so I can identify customer needs and preferences and make data-driven decisions about product development and marketing.
+* As a customer, I want to be able to apply discount codes, promotions, and gift cards to my purchase, so that I can take advantage of special offers and discounts.
+* As a customer, I want to receive email notifications about my order status, including order confirmation, shipping updates, and delivery notifications, so that I can stay informed about my purchases.
+* As a customer, I want to be able to provide feedback and reviews on products, so that I can share my experiences and help other customers make informed purchasing decisions.
+* As a store owner, I want to be able to manage my product inventory, update product details, and track sales and revenue, so that I can effectively manage my online store and make data-driven decisions about my business.
+* As a marketing manager, I want to view real-time dashboards of customer behavior and engagement, so that I can optimize marketing campaigns and improve customer retention.
+* As a sales representative, I want to access detailed reports on customer interactions and sales performance, so that I can identify sales trends and opportunities to improve performance.
+* As a finance analyst, I want to generate ad-hoc reports on financial metrics and KPIs, so that I can analyze financial performance and identify areas for cost reduction and optimization.
+* As an operations manager, I want to monitor key performance indicators for operational efficiency, such as cycle time, throughput, and inventory levels, so that I can identify opportunities to improve operational performance.
+* As a product manager, I want to track customer feedback and sentiment data, so that I can identify customer needs and preferences and make data-driven decisions about product development and marketing.
 
 
 ### Tips for achieving an effective user story
