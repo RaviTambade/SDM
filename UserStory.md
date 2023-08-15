@@ -144,10 +144,10 @@ Acceptance Scenario:
 
 * Acceptance Criteria:
    
-    <b>Scenario 1: Successful authentication</b> When the user enters the correct email address and password and selects “sign-in” CTA, then route the user to My Account home page and display signed-in status on header.
-    <b>Scenario 2: Unsuccessful authentication</b> When the user enters an incorrect combination of email address and password and selects “sign-in” CTA ,then reset credentials fields and display an error message “Incorrect Credentials”
-    <b>Scenario 3: Forgot credentials</b> When the user selects the “forgot credentials” CTA Then route the user to the “forgot credentials” page
-    <b>Scenario 4: Register</b> When the user selects the “register” CTA ,then route the user to the “registration” page
+    Scenario 1: Successful authentication</b> When the user enters the correct email address and password and selects “sign-in” CTA, then route the user to My Account home page and display signed-in status on header.
+    Scenario 2: Unsuccessful authentication</b> When the user enters an incorrect combination of email address and password and selects “sign-in” CTA ,then reset credentials fields and display an error message “Incorrect Credentials”
+    Scenario 3: Forgot credentials</b> When the user selects the “forgot credentials” CTA Then route the user to the “forgot credentials” page
+    Scenario 4: Register</b> When the user selects the “register” CTA ,then route the user to the “registration” page
 
 
 <p><b>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</b></p>
