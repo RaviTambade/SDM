@@ -142,7 +142,7 @@ Acceptance Scenario:
     And the system shows the “You’ve successfully submitted your feedback” flash message
     And the system clears the fields of the Submit Feedback form”
 
-* Acceptance Criteria:
+Acceptance Criteria:
    
     Scenario 1: Successful authentication</b> When the user enters the correct email address and password and selects “sign-in” CTA, then route the user to My Account home page and display signed-in status on header.
     Scenario 2: Unsuccessful authentication</b> When the user enters an incorrect combination of email address and password and selects “sign-in” CTA ,then reset credentials fields and display an error message “Incorrect Credentials”
@@ -151,7 +151,7 @@ Acceptance Scenario:
 
 
 <p><b>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</b></p>
-* Acceptance scenario:
+Acceptance scenario:
    
     Given I’m in a role of signed-in user
     When I open the page with a specific blog post, then the system shows the “Comments” section below the blog post with the list of comments added by other users and the system shows the “Add a Comment” field in the top of the “Comments” section
@@ -165,7 +165,7 @@ Acceptance criteria:
     Proactively acquire new user reviews by sending feedback requests to current users and past clients.
 
 <p><b>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.</b></p>
-* Acceptance criteria:
+Acceptance criteria:
    
     Display statement balance upon authentication. Say for example $1560
     Display total balance. For example $3560. Here the balance due from the current period is $2560 and past balance due is $2000.
