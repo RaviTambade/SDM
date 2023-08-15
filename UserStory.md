@@ -277,7 +277,7 @@ Figuring out the technical details of the integration is outside the purview of 
 
 <img src="/images/UserStories/5_IntegrationDriven.webp" />
 
-<#### Credit card authorization:
+#### Credit card authorization:
 <p> <b>As a customer about to make a purchase, I need to be able to submit my credit card details and get authorization so that I can complete my checkout.</b></p>
 Acceptance criteria:
 
