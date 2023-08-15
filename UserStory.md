@@ -103,16 +103,18 @@ For example: <b> “As an online customer, I need to search for products, so tha
 
 The acceptance criteria should cover all the nuances that must be built in the product in order to implement the feature. While the feature is written from the user’s point of view, the acceptance criteria is written from the product’s point of view. 
 
-#####Examples of Acceptance Criteria
- <p>“As an online customer, I need to search for products, so that I can find the ones I want to buy.”</b> </p>
- <p>You might list acceptance criteria like:</p>
-* 1.Search for a product by name or category
-* 2.View products by category
-* 3.View images and details for each product
-* 4.Add to cart from the detail or search pages
+##### Examples of Acceptance Criteria
+
+ <p><b>As an online customer, I need to search for products, so that I can find the ones I want to buy.</b> </p>
+ Accptance criteria:
+    1.Search for a product by name or category
+    2.View products by category
+    3.View images and details for each product
+    4.Add to cart from the detail or search pages
+
 It is important to clearly number each acceptance criteria. This makes it easier to reference during refinement, demos, and acceptance testing.
 
-<p>As a website user I want to able to search on the webpage So that I can find necessary information.</p>
+<p><b>As a website user I want to able to search on the webpage So that I can find necessary information.</b></p>
 Acceptance Scenario:
 	Given that I’m in a role of registered or guest user
 
@@ -126,7 +128,7 @@ Acceptance Scenario:
 	And the system shows the number of search results in the top of the Search Results section”
 
 
-<p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates</p>
+<p><b>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates</b></p>
 
 Acceptance Scenario: 
 	User submits feedback form with the valid data
