@@ -103,7 +103,7 @@ For example: <b> “As an online customer, I need to search for products, so tha
 
 The acceptance criteria should cover all the nuances that must be built in the product in order to implement the feature. While the feature is written from the user’s point of view, the acceptance criteria is written from the product’s point of view. 
 <p><b>As an online customer, I need to search for products, so that I can find the ones I want to buy.</b> </p>
- Accptance criteria:
+ * Accptance criteria:
     Search for a product by name or category
     View products by category
     View images and details for each product
@@ -112,7 +112,7 @@ The acceptance criteria should cover all the nuances that must be built in the p
 It is important to clearly number each acceptance criteria. This makes it easier to reference during refinement, demos, and acceptance testing.
 
 <p><b>As a website user I want to able to search on the webpage So that I can find necessary information.</b></p>
-Acceptance Scenario:
+* Acceptance Scenario:
     Given that I’m in a role of registered or guest user
 
     When I open the “Products” page
@@ -125,7 +125,7 @@ Acceptance Scenario:
     And the system shows the number of search results in the top of the Search Results section”
 
 <p><b>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates</b></p>
-Acceptance Scenario:
+* Acceptance Scenario:
     User submits feedback form with the valid data
 
     Given I’m in a role of logged-in or guest user
@@ -140,7 +140,7 @@ Acceptance Scenario:
     And the system shows the “You’ve successfully submitted your feedback” flash message
     And the system clears the fields of the Submit Feedback form”
 
-Acceptance Criteria:
+* Acceptance Criteria:
     <b>Scenario 1: Successful authentication</b> When the user enters the correct email address and password and selects “sign-in” CTA, then route the user to My Account home page and display signed-in status on header.
     <b>Scenario 2: Unsuccessful authentication</b> When the user enters an incorrect combination of email address and password and selects “sign-in” CTA ,then reset credentials fields and display an error message “Incorrect Credentials”
     <b>Scenario 3: Forgot credentials</b> When the user selects the “forgot credentials” CTA Then route the user to the “forgot credentials” page
@@ -148,19 +148,19 @@ Acceptance Criteria:
 
 
 <p><b>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</b></p>
-Acceptance scenario:
+* Acceptance scenario:
     Given I’m in a role of signed-in user
     When I open the page with a specific blog post, then the system shows the “Comments” section below the blog post with the list of comments added by other users and the system shows the “Add a Comment” field in the top of the “Comments” section
     When I fill in the “Add a Comment” field with my comment and I click the “Submit” button, Then the system saves my comment and the system shows my comment in the top of the “Comments” section and the system shows my username and profile picture on the left side from my comment and the system shows “Remove” and “Edit” icons opposite my comment
 
 <p><b>As a project manager, I want to review workflow management software so I can choose a new platform for my team.</b></p>
-Acceptance criteria:
+* Acceptance criteria:
     Ensure that user reviews and testimonials are published on our product site.
     Verify that user reviews for our product are available on third-party forums.
     Proactively acquire new user reviews by sending feedback requests to current users and past clients.
 
 <p><b>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.</b></p>
-Acceptance criteria:
+* Acceptance criteria:
     Display statement balance upon authentication. Say for example $1560
     Display total balance. For example $3560. Here the balance due from the current period is $2560 and past balance due is $2000.
     Show Minimum payment due. For example $140
@@ -168,20 +168,19 @@ Acceptance criteria:
     Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
 
 <p><b>As a teacher, I want to generate assessment report, so I can evaluate student performance.</b></p>
-Acceptance criteria:
+* Acceptance criteria:
     Show a student’s current assessment score.
     Display past assessment score of the student.
     Provide an option to Print / Save / Share. (By the way, this could be split as a separate user story by itself).
     Display error message if service not responding. (If a team chooses to add the Error Message as their definition of done for all stories –ere ever applicable, it could be omitted from the acceptance criteria).
 
 <p><b>As a User I want to view a list of products so I can select some to purchase</b><p>
-Accepted Criteria:
+* Accepted Criteria:
     See a thumbnail image for each product
     Click to view details for product
     Add to cart from detail page
     Search for a product
     View products by category
-
 
 ## Types of User Stories
 <img src="/images/UserStories/0_Types of User Stories.webp" />
