@@ -1,30 +1,60 @@
+
+Developing user stories(an informal, natural description of your customer’s potential online journey) can help guide the development of your user experience, product management, web design, and more.
+
+
+
+
 ## User Story
-A user story is an informal explanation of a software feature written from the perspective of the end user. These stories should be written using non-technical language to provide context to the development team.
 
 <img src="/images/UserStories/00_UserStories.jpg"/>
 
-
-A user story is typically told in one sentence, following the format:<b> “As a [persona], I want to [software goal], so that [result].”</b>
-
-#### Tips for achieving an effective user story
-In addition to the three steps outlined above, an effective user story should follow the 3 Cs and INVEST acronym. Both of these help to take your user stories to the next level, resulting in more effective software updates. 
+A user story is an informal, natural description of your customer’s potential online journey. These stories should be written using non-technical language to provide context to the development team. In agile software development, user stories are specifically written from an end-user perspective, describing the type of user, what they want, and why they want it. How often do your teams read a complex, long, technical requirements document? User stories cut through the density while still providing essential communication to teams responsible for designing and implementing user-focused systems. User Stories ensure delivery of rapidly-developed, cost-effective, and customer-centric experiences.
 
 
-#### 3 Cs of User Story
-The 3 Cs are Card, Conversation, and Confirmation. The 3 Cs break each user story into three different benchmarks, creating a more organized process. Let’s dive into each of the 3 Cs to gain a better understanding:
+A user story is typically told in one sentence, following the format:<b> “As a [persona], I want to [need], so that [purpose].”</b>
 
-<b>Card:</b> A written description of the user story used for sprint planning. To create and share story cards, try using a work management tool. 
+* <b>Persona:</b> The end user’s character
 
-<b>Conversation: </b>A discussion between customers, users, and developers around the priority and potential solutions to the user story.
+* <b>Need: </b>The goal the software feature has on the end user’s journey
 
-<b>Confirmation:</b> An agreement between stakeholders that user story objectives and solutions have been reached.
+* <b>Purpose:</b> The goal of the end user’s experience with the software feature
 
+### Examples of User Story
+* As a customer, I need to authenticate myself so that I can see my account details and past orders
+* As a customer, I need to be informed of the benefits of the loyalty program so that I benefit from the program.
+* As a customer I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates.
+* As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues.
+* As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.
+* As a teacher, I want to generate assessment report, so I can evaluate student performance.
+* As a User I want to view a list of products so I can select some to purchase
+* As a Marketing Lead, I want to have a content management system so that I can manage and provide quality content and experience to my readers
+* As a Content Owner, I want to be able to create product content so that I can provide information and market to customers.
+* As an Editor, I want to review content before it is published so that I can assure it is optimized with correct grammar and tone.
+* As a customer, I want to be able to create an account, save my payment information, and view my order history, so I can have a personalized shopping experience and easily track my purchases.
+* As a customer, I want to be able to view product details, including images, descriptions, prices, and customer reviews, so I can make informed purchasing decisions.
+* As a customer, I want to be able to apply discount codes, promotions, and gift cards to my purchase, so I can take advantage of special offers and discounts.
+* As a customer, I want to receive email notifications about my order status, including order confirmation, shipping updates, and delivery notifications, so I can stay informed about my purchases.
+* As a customer, I want to be able to provide feedback and reviews on products, so I can share my experiences and help other customers make informed purchasing decisions.
+* As a store owner, I want to be able to manage my product inventory, update product details, and track sales and revenue, so I can effectively manage my online store and make data-driven decisions about my business.
+* As a marketing manager, I want to view real-time dashboards of customer behavior and engagement, so I can optimize marketing campaigns and improve customer retention.
+* As a sales representative, I want to access detailed reports on customer interactions and sales performance, so I can identify sales trends and opportunities to improve performance.
+* As a finance analyst, I want to generate ad-hoc reports on financial metrics and KPIs, so I can analyze financial performance and identify areas for cost reduction and optimization.
+* As an operations manager, I want to monitor key performance indicators for operational efficiency, such as cycle time, throughput, and inventory levels, so I can identify opportunities to improve operational performance.
+* As a product manager, I want to track customer feedback and sentiment data, so I can identify customer needs and preferences and make data-driven decisions about product development and marketing.
+
+
+### Tips for achieving an effective user story
+an effective user story should follow the<b> 3 Cs</b> and</b> INVEST</b> acronym. Both of these help to take your user stories to the next level, resulting in more effective software updates. 
+
+#### 3 Cs
+The 3 Cs break each user story into three different benchmarks, creating a more organized process: 
+* <b>Card:</b> A written description of the user story used for sprint planning. To create and share story cards, try using a work management tool. 
+* <b>Conversation: </b>A discussion between customers, users, and developers around the priority and potential solutions to the user story.
+* <b>Confirmation:</b> An agreement between stakeholders that user story objectives and solutions have been reached.
 The 3 Cs help to break down a user story into simple tasks. This gives a clear direction for involved stakeholders.
 
-
-
-### What makes a Good User Story?
-Agile teams assess the quality of stories by using the INVEST acronym. This stands for:
+### INVEST
+Agile teams assess the quality of stories by using the INVEST acronym: 
 
 * <b>Independent</b>: The user story should be independent of all others. Because they are not connected, they can be worked on in any order.
 * <b>Negotiable:</b> A user story should be flexible enough to allow for negotiation between the customer and product owner.
@@ -34,141 +64,175 @@ Agile teams assess the quality of stories by using the INVEST acronym. This stan
 * <b>Testable:</b> You must be able to test your user story in line with quality assurance standards.
 
 
-### How to write a good user story
+### Steps for writing a good user story
 
 A user story is written in three steps and represents the end user’s viewpoint. 
 
-
-The three steps of writing a user story are:
-
-* <b>Persona:</b> The end user’s character
-
-* <b>Need: </b>The goal the software feature has on the end user’s journey
-
-* <b>Purpose:</b> The goal of the end user’s experience with the software feature
-
-Your user story should contain all three of these components. Let’s dig into each of these elements to give you a better understanding of how to write an effective user story. 
-
-
-
-##### Step 1. Identify the persona
+#### Step 1. Identify the persona
 Identify the end user’s persona by evaluating your target audience. Consider who will be impacted by the software feature. 
-
 Here are some questions to ask yourself and your team when identifying the user persona:
 
-Who are we building this software feature for?
-
-What kind of product features does the end user want?
-
-What are the demographics and psychographics of the end user?
+* Who are we building this software feature for?
+* What kind of product features does the end user want?
+* What are the demographics and psychographics of the end user?
 
 There may be multiple personas in a given user story depending on the size of the target audience. 
+##### Example persona:<b> Kat, a project manager who leads 10 team members</b>
 
-Example persona: Kat, a project manager who leads 10 team members
-
-##### Step 2. Describe the need
+#### Step 2. Describe the need
 Describe how the end user will use your software feature and why. This is critical so your team understands why the target audience would use your feature in the first place. 
-
 Consider these questions when analyzing the intent of the end user:
-
-What is the end user trying to accomplish?
-
-How will your software feature help the end user accomplish their goals?
+* What is the end user trying to accomplish?
+* How will your software feature help the end user accomplish their goals?
 
 Avoid focusing on the specific features—instead, consider what the end user is searching for and how your software will help them reach their goals. 
+##### Example need: <b>Help team members understand how individual tasks contribute to larger business goals</b>
 
-Example need: Help team members understand how individual tasks contribute to larger business goals
-
-##### Step 3. Define the purpose
+#### Step 3. Define the purpose
 Define the purpose by analyzing the bigger picture of the software release. Consider how the software feature fits into your internal goals. 
-
 Ask yourself these questions to help define the purpose:
-
-What’s the benefit of the software feature?
-
-What is the problem that’s being solved?
-
-How does this fit into larger goals?
-
+* What’s the benefit of the software feature?
+* What is the problem that’s being solved?
+* How does this fit into larger goals?
 The purpose here is to define the value of your software feature related to big-picture goals.
 
-Example purpose: To increase efficiency by creating a clear path
+##### Example purpose: <b>To increase efficiency by creating a clear path</b>
 
 ### Benefits of user stories
-Why write user stories in the first place? Because they offer numerous benefits for an Agile project. Here are a few examples:
+User stories offer numerous benefits for an Agile project. 
+Here are a few examples:
 
 * <b>Simplified format:</b> User stories are written in easy-to-understand language. This eliminates confusion and makes it easier to grasp what the customer is looking for.
 * <b>Increased flexibility:</b> Because user stories don’t go into technical detail, they can be molded to fit changing situations.
 * <b>Improved collaboration:</b> When team members are aligned on one goal, they can work better together and collaborate easily with other project stakeholders.
 
-Though the benefits of writing user stories are significant, a product manager must also consider the potential disadvantages.
 
 ### Disadvantages of user stories
-Here are a few user story pitfalls to watch out for:
+Though the benefits of writing user stories are significant, a product manager must also consider the potential disadvantages. Here are a few user story pitfalls to watch out for:
 
-* Incomplete stories: Though the language is intended to be informal, sometimes user stories are far too vague and exclude necessary details.
-* Insufficient time: Writing a good story takes time. It requires extensive research and regular communication with stakeholders, a fact that is sometimes overlooked.
-* Narrow vision: Because user stories focus on one single requirement, they can be hard to scale, and teams can sometimes lose sight of the bigger picture (in this case, an epic).
+* <b>Incomplete stories:</b> Though the language is intended to be informal, sometimes user stories are far too vague and exclude necessary details.
+* <b>Insufficient time:</b> Writing a good story takes time. It requires extensive research and regular communication with stakeholders, a fact that is sometimes overlooked.
+* <b>Narrow vision:</b> Because user stories focus on one single requirement, they can be hard to scale, and teams can sometimes lose sight of the bigger picture (in this case, an epic).
 Before you start your story, take some time to identify potential risks or disadvantages and outline how you aim to counteract them.
 
-
-## Let us write User Story to Build an eCommerce Store
-
-Developing user stories - or an informal, natural description of your customer’s potential online journey - can help guide the development of your user experience, product management, web design, and more.
-
-In agile software development, user stories are specifically written from an end-user perspective, describing the type of user, what they want, and why they want it.
-How often do your teams read a complex, long, technical requirements document? User stories cut through the density while still providing essential communication to teams responsible for designing and implementing user-focused systems.
-User Stories ensure delivery of rapidly-developed, cost-effective, and customer-centric experiences.
 
 ## The Anatomy of a User Story
 
 Agile User Stories are short and simple.
 
-#### The Feature
+### The Feature
 
-The feature represents the product increment. It should be written in this format: “As a <who>, I need to <what> so that <why>.” 
+The feature represents the product increment. 
+The Feature should be written in this format: “As a <who>, I need to <what> so that <why>.” 
 
-For example: “As an online customer, I need to search for products, so that I can find the ones I want to buy.”
-
+For example: <b> “As an online customer, I need to search for products, so that I can find the ones I want to buy.” </b>
 This short sentence alone conveys three key pieces of information:
-
 * <b>Who cares about this feature?</b> (the shopper)
 * <b>What do they want?</b> (to search products)
 * <b>Why do they want it?</b> (so they can buy some)
 
+<p><b>who</b> is an important part of the feature</p>
+<p><b>what</b> might be the most important part of all. That’s because this is what gets built in the product.</p>
+<p><b>Acceptance criteria</b> in a story needs to be aligned to this “what.”</p>
+<p><b>why</b> helps the team recognize why they are building a specific feature. The “why” is what ties the story back to the vision for the product.</P>
 
-While the “who” is an important part of the feature, the “what” might be the most important part of all. That’s because this is what gets built in the product. The acceptance criteria in a story needs to be aligned to this “what.”
 
-The “why” helps the team recognize why they are building a specific feature. The “why” is what ties the story back to the vision for the product.
-
-#### The Acceptance Criteria
+##### The Acceptance Criteria
 
 The acceptance criteria should cover all the nuances that must be built in the product in order to implement the feature. While the feature is written from the user’s point of view, the acceptance criteria is written from the product’s point of view. 
 
-Referring back to the above example: “As an online customer, I need to search for products, so that I can find the ones I want to buy,” you might list acceptance criteria like:
 
+##### Examples of Acceptance Criteria
+
+ <p>“As an online customer, I need to search for products, so that I can find the ones I want to buy.”</b> </p>
+ <p>You might list acceptance criteria like:</p>
 * 1.Search for a product by name or category
 * 2.View products by category
 * 3.View images and details for each product
 * 4.Add to cart from the detail or search pages
-
-
 It is important to clearly number each acceptance criteria. This makes it easier to reference during refinement, demos, and acceptance testing.
 
+<p>As a website user I want to able to search on the webpage So that I can find necessary information.</p>
+Acceptance Scenario:
+	Given that I’m in a role of registered or guest user
+
+	When I open the “Products” page
+	Then the system shows me the list of all products
+	And the system shows the “Search” section in the right top corner of the screen
+
+	When I fill in the “Search” field with the name of existing item in the product list
+	And I click the “Apply” button OR press the Enter key on keyboard
+	Then the system shows products in the Search Results section with product names matching entered product name
+	And the system shows the number of search results in the top of the Search Results section”
 
 
-### The UX/UI Artifacts
+<p>As a website user I want to able to submit feedback So that the website owners can consider my opinion or concern during future website updates</p>
 
-The UX/UI designs built for the story need to be listed in each story as part of story elaboration. 
+Acceptance Scenario: 
+	User submits feedback form with the valid data
 
-List the artifacts for various devices separately (ex. desktop, mobile, tablet). It is also recommended to insert small/relevant snippets of UI within the acceptance criteria. If it is a complex UI, you could also have screenshots with numbers/labels and reference them within the acceptance criteria.
+	Given I’m in a role of logged-in or guest user
+	When I open the Feedback page
+	Then the system shows me the Submit Feedback form containing “Email”,“Name” and “Comment” fields which are required
+	
+	When I fill in the “Email” field with a valid email address
+	And I fill in the “Name” field with my name
+	And I fill in the “Comment” field with my comment
+	And I click the “Submit Feedback” button
+	Then the system submits my feedback
+	And the system shows the “You’ve successfully submitted your feedback” flash message
+	And the system clears the fields of the Submit Feedback form”
+
+####  Acceptance Criteria:
+
+* <b>Scenario 1: Successful authentication</b> When the user enters the correct email address and password and selects “sign-in” CTA, then route the user to My Account home page and display signed-in status on header.
+* <b>Scenario 2: Unsuccessful authentication</b> When the user enters an incorrect combination of email address and password and selects “sign-in” CTA ,then reset credentials fields and display an error message “Incorrect Credentials”
+* <b>Scenario 3: Forgot credentials</b> When the user selects the “forgot credentials” CTA Then route the user to the “forgot credentials” page
+* <b>Scenario 4: Register</b> When the user selects the “register” CTA ,then route the user to the “registration” page
+
+
+<p>As a signed-in user I want to able to comment on a blog post So that I can get feedback on issues</p>
+<p>Scenario:</p>
+	Given I’m in a role of signed-in user
+	When I open the page with a specific blog post, then the system shows the “Comments” section below the blog post with the list of comments added by other users and the system shows the “Add a Comment” field in the top of the “Comments” section
+	When I fill in the “Add a Comment” field with my comment and I click the “Submit” button, Then the system saves my comment and the system shows my comment in the top of the “Comments” section and the system shows my username and profile picture on the left side from my comment and the system shows “Remove” and “Edit” icons opposite my comment
+
+As a project manager, I want to review workflow management software so I can choose a new platform for my team.
+Acceptance criteria:
+	Ensure that user reviews and testimonials are published on our product site.
+	Verify that user reviews for our product are available on third-party forums.
+	Proactively acquire new user reviews by sending feedback requests to current users and past clients.
+
+
+<p>As a credit card holder, I want to view my statement (or account) balance, so that I can pay the balance due.</p>
+Acceptance criteria:
+	Display statement balance upon authentication. Say for example $1560
+	Display total balance. For example $3560. Here the balance due from the current period is $2560 and past balance due is $2000.
+	Show Minimum payment due. For example $140
+	Show Payment due date. For example May 16th of the current month
+	Show error message if service not responding or timeout. For example ‘Sorry, something went wrong with the service. Please try again.’
+
+<p>As a teacher, I want to generate assessment report, so I can evaluate student performance.</p>
+Acceptance criteria:
+	Show a student’s current assessment score.
+	Display past assessment score of the student.
+	Provide an option to Print / Save / Share. (By the way, this could be split as a separate user story by itself).
+	Display error message if service not responding. (If a team chooses to add the Error Message as their definition of done for all stories – 		where ever applicable, it could be omitted from the acceptance criteria).
+
+<p>As a User I want to view a list of products so I can select some to purchase<p>
+Accepted Criteria:
+	See a thumbnail image for each product
+	Click to view details for product
+	Add to cart from detail page
+	Search for a product
+	View products by category
+
 
 ## Types of User Stories
 
 <img src="/images/UserStories/0_Types of User Stories.webp" />
 
 There are five different kinds of user stories that we typically encounter:
-
 * Behavior-driven stories
 * Rules-driven stories
 * Content-driven stories
@@ -177,63 +241,19 @@ There are five different kinds of user stories that we typically encounter:
 
 Once a Product Owner is able to recognize the type of story needed, it becomes easier for them to focus on the criteria that are important for the story acceptance. 
 
-<img src="/images/UserStories/1_ShoeProductPage.webp" />
-
-
-### Behavior-Driven Stories
-
-These are stories where the user’s actions or decisions are the focus. These stories typically have a number of scenarios to be considered.
-
+#### Behavior-Driven Stories
 
 <img src="/images/UserStories/2_BehaviourProductShoe.webp" />
 
-
-
-For example: “As a customer, I need to authenticate myself so that I can see my account details and past orders.”
-
+These are stories where the user’s actions or decisions are the focus. These stories typically have a number of scenarios to be considered.
+<p> <b>As a customer, I need to authenticate myself so that I can see my account details and past orders.</b></p>
 In this example, there are multiple possible scenarios:
-
-1:User entered the correct credentials for authentication
-2:User entered incorrect credentials for authentication
-3:User realizes that they forgot the credentials
-4:User realizes that they do not have an account, and wants to create one now
-
+* 1:User entered the correct credentials for authentication
+* 2:User entered incorrect credentials for authentication
+* 3:User realizes that they forgot the credentials
+* 4:User realizes that they do not have an account, and wants to create one now
 
 
-For each scenario, we need the acceptance criteria defined. Use simple language in an active voice to state what the product needs to do. Each scenario is expected to have a “WHEN” and a “THEN” phrase. If the scenario is dependent on a specific pre-condition, then the scenario would need a “GIVEN” phrase too.
-
-
-<b>GIVEN</b> <situational pre-condition>
-
-<b>WHEN </b> <user action 1> and <user action 2> and … <user action n>
-
-<b>THEN</b> <product action 1> and <product action 2> and … <product action n>
-
-
-The earlier user story now would look as follows: “As a customer, I need to authenticate myself so that I can see my account details and past orders.”
-
-
-####  Acceptance criteria:
-
-<b>Scenario 1: Successful authentication</b>
-When the user enters the correct email address and password and selects “sign-in” CTA
-
-Then route the user to My Account home page and display signed-in status on header 
-
-<b>Scenario 2: Unsuccessful authentication</b>
-When the user enters an incorrect combination of email address and password and selects “sign-in” CTA
-
-Then reset credentials fields and display an error message “Incorrect Credentials”
-
-<b>Scenario 3: Forgot credentials</b>
-When the user selects the “forgot credentials” CTA
-
-Then route the user to the “forgot credentials” page
-
-<b>Scenario 4: Register</b>
-When the user selects the “register” CTA
-
-Then route the user to the “registration” page
 
 
 
