@@ -3,6 +3,7 @@
 Software Development Methodologies are developed to benefit both the development team and customers. Using a software development methodology allows the team to cut down on inefficiency and provide a more accurate delivery timeline. It prevents the team from reacting to every input, but instead, allows them to be more organized and structured when dealing with spontaneous changes. Most of the methodologies fall can be categorized as either a waterfall, iterative or continuous model.
 
 Let is explore Software Development metholodies by doing.
+Learn by doing not by just reading and watching.
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwareengg.md"> Software Enggineering</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
