@@ -90,8 +90,9 @@ Agile User Stories are short and simple.
 
 ### The Feature
 
-The feature represents the product increment. 
-The Feature should be written in this format: “As a <who>, I need to <what> so that <why>.” 
+<p>The feature represents the product increment.</p>
+<p>The Feature should be written in this format:</p>
+<p> <b>As a <who>, I need to <what> so that <why>.</b> </p>
 
 For example: <b> “As an online customer, I need to search for products, so that I can find the ones I want to buy.” </b>
 This short sentence alone conveys three key pieces of information:
@@ -99,19 +100,12 @@ This short sentence alone conveys three key pieces of information:
 * <b>What do they want?</b> (to search products)
 * <b>Why do they want it?</b> (so they can buy some)
 
-<p><b>who</b> is an important part of the feature</p>
-<p><b>what</b> might be the most important part of all. That’s because this is what gets built in the product.</p>
-<p><b>Acceptance criteria</b> in a story needs to be aligned to this “what.”</p>
-<p><b>why</b> helps the team recognize why they are building a specific feature. The “why” is what ties the story back to the vision for the product.</P>
 
-
-##### The Acceptance Criteria
+#### The Acceptance Criteria
 
 The acceptance criteria should cover all the nuances that must be built in the product in order to implement the feature. While the feature is written from the user’s point of view, the acceptance criteria is written from the product’s point of view. 
 
-
-##### Examples of Acceptance Criteria
-
+#####Examples of Acceptance Criteria
  <p>“As an online customer, I need to search for products, so that I can find the ones I want to buy.”</b> </p>
  <p>You might list acceptance criteria like:</p>
 * 1.Search for a product by name or category
