@@ -295,8 +295,10 @@ Acceptance criteria:
 #### Order submission for fulfillment: 
 <p><b>“As a customer who made a purchase, I need to get my order fulfilled correctly in a timely manner so that I don’t have to follow-up via customer service.</b></p>
 Acceptance criteria:
+
     1) Send order details to the fulfillment system within 30 minutes of customer completing the checkout process.
-    2) Send all required data so that picking, packing, settlement and shipping can happen for all order scenarios. Consider the following order scenarios:
+    2) Send all required data so that picking, packing, settlement and shipping can happen for all order scenarios. 
+        order scenarios:
         * Order placed by a guest user
         * Order placed by a registered user
         * Order placed by a registered user with a loyalty account
