@@ -21,6 +21,8 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/UserStory.md"> User Stories</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/CodeDevelopment.md">Code Development</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/Refactoring.md">Refactoring Code</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
