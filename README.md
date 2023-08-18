@@ -25,6 +25,8 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/Refactoring.md">Refactoring Code</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/PairProgramming.md">Pair Programming</a>
+
 - <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/cloud.md"> Cloud Computing</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/virtualization.md"> Virtualization</a>
