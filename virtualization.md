@@ -43,6 +43,13 @@ The word virtual means that it is a representation of something physically prese
 
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/virtualization.png"/>
 
+Virtualization follows a very simple architecture. Let's first look at the left side of the figure, this is the traditional machine. Here we have the hardware at the base layer and the host operating system, such as Linux, Windows, Mac, etc. Above, we have the application running directly on the host machine.  
+
+Here since we run one application on the host machine, a lot of computer resources are unused, to avoid this we can run multiple applications by sharing the resources among the applications. This might increase the efficiency in resource utilization, but there are a few issues since the resources are shared. The risk of a data breach is high, and the application cannot operate in a dedicated environment.  
+
+Virtualization architecture starts with the base hardware, as the traditional machine, but it replaces the operating system with the hypervisor. The hypervisor creates virtual machines for these applications and allots resources to them, and these VMs will have their OS, storage, computing power, etc., allowing the application to run in an isolated environment with dedicated resources. 
+
+This allows efficient resource utilization as well as provides an isolated or dedicated environment for the application inside the machine.
 
 The main concept behind virtualization is Hypervisor. Hypervisor is a software that partitions the hardware resources on the physical machine and runs Virtual Machine. It is typically installed on the server's hardware and divides the resources for Virtual machines (VMs). 
 
@@ -52,33 +59,7 @@ Hypervisor partitions the resources as per the requirement of the physical machi
 
 If extra resources are requested, the hypervisor caches the current state of the virtual machine and transfers the request to the physical system (hardware) to provide more resources. By doing so, Hypervisor can make sure the previous state of the VMs is not modified after processing the extra resource request.
 
-There are many open-source and paid Hypervisors available. Cloud providers use them based on their requirements and business needs. 
-
-
-
-
-## How Does Virtualization Work in Cloud Computing? 
-
-
-Virtualization in the cloud is achieved by combining multiple layers of virtualization, these layers include hardware/physical, network, storage, and application virtualization. These layers can be customized and controlled by the cloud software by the users. 
-
-The interaction with virtualization starts with the users sending a request for a virtual resource via the cloud software, which transfers the request to the hypervisor. The hypervisor then checks for the available resources and allocates the requested amount of resources to the user. 
-
-Due to this simplified interaction, the users can set up their entire infrastructure in less time and with less maintenance instead of having to deal with setting up the entire physical infrastructure and maintaining it themselves. 
-
-## Architecture Of Virtualization
-
-Virtualization follows a very simple architecture. Let's first look at the left side of the figure, this is the traditional machine. Here we have the hardware at the base layer and the host operating system, such as Linux, Windows, Mac, etc. Above, we have the application running directly on the host machine.  
-
-Here since we run one application on the host machine, a lot of computer resources are unused, to avoid this we can run multiple applications by sharing the resources among the applications. This might increase the efficiency in resource utilization, but there are a few issues since the resources are shared. The risk of a data breach is high, and the application cannot operate in a dedicated environment.  
-
-To address these issues and enable efficient resource utilization, virtualization was introduced that follows the same architecture pattern as the traditional machine but with a slight change. 
-
-Virtualization architecture starts with the base hardware, as the traditional machine, but it replaces the operating system with the hypervisor. The hypervisor creates virtual machines for these applications and allots resources to them, and these VMs will have their OS, storage, computing power, etc., allowing the application to run in an isolated environment with dedicated resources. 
-
-This allows efficient resource utilization as well as provides an isolated or dedicated environment for the application inside the machine.
-
-## Characteristics Of Virtualization
+###  Characteristics Of Virtualization
 
 1. Managed Resources
 The VMs or any resources provisioned from the cloud are completely managed by the cloud providers, meaning apart from specifying the requirements, users don't have to maintain or worry about the underlying hardware and configuration of their resources. For example, the cloud providers handle all the work such as hardware supplies, backups, monitoring, etc. 
@@ -182,15 +163,8 @@ Vendor locking is one of the ways where cloud providers restrict users from movi
 
 This is one of the biggest issues when there's a downtime, meaning for some unexpected reason if the cloud service goes down, then all the services that are being used by the users goes down as well.
 
-## Role of Virtualization in Cloud Computing 
 
-Virtualization technology in cloud computing has played and is playing an immense role in cloud computing, it provides an ability to share a single resource with multiple users so that the resources that are available can be used efficiently.  
-
-Along with it, it also revolutionized the way software development and operations used to work, before it was mandatory to use physical servers and bear all the expenses of hardware, maintenance, and others.  But with virtualization tech, it made it really simple to develop, test, and release software with less or no overhead of the infrastructure.  
-
-This encouraged many people to start working on their software ideas since it eliminated the need for huge initial capital investment instead people start off with very minimal investment and get their pieces of software out in the market. 
-
-## Important Terminologies of Virtualization
+### Important Terminologies of Virtualization
 
 1. Virtual Machine (VM)
 
@@ -208,23 +182,8 @@ A tool that works on deploying virtualization on the device, this is the softwar
 
 The Virtual Networking, the network that is configured inside the servers is separated logically these networks can be scaled across multiple servers, and these networks can be controlled by the software. 
 
-## Wrapping It Up
+### Wrapping It Up
 
 Virtualization offers many solutions for every user and their requirements, from creating small resources to handling large-scale application that deals with a huge amount of data and need a huge amount of computing power.  
 
 This virtualization is made possible by software called Hypervisor, which divides the existing hardware resources into virtual machines (VMs). In addition to this there are many interesting things about Virtualization in Cloud Computing, and mastering this technology would be many steps forward in one's career, check out KnowledgeHut Cloud Computing Certification for beginners, to kick-start your career on cloud computing and learn more about how cloud is solving many problems and contributing to the software ecosystem. 
-
-## Frequently Asked Questions (FAQs) 
-
-1. What is virtualization in cloud computing with example?
-Virtualization in Cloud Computing is a technology that allows us to create virtual resources such as servers, networks, storage, and more on the cloud. Examples: Amazon Web Services, Google cloud, etc. 
-
-2. What are the 4 general types of virtualization?
-
-- Server Virtualization  
-- Network Virtualization 
-- Storage Virtualization 
-- Desktop Virtualization 
-
-3. Do virtualization and cloud computing differ?
-Yes! Virtualization is a software that virtualizes hardware into a number of machines whereas Cloud computing refers to the combination of multiple hardware machines or devices. 
