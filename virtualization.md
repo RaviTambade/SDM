@@ -3,28 +3,46 @@
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
 
 
-Today, we witness many startups coming up with innovative solutions and many SaaS products or side projects able to create an impact, and people building their first version of the application within a week and releasing it; all these are possible due to many factors and one of them is Virtualization in Cloud Computing. 
+Today, we witness many startups coming up with innovative solutions.  May products are SaaS(Software As A Service) products such as Microsoft 365, Google Apps, Salesforce, etc. These projects able to create an impact on increasing business productvity. Now  people build their first version of the application within a week and releasing it.  it is possible to develop a startup, SaaS product, or side projects without having to worry about infrastructure. All these are possible due to many factors. one of them is Virtualization. 
 
-Since people were able to leverage this virtualization and cloud computing, it was possible to develop a startup, SaaS product, or side projects without having to worry about infrastructure. Virtualization in cloud computing is helping industries every single day, and due to this, the demand for skilled engineers with expertise in virtualization is growing. Check out Cloud Computing Certification for beginners to learn about the fundamentals of virtualization and be one of the in-demand cloud engineers. 
+
+##  2 Decades of Infrastructure  Management jounrney (How do we get here?)
+
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/history.jpeg"/>
+.
+The diagram below shows two decades of cloud evolution.
+
+* 2001 - VMWare - Virtualization via hypervisor
+* 2006 - AWS - IaaS (Infrastructure as a Service)
+* 2009 - Heroku - PaaS (Platform as a Service)
+* 2010 - OpenStack - Open-source IaaS
+* 2011 - CloudFoundry - Open-source PaaS
+* 2013 - Docker - Containers
+* 2015 - CNCF (Cloud Native Computing Foundation) - Cloud Native
+
+
 
 ### What is Virtualization In Cloud Computing? 
 
-Before getting started with Virtualization in Cloud Computing, we need to understand the meaning of the word virtual. The word virtual means that it is a representation of something physically present elsewhere.
+The word virtual means that it is a representation of something physically present elsewhere.
 
-Similarly, Virtualization in Cloud Computing is a technology that allows us to create virtual resources such as servers, networks, and storage in the cloud. All these resources are allocated from a physical machine that runs somewhere in the world, and we'll get the software to provision and manage these virtual resources. These physical machines are operated by cloud providers, who take care of maintenance, and hardware supplies.
+<p>Virtualization  is a technology that allows us to create virtual resources such as servers, networks, and storage in the cloud. All these resources are allocated from a physical machine that runs somewhere in the world. We  get the software to provision and manage these virtual resources. These physical machines are operated by cloud providers. They take care of maintenance, and hardware supplies.</p>
 
-Virtualization in Cloud Computing also enables us to set up access control over the resources to secure them. It also enables resource sharing among multiple applications. 
+<p>Virtualization in Cloud Computing also enables us to set up access control over the resources to secure them. It also enables resource sharing among multiple applications. </p>
 
-Virtualization also enables efficient resource utilization, since it only provisions the requested amount of resources and not more. And provisioning extra resources such as extra memory, storage, or processors is as simple as clicking a few buttons on the cloud software. 
+<p>Virtualization  enables efficient resource utilization. Virtualization  provision extra resources such as extra memory, storage, or processors is as simple as clicking a few buttons on the cloud software. </p>
 
 
 ##### Some of virtualization in cloud computing examples are as follows  
 
 - EC2 service from Amazon Web Service 
 - Compute engine from  Google Cloud 
-Azure Virtual Machines from Microsoft Azure 
+- Azure Virtual Machines from Microsoft Azure 
 
 ## Concept Behind Virtualization
+
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/virtualization.png"/>
+
 
 The main concept behind virtualization is Hypervisor. Hypervisor is a software that partitions the hardware resources on the physical machine and runs Virtual Machine. It is typically installed on the server's hardware and divides the resources for Virtual machines (VMs). 
 
@@ -35,6 +53,9 @@ Hypervisor partitions the resources as per the requirement of the physical machi
 If extra resources are requested, the hypervisor caches the current state of the virtual machine and transfers the request to the physical system (hardware) to provide more resources. By doing so, Hypervisor can make sure the previous state of the VMs is not modified after processing the extra resource request.
 
 There are many open-source and paid Hypervisors available. Cloud providers use them based on their requirements and business needs. 
+
+
+
 
 ## How Does Virtualization Work in Cloud Computing? 
 

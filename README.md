@@ -26,11 +26,10 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md"> Software Design Principles</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/mvcarchitecture.md"> MVC  Architecture</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/PairProgramming.md">Pair Programming</a>
-
-- <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/cloud.md"> Cloud Computing</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/virtualization.md"> Virtualization</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/cloud.md"> Cloud Computing</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/Docker.md"> Containerization</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/containrizedapp.md"> Containerized Application</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/CICD.md"> Continous Integration/ Continous Delivery</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwaretesting.md"> Software Testing</a>
