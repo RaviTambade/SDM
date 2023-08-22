@@ -20,7 +20,6 @@ Software Testing focus on:
 * Reporting what is not being tested
 
 ### Essentials of Software Testing
-Essentials of Testing
 
 * We should always assume that our work can contain mistakes.
 * Mistakes can come from bad assumptions and blind spots.
