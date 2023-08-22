@@ -2,7 +2,7 @@
 
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/CloudComputing/Cloud.webp"/>
 
-<p>The Future Of Computing: Supercloud And Sky ComputingADOBE STOCK</P>
+<p>The Future Of Computing: Supercloud And Sky Computing ADOBE STOCK</P>
 As a business owner, you look for things to simplify and to make sure your work load is minimal. You wonder how some business owners and company owners maintain their businesses with less staffs. What most companies use is cloud computing for economical savings and less stress.
 
 At some point in your life, you have made use with the cloud. If you use a web-based email provider such as Gmail or Hotmail, you are using the cloud. If you’ve ever used Skype video calling or video interfaces like Vimeo or YouTube, you’ve used the cloud.
