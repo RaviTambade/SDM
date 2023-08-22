@@ -1,5 +1,33 @@
 ## Software Testing
-Software Testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.  
+
+<img src="/images/SWTesting/SoftwareTest.jpg" />
+
+We should always check what we do as it is said that <b> We are humans and we are bound to make mistake.</b>
+
+No software is perfect. We may maximize our efforts to ensure we get as much information about the product’s quality as possible. We focus on the areas that carry the most potential for business risk. Quality is a shared responsibility.
+
+Software testing is the act of examining the artifacts and the behavior of the software under test by validation and verification. 
+Software testing can also provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software implementation. 
+
+The benefits of testing include: 
+* Preventing bugs
+* Reducing development costs 
+* Improving performance
+
+Software Testing focus on when reporting about the quality of the product.
+* Disclosing the current risks and problems.
+* Reporting what is being tested and how well or poorly it’s being done when considering the context and any constraints like a lack of time.
+* Reporting what is not being tested
+
+### Essentials of Software Testing
+Essentials of Testing
+
+* We should always assume that our work can contain mistakes.
+* Mistakes can come from bad assumptions and blind spots.
+* It is better that someone else checks our work and as we might make same mistakes in checking our work.
+* If the developer of the system checks the work he will fail to highlight the flaws in his work.
+* Another person is more likely to detect our flaws.
+* Most important in Testing is, it is not a post development activity. Testing should start as the development starts.
 
 ### V model Software Testing:
 
