@@ -44,17 +44,11 @@ Verification is done by the QA team while Validation is done by the involvement 
 V Model is a highly disciplined SDLC model in which there is a testing phase parallel to each development phase. 
 The V model is an extension of the waterfall model in which testing is done on each stage parallel with development in a sequential way. It is known as the Validation or Verification Model.
 
-### STLC Phases
-SDLC is Software Development Life Cycle(SDLC)
-* It is the sequence of activities carried out by Developers to design and develop high-quality software.
-
-<b>Software Testing Life Cycle(STLC)</b>
-* Consists of a series of activities carried out by Testers methodologically to test your software product.
+### Software Testing Life Cycle(STLC)
+It Consists of a series of activities carried out by Testers methodologically to test your software product.
 <img src="/images/SWTesting/stlc.png" />
 
-
-
-#### Six major phases in STLC Model
+### Six major phases in STLC Model
 * Requirement Analysis
 * Test Planning
 * Test case development
