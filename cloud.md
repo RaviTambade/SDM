@@ -1,16 +1,10 @@
 ## Cloud Computing
 
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/CloudComputing/benefits_of_cloud_computing.jpg"/>
-
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/CloudComputing/Cloud.webp"/>
 
 As a business owner, you look for things to simplify and to make sure your work load is minimal. You wonder how some business owners and company owners maintain their businesses with less staffs. What most companies use is cloud computing for economical savings and less stress.
 
-
 At some point in your life, you have made use with the cloud. If you use a web-based email provider such as Gmail or Hotmail, you are using the cloud. If you’ve ever used Skype video calling or video interfaces like Vimeo or YouTube, you’ve used the cloud.
-
-If you’ve ever backed up data on the Internet rather than an external device, you’ve used the cloud. Now that you have an idea what it is, understanding the definition won’t be a problem.
-
-
 
 * Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet.
 
