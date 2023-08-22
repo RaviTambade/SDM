@@ -62,7 +62,7 @@ The VMs or any resources provisioned from the cloud are completely managed by th
 2. <b>Resource Allotment</b>
 The resource allotment is made simple with virtualization technology, the process is as simple as clicking a few buttons. Users can get their whole infrastructure ready within hours, and they can customize it later without any hassle. 
 
-3. <b>Resource Isolation>/b>
+3. <b>Resource Isolation</b>
 Resource isolation is one of the important characteristics of virtualization in the cloud. This enables applications to run in an environment that is completely dedicated to them. This also helps in preventing data breaches and makes sure to enable efficient resource utilization. 
 
 4. <b>Load balancing</b>
