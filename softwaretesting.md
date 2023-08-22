@@ -14,7 +14,7 @@ The benefits of testing include:
 * Reducing development costs 
 * Improving performance
 
-Software Testing focus on when reporting about the quality of the product.
+Software Testing focus on:
 * Disclosing the current risks and problems.
 * Reporting what is being tested and how well or poorly it’s being done when considering the context and any constraints like a lack of time.
 * Reporting what is not being tested
