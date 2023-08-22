@@ -31,130 +31,6 @@ Software Testing focus on:
 ### V model Software Testing:
 
 <img src="/images/SWTesting/vmodel.png" />
-Verification in Software Testing is a process of checking documents, design, code, and program in order to check if the software has been built according to the requirements or not. The main goal of verification process is to ensure quality of software application, design, architecture etc. The verification process involves activities like reviews, walk-throughs and inspection.
-
-Validation in Software Engineering is a dynamic mechanism of testing and validating if the software product actually meets the exact needs of the customer or not. The process helps to ensure that the software fulfills the desired use in an appropriate environment. The validation process involves activities like unit testing, integration testing, system testing and user acceptance testing.
-
-V Model is a highly disciplined SDLC model in which there is a testing phase parallel to each development phase. 
-The V model is an extension of the waterfall model in which testing is done on each stage parallel with development in a sequential way. It is known as the Validation or Verification Model.
-
-SDLC: SDLC is Software Development Life Cycle. 
-	It is the sequence of activities carried out by Developers to design and develop high-quality software.
-
-STLC: STLC is Software Testing Life Cycle. 
-	It consists of a series of activities carried out by Testers methodologically to test your software product.
-
-Problem with the Waterfall Model
-
-Solution: The V Model
-
-	The left side of the model is Software Development Life Cycle - SDLC
-	The right side of the model is Software Test Life Cycle - STLC
-	The entire figure looks like a V, hence the name V - model
-	
-### STLC Phases
-
-There are following six major phases in every Software Testing Life Cycle Model (STLC Model):
-
-	1.Requirement Analysis
-	2.Test Planning
-	3.Test case development
-	4.Test Environment setup
-	5.Test Execution
-	6.Test Cycle closure
-
-
-What is Entry and Exit Criteria in STLC?
-
-Entry Criteria: 
-		Entry Criteria gives the prerequisite items that must be completed before testing can begin.
-Exit Criteria: 
-		Exit Criteria defines the items that must be completed before testing can be concluded
-
-
-1.Requirement Analysis
-		
-	Activities in Requirement Phase Testing
-		1.Identify types of tests to be performed. 
-		2.Gather details about testing priorities and focus.
-		3.Prepare Requirement Traceability Matrix (RTM).
-		4.Identify test environment details where testing is supposed to be carried out. 
-		5.Automation feasibility analysis (if required).
-
-	Deliverables of Requirement Phase Testing
-
-		1.RTM (equirements Traceability Matrix)
-			is a document that links requirements throughout the validation process. 
-			The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for 
-				a system are tested in the test protocols
-		
-		2.Automation feasibility report. (if applicable)
-
-	
-2.Test Planning
-		
-	Test Planning Activities
-		1.Preparation of test plan/strategy document for various types of testing
-		2.Test tool selection
-		3.Test effort estimation
-		4.Resource planning and determining roles and responsibilities.
-		5.Training requirement
-	
-	Deliverables of Test Planning
-		1.Test plan /strategy document.
-		2.Effort estimation document.
-	
-3.Test case development
-
-	Test Case Development Activities
-		1.Create test cases, automation scripts (if applicable)
-		2.Review and baseline test cases and scripts
-		3.Create test data (If Test Environment is available)
-	
-	Deliverables of Test Case Development
-		1.Test cases/scripts
-		2.Test data	
-
-4.Test Environment setup
-	Test Environment Setup Activities
-		1.Understand the required architecture, environment set-up and prepare hardware 
-		   and software requirement list for the Test Environment.
-		2.Setup test Environment and test data
-		3.Perform smoke test on the build
-
-	Deliverables of Test Environment Setup
-		1.Environment ready with test data set up
-		2.Smoke Test Results.
-
-5.Test Execution
-	Test Execution Activities
-		1.Execute tests as per plan
-		2.Document test results, and log defects for failed cases
-		3.Map defects to test cases in RTM
-		4.Retest the Defect fixes
-		5.Track the defects to closure
-
-	Deliverables of Test Execution
-		1.Completed RTM with the execution status
-		2.Test cases updated with results
-		3.Defect reports
-
-
-6.Test Cycle closure
-	Test Cycle Closure Activities
-		1.Evaluate cycle completion criteria based on Time, Test coverage, Cost,Software, Critical Business Objectives, Quality
-		2.Prepare test metrics based on the above parameters.
-		3.Document the learning out of the project
-		4.Prepare Test closure report
-		5.Qualitative and quantitative reporting of quality of the work product to the customer.
-		6.Test result analysis to find out the defect distribution by type and severity.
-
-	Deliverables of Test Cycle Closure
-		1.Test Closure report
-		2.Test metrics
-        
-
-### Verfication Vs. Validatation
 <ul>
 <li>Verification process includes checking of documents, design, code and program whereas Validation process includes testing and validation of the actual product.</li>
 <li>Verification uses methods like reviews, walkthroughs, inspections and desk-checking whereas Validation uses methods like black box testing, white box testing and non-functional testing.</li>
@@ -165,80 +41,110 @@ Verification is done by the QA team while Validation is done by the involvement 
 <li>Comparing Verification vs Validation testing, Verification process comes before validation whereas Validation process comes after verification.</li>
 </ull>
 
+V Model is a highly disciplined SDLC model in which there is a testing phase parallel to each development phase. 
+The V model is an extension of the waterfall model in which testing is done on each stage parallel with development in a sequential way. It is known as the Validation or Verification Model.
 
-### STLC Phases:
+### STLC Phases
 
-1.Requirement Analysis
-	Activities:
-		1.Identify types of tests to be performed.
-		2.Gather details about testing priorities and focus.
-		3.Identify test environment details where testing is supposed to be carried out. 
-		4.Automation Testing is really required
-	outcome:
-		RTM document(Requirements Traceability Martrix)
-		Report for Automation testing need
-								
-2.Test Planning
-	Activities:
-		1.Preparation of test plan/strategy document for various types of testing
-		2.Test tool selection
-		3.Test effort estimation
-		4.Resource planning and determining roles and responsibilities.
-		5.Training requirement
-	 outcome:
-		 Test plan / startegy Document
-		 Estimation 
+<img src="/images/SWTesting/stlc.png" />
+
+SDLC is Software Development Life Cycle(SDLC)
+* It is the sequence of activities carried out by Developers to design and develop high-quality software.
+
+Software Testing Life Cycle(STLC)
+* It consists of a series of activities carried out by Testers methodologically to test your software product.
+
+#### Six major phases in STLC Model
+* Requirement Analysis
+* Test Planning
+* Test case development
+* Test Environment setup
+* Test Execution
+* Test Cycle closure
+
+##### 1.Requirement Analysis
 		
-3.Test case development
-	Activities:
-		1.Create test cases, automation scripts (if applicable)
-		2.Review and baseline test cases and scripts
-		3.Create test data (If Test Environment is available)
-	outcome:
-		Testcase
-		Test data
-						
-4.Test Environment setup
-	  Activity
-		1.Understand the required architecture, 
-				environment set-up and prepare hardware 
-		   		and software requirement list for the Test Environment.
-		2.Setup Enviornment and as well test data
-		3.Test Exeuction pre Acitivities.
-	outcome:
-		report of readiness of enivornment Check List
-		Test Result;
-						
-5.Test Execution:
-	Activities:
-		1.Execute tests as per plan
-		2.Document test results, and log defects for failed cases
-		3.Map defects to test cases in RTM
-		4.Retest the Defect fixes
-		5.Track the defects to closure				
-	outcome:
-		test execution status
-						
-6.Test Cycle closure
+Activities in Requirement Phase Testing:
+* Identify types of tests to be performed. 
+* Gather details about testing priorities and focus.
+* Prepare Requirement Traceability Matrix (RTM).
+* Identify test environment details where testing is supposed to be carried out. 
+* Automation feasibility analysis (if required).
 
-	Activities:
-		1.Evaluate cycle completion criteria based on Time, Test coverage, 
-							      Cost,Software,Critical Business Objectives, 
-							      Quality
-		2.Prepare test metrics based on the above parameters.
-		3.Document the learning out of the project
-		4.Prepare Test closure report
-		5.Qualitative and quantitative reporting of quality of the work product to the customer.
-		6.Test result analysis to find out the defect distribution by type and severity.
+Deliverables:
+* RTM (Requirements Traceability Matrix)
+It is  a document that links requirements throughout the validation process. The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for a system are tested in the test protocols
+		
+* Automation feasibility report. (if applicable)
+
+	
+#####  2.Test Planning
+		
+Activities:
+* Preparation of test plan/strategy document for various types of testing
+* Test tool selection
+* Test effort estimation
+* Resource planning and determining roles and responsibilities.
+* Training requirement
+	
+Deliverables:
+* Test plan /strategy document.
+* Effort estimation document.
+	
+##### 3.Test case development
+
+Activities
+* Create test cases, automation scripts (if applicable)
+* Review and baseline test cases and scripts
+* Create test data (If Test Environment is available)
+	
+Deliverables
+* Test cases/scripts
+* Test data	
+
+#####  4.Test Environment setup
+Activities:
+* Understand the required architecture, environment set-up and prepare hardware 
+		   and software requirement list for the Test Environment.
+* Setup test Environment and test data
+* Perform smoke test on the build
+
+Deliverables:
+* Environment ready with test data set up
+* Smoke Test Results.
+
+#####  5.Test Execution
+Activities:
+* Execute tests as per plan
+* Document test results, and log defects for failed cases
+* Map defects to test cases in RTM
+* Retest the Defect fixes
+* Track the defects to closure
+
+Deliverables of Test Execution
+* Completed RTM with the execution status
+* Test cases updated with results
+* Defect reports
 
 
+#####  6.Test Cycle closure
+Activities:
+* Evaluate cycle completion criteria based on Time, Test coverage, Cost,Software, Critical Business Objectives, Quality
+* Prepare test metrics based on the above parameters.
+* Document the learning out of the project
+* Prepare Test closure report
+* Qualitative and quantitative reporting of quality of the work product to the customer.
+* Test result analysis to find out the defect distribution by type and severity.
+
+Deliverables
+* Test Closure report
+* Test metrics
+        
 ### Test Plan
 
-A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. 
-Test Plan helps us determine the effort needed to validate the quality of the application under test. 
-The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
-
-What is the Importance of Test Plan?
+* A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. 
+* Test Plan helps us determine the effort needed to validate the quality of the application under test. 
+* The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
 
 Follow the seven steps below to create a test plan as per IEEE 829
 1.Analyze the product
