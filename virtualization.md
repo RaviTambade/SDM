@@ -14,7 +14,7 @@ The diagram below shows two decades of cloud evolution.
 * 2013 - Docker - Containers
 * 2015 - CNCF (Cloud Native Computing Foundation) - Cloud Native
 
-### Virtuaization
+### Virtualization
 
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
 
