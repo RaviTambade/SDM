@@ -42,8 +42,6 @@ When the output of a business, in terms of quality is poor, it would affect the 
 7. <b>Automatic Software Updates</b>
 All cloud-based applications have been designed to automatically refresh and update themselves instead of waiting for computer specialists to be on ground and keep refreshing every minute.
 
-Even if they are on ground, how many times would they refresh a day? That will be human abuse. These apps update themselves and you do not need to wait as waiting could be very annoying especially if you do not have the time or energy.
-
 8. <b>Easy Manageability</b>
 This cloud-based system has been designed to be managed by the service provider. So only little maintenance is needed from specialists. The service provider agreement ensures guaranteed and timely delivery, and maintenance of your business infrastructure.
 
@@ -53,13 +51,13 @@ Speed is another great feature of cloud computing. Within a few seconds, you can
 10. <b>Cloud Analytics</b>
 Nothing is better than an information that is well organized and well analyzed. Analysis is a very important part of business as it is the strategic and statistical breakdown of your business operations. Cloud analytics can make most businesses effectively scale the storing, processing, and leveraging of data through insights that reflect changing market conditions.
 
-11.<b> Increased Collaboration</b>
+11. <b> Increased Collaboration</b>
 What is the aim of business if you cannot work together with people? Cloud computing gives room for increased working together of people in a business. Some organizations even provide cloud based social platform’s where employees can meet, discuss and know what’s up.
 
-12.<b> Disaster Recovery</b>
+12. <b> Disaster Recovery</b>
 This is like a backup procedure for all information and facts collected. No matter how perfectly built or strong your system is, a single crash can delete all information if it is not backed up. Thus, it is important to back up data so that when a crash happens, within minutes, all information will be restored, and work can start again in earnest.
 
-13.<b> Remote Working</b>
+13. <b> Remote Working</b>
 This is a whole lot similar to flexibility. You can be at home and be very useful to your business. It boosts productivity as people love to be working in comfort as long as there is a very stable internet connection.
 
 14. <b>IoT Ready</b>
