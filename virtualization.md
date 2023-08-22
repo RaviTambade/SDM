@@ -1,13 +1,7 @@
-# Virtuaization
-
-<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
 
 
-Today, we witness many startups coming up with innovative solutions.  May products are SaaS(Software As A Service) products such as Microsoft 365, Google Apps, Salesforce, etc. These projects able to create an impact on increasing business productvity. Now  people build their first version of the application within a week and releasing it.  it is possible to develop a startup, SaaS product, or side projects without having to worry about infrastructure. All these are possible due to many factors. one of them is Virtualization. 
 
-
-##  2 Decades of Infrastructure  Management jounrney (How do we get here?)
-
+##  Infrastructure as a Service (IAAS)
 <img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/history.jpeg"/>
 .
 The diagram below shows two decades of cloud evolution.
@@ -20,9 +14,11 @@ The diagram below shows two decades of cloud evolution.
 * 2013 - Docker - Containers
 * 2015 - CNCF (Cloud Native Computing Foundation) - Cloud Native
 
+### Virtuaization
 
+<img src="https://github.com/RaviTambade/SDM/blob/main/images/Virtualization/concept-of-Virtualization.png"/>
 
-### What is Virtualization In Cloud Computing? 
+Today, we witness many startups coming up with innovative solutions.  May products are SaaS(Software As A Service) products such as Microsoft 365, Google Apps, Salesforce, etc. These projects able to create an impact on increasing business productvity. Now  people build their first version of the application within a week and releasing it.  it is possible to develop a startup, SaaS product, or side projects without having to worry about infrastructure. All these are possible due to many factors. one of them is Virtualization. 
 
 The word virtual means that it is a representation of something physically present elsewhere.
 
@@ -31,7 +27,6 @@ The word virtual means that it is a representation of something physically prese
 <p>Virtualization in Cloud Computing also enables us to set up access control over the resources to secure them. It also enables resource sharing among multiple applications. </p>
 
 <p>Virtualization  enables efficient resource utilization. Virtualization  provision extra resources such as extra memory, storage, or processors is as simple as clicking a few buttons on the cloud software. </p>
-
 
 ##### Some of virtualization in cloud computing examples are as follows  
 
@@ -167,23 +162,15 @@ This is one of the biggest issues when there's a downtime, meaning for some unex
 ### Important Terminologies of Virtualization
 
 1. Virtual Machine (VM)
-
 The virtual machine that simulates an actual computer, these VMs come with an operating system (OS) already installed and executes the application that is installed inside them. These virtual machines are controlled and managed by the Hypervisor. 
 
 2. Hypervisor
-
 A hypervisor is software that partitions the hardware resources on the physical machine and runs Virtual Machine on them. This is responsible to create and provision virtual resources when there is a request. 
 
 3. Virtualization software
-
 A tool that works on deploying virtualization on the device, this is the software that the user interacts with for specifying virtual resources requirements. This software communicates with the hypervisor for the resource requirements. 
 
 4. Virtual Networking
-
 The Virtual Networking, the network that is configured inside the servers is separated logically these networks can be scaled across multiple servers, and these networks can be controlled by the software. 
 
-### Wrapping It Up
-
 Virtualization offers many solutions for every user and their requirements, from creating small resources to handling large-scale application that deals with a huge amount of data and need a huge amount of computing power.  
-
-This virtualization is made possible by software called Hypervisor, which divides the existing hardware resources into virtual machines (VMs). In addition to this there are many interesting things about Virtualization in Cloud Computing, and mastering this technology would be many steps forward in one's career, check out KnowledgeHut Cloud Computing Certification for beginners, to kick-start your career on cloud computing and learn more about how cloud is solving many problems and contributing to the software ecosystem. 
