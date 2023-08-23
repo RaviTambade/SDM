@@ -49,80 +49,71 @@ It Consists of a series of activities carried out by Testers methodologically to
 <img src="/images/SWTesting/stlc.png" />
 
 ### Six major phases in STLC Model
-* Requirement Analysis
-* Test Planning
-* Test case development
-* Test Environment setup
-* Test Execution
-* Test Cycle closure
-
 ### 1.Requirement Analysis
-		
-Activities in Requirement Phase Testing:
-* Identify types of tests to be performed. 
-* Gather details about testing priorities and focus.
-* Prepare Requirement Traceability Matrix (RTM).
-* Identify test environment details where testing is supposed to be carried out. 
-* Automation feasibility analysis (if required).
+<b>Activities:</b>
+1.	Identify types of tests to be performed. 
+2.	Gather details about testing priorities and focus.
+3.	Prepare Requirement Traceability Matrix (RTM).
+4.	Identify test environment details where testing is supposed to be carried out. 
+5.	Automation feasibility analysis (if required).
 
-Deliverables:
-* RTM (Requirements Traceability Matrix)
+<b>Deliverables:</b>
+1.	RTM (Requirements Traceability Matrix)
 It is  a document that links requirements throughout the validation process. The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for a system are tested in the test protocols
-		
-* Automation feasibility report. (if applicable)
+2.	Automation feasibility report. (if applicable)
 
-	
 ### 2.Test Planning
-		
 Activities:
-* Preparation of test plan/strategy document for various types of testing
-* Test tool selection
-* Test effort estimation
-* Resource planning and determining roles and responsibilities.
-* Training requirement
+1.	Preparation of test plan/strategy document for various types of testing
+2.	Test tool selection
+3.	Test effort estimation
+4.	Resource planning and determining roles and responsibilities.
+5.	Training requirement
 	
-Deliverables:
-* Test plan /strategy document.
-* Effort estimation document.
+<b>Deliverables:</b>
+1.	Test plan /strategy document.
+2.	Effort estimation document.
 	
 ### 3.Test case development
-
-Activities
-* Create test cases, automation scripts (if applicable)
-* Review and baseline test cases and scripts
-* Create test data (If Test Environment is available)
+<b>Activities:</b>
+1.	Create test cases, automation scripts (if applicable)
+2.	Review and baseline test cases and scripts
+3.	Create test data (If Test Environment is available)
 	
-Deliverables
-* Test cases/scripts
-* Test data	
+<b>Deliverables:</b>
+1.	Test cases/scripts
+2.	Test data	
 
 ###  4.Test Environment setup
-Activities:
-* Understand the required architecture, environment set-up and prepare hardware 
+		
+<b>Activities:</b>
+1.	Understand the required architecture, environment set-up and prepare hardware 
 		   and software requirement list for the Test Environment.
-* Setup test Environment and test data
-* Perform smoke test on the build
+2.	Setup test Environment and test data
+3.	Perform smoke test on the build
 
-Deliverables:
-* Environment ready with test data set up
-* Smoke Test Results.
+<b>Deliverables:</b>
+1.	Environment ready with test data set up
+2.	Smoke Test Results.
 
 ###  5.Test Execution
-Activities:
-* Execute tests as per plan
-* Document test results, and log defects for failed cases
-* Map defects to test cases in RTM
-* Retest the Defect fixes
-* Track the defects to closure
+		
+<b>Activities:</b>:
+1.	Execute tests as per plan
+2.	Document test results, and log defects for failed cases
+3.	Map defects to test cases in RTM
+4.	Retest the Defect fixes
+5.	Track the defects to closure
 
-Deliverables of Test Execution
-* Completed RTM with the execution status
-* Test cases updated with results
-* Defect reports
+<b>Deliverables:</b>
+1.	Completed RTM with the execution status
+2.	Test cases updated with results
+3.	Defect reports
 
 
 ###  6.Test Cycle closure
-Activities:
+		
+<b>Activities:</b>
 * Evaluate cycle completion criteria based on Time, Test coverage, Cost,Software, Critical Business Objectives, Quality
 * Prepare test metrics based on the above parameters.
 * Document the learning out of the project
@@ -131,8 +122,8 @@ Activities:
 * Test result analysis to find out the defect distribution by type and severity.
 
 Deliverables
-* Test Closure report
-* Test metrics
+1.	Test Closure report
+2.	Test metrics
         
 ## Test Plan
 A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. Test Plan helps us determine the effort needed to validate the quality of the application under test. The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
@@ -160,20 +151,15 @@ Important aspects like test estimation, test scope, Test Strategy are documented
 
 
 ### Test Case
-
-* A TEST CASE is a set of actions executed to verify a particular feature or functionality of your software application. 
-* A Test Case contains test steps, test data, precondition, postcondition developed for specific test scenario to verify any requirement. 
-* The test case includes specific variables or conditions, using which a testing engineer can compare expected and actual results to determine whether a software product is functioning as per the requirements of the customer.
+A TEST CASE is a set of actions executed to verify a particular feature or functionality of your software application. A Test Case contains test steps, test data, precondition, postcondition developed for specific test scenario to verify any requirement. The test case includes specific variables or conditions, using which a testing engineer can compare expected and actual results to determine whether a software product is functioning as per the requirements of the customer. Most Software Tester prefer excel spreadsheets because they can easily group test cases by test types and most importantly they can easily get test metrics with Excel formulas.
 
 #### Examples of Test Cases
 
-Test Case 1: Check results on entering valid User Id & Password
-Test Case 2: Check results on entering Invalid User ID & Password
-Test Case 3: Check response when a User ID is Empty & Login Button is pressed, and many more
+1.	Check results on entering valid User Id & Password
+2.	Check results on entering Invalid User ID & Password
+3.	Check response when a User ID is Empty & Login Button is pressed, and many more
 
-
-
-Test Case : 1
+<b>Test Case : 1</b>
 
 Description:  Check the results on entering valid user Id and Password
 Test Steps:   1.Enter Email Address
@@ -195,7 +181,7 @@ Pass/Fail:
 
 
 
-Test Case : 2
+<b>Test Case : 2</b>
 Description:  Check the results on entering invalid user id and password
 Test Steps:   1.Enter  Invalid Email Address
 	      2.Enter  Invalid password
@@ -215,42 +201,40 @@ Pass/Fail:
 	   passed
 
 
-_______________________________________________________________________________________________________________________________________________________________________
+### Guidlines while drafting TestCases:
 
-#### While drafting a test case to include the following information:
+1.	The description of what requirement is being tested
+2.	The explanation of how the system will be tested
+3.	The test setup like a version of an application under test, software, data files, operating system, hardware, security access, physical or logical date, time of day, prerequisites such as other tests and any other setup information pertinent to the requirements being tested
+4.	Inputs and outputs or actions and expected results
+5.	Any proofs or attachments
+6.	Use active case language
+7.	Test Case should not be more than 15 steps
+8.	An automated test script is commented with inputs, purpose and expected results
+9.	The setup offers an alternative to pre-requisite tests
+10.	With other tests, it should be an incorrect business scenario order
 
-* 1.The description of what requirement is being tested
-* 2.The explanation of how the system will be tested
-* 3.The test setup like a version of an application under test, software, data files, operating system, hardware, security access, physical or logical date, time of day, prerequisites such as other tests and any other setup information pertinent to the requirements being tested
-* 4.Inputs and outputs or actions and expected results
-* 5.Any proofs or attachments
-* 6.Use active case language
-* 7.Test Case should not be more than 15 steps
-* 8.An automated test script is commented with inputs, purpose and expected results
-* 9.The setup offers an alternative to pre-requisite tests
-* 10.With other tests, it should be an incorrect business scenario order
-
-#### Examples of  Usability Test Cases
-* 1.Web page content should be correct without any spelling or grammatical errors
-* 2.All fonts should be same as per the requirements.
-* 3.All the text should be properly aligned.
-* 4.All the error messages should be correct without any spelling or grammatical errors and the error message should match with the field label.
-* 5.Tool tip text should be there for every field.
-* 6.All the fields should be properly aligned.
-* 7.Enough space should be provided between field labels, columns, rows, and error messages.
-* 8.All the buttons should be in a standard format and size.
-* 9.Home link should be there on every single page.
-* 10.Disabled fields should be grayed out.
-* 11.Check for broken links and images.
-* 12.Confirmation message should be displayed for any kind of update and delete operation.
-* 13.Check the site on different resolutions (640 x 480, 600×800 etc.?)
-* 14.Check the end user can run the system without frustration.
-* 15.Check the tab should work properly.
-* 16.Scroll bar should appear only if required.
-* 17.If there is an error message on submit, the information filled by the user should be there.
-* 18.Title should display on each web page
-* 19.All fields (Textbox, dropdown, radio button, etc) and buttons should be accessible by keyboard shortcuts and the user should be able to perform all operations by using keyboard.
-* 20.Check if the dropdown data is not truncated due to the field size. Also, check whether the data is hardcoded or managed via administrator.
+#### Usability Test Case Examples
+1.	Web page content should be correct without any spelling or grammatical errors
+2.	All fonts should be same as per the requirements.
+3.	All the text should be properly aligned.
+4.	All the error messages should be correct without any spelling or grammatical errors and the error message should match with the field label.
+5.	Tool tip text should be there for every field.
+6.	All the fields should be properly aligned.
+7.	Enough space should be provided between field labels, columns, rows, and error messages.
+8.	All the buttons should be in a standard format and size.
+9.	Home link should be there on every single page.
+10.	Disabled fields should be grayed out.
+11.	Check for broken links and images.
+12.	Confirmation message should be displayed for any kind of update and delete operation.
+13.	Check the site on different resolutions (640 x 480, 600×800 etc.?)
+14.	Check the end user can run the system without frustration.
+15.	Check the tab should work properly.
+16.	Scroll bar should appear only if required.
+17.	If there is an error message on submit, the information filled by the user should be there.
+18.	Title should display on each web page
+19.	All fields (Textbox, dropdown, radio button, etc) and buttons should be accessible by keyboard shortcuts and the user should be able to perform all operations by using keyboard.
+20.	Check if the dropdown data is not truncated due to the field size. Also, check whether the data is hardcoded or managed via administrator.
 
 ### Conclusion
 Software testing is an important part of the software development process. It is not a single activity that takes place after code implementation, but is part of each stage of the lifecycle. A successful test strategy will begin with consideration during requirements specification. Testing details will be fleshed through high and low level system designs, and testing will be carried out by developers and separate test groups after code implementation.
