@@ -4,12 +4,29 @@
 
 We should always check what we do as it is said that <b> We are humans and we are bound to make mistake.</b>
 
-No software is perfect. We may maximize our efforts to ensure we get as much information about the product’s quality as possible. We focus on the areas that carry the most potential for business risk. Quality is a shared responsibility.
+No software is perfect. We may maximize our efforts to ensure we get as much information about the product’s quality as possible. We focus on the areas that carry the most potential for business risk. Quality is a shared responsibility.Quality is the responsibility of each project participant not only testing team members. All stakeholders should be interested in a quality product, including – the Development team (Devs), Project management team (PM, PO), and team responsible for gathering, processing and testing requirements.
+
+<b>The role of general QA engineers is quite in demand in the worldwide software testers professionals market. </b>
+
+### Factors Influencing QA Team Performance:
+
+* effective communication
+* engagement
+* strong collaboration on a daily basis.
+* knowledge transfering
+
+These traits are essential in synergy testing efforts that influence on the end product quality.
+Sharing of experience, mentoring, coaching, training and team building are also important in growing effectiveness within an Agile testing team.
+
+Teamwork without motivation look like a body without a soul. If you have a motivated team, be sure this QA team will improve your project quality and productivity at times.
+
+
+## Software Testing
 
 Software testing is the act of examining the artifacts and the behavior of the software under test by validation and verification. 
 Software testing can also provide an objective, independent view of the software to allow the business to appreciate and understand the risks of software implementation. 
 
-The benefits of testing include: 
+<b>Benefits of testing</b> include: 
 * Preventing bugs
 * Reducing development costs 
 * Improving performance
