@@ -57,6 +57,8 @@ It Consists of a series of activities carried out by Testers methodologically to
 4.	Identify test environment details where testing is supposed to be carried out. 
 5.	Automation feasibility analysis (if required).
 
+
+
 <b>Deliverables:</b>
 1.	RTM (Requirements Traceability Matrix)
 It is  a document that links requirements throughout the validation process. The purpose of the Requirements Traceability Matrix is to ensure that all requirements defined for a system are tested in the test protocols
@@ -125,8 +127,56 @@ Deliverables
 1.	Test Closure report
 2.	Test metrics
         
+
+
+
+## Structure of Testing Group
+Testing is an important part of any software project. One or two testers are not sufficient to perform testing, especially if the project is too complex and large. Therefore, many testers are required at various levels. Below figure shows the different types of testers in a hierarchy.
+<img src="/images/SWTesting/TestingTeam.jpg" />
+
+
+### Test Manager
+A test manager occupies the top level in the hierarchy and has the following responsibilities:
+1.	He/She is the key person in the testing group, who will interact with project management, quality assurance, and marketing staff.
+2.	Takes responsibility for making test strategies with detailed master planning and schedule.
+3.	Interacts with customers regarding quality issues
+4.	Acquires all the testing resources including tools
+5.	Monitors the progress of testing and controls the events,
+6.	Participates in all static verification meetings
+7.	Hires, fires, and evaluates the test team members
+
+### Test Leader
+The next tester in the hierarchy is the test leader who assists the test manager in meeting testing and quality goals. The prime responsibility of a test leader is to lead a team of test engineers. The following are his/her responsibilities:
+1.	Planning the testing tasks given by the test manager
+2.	Assigning testing tasks to test engineers who are working under him/her
+3.	Supervising test engineers.
+4.	Helping the test engineers in test case design, execution, and reporting
+5.	Providing tool training, if required
+6.	Interacting with customers
+
+
+### Test Engineers
+Test engineers are highly experienced testers. They work under the leadership of the test leader. They are responsible for the following tasks:
+1.	Designing test cases
+2.	Developing test harness
+3.	Setting-up test laboratories and environment
+4.	Maintaining the test and defect repositories
+
+### Junior Test Engineers
+Junior test engineers are newly hired testers. They usually are trained about the test strategy, test process, and testing tools. They participate in test design and execution with experienced test engineers.
+
+
 ## Test Plan
-A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. Test Plan helps us determine the effort needed to validate the quality of the application under test. The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
+A Test Plan is a detailed document that describes:
+ * the test strategy
+ * objectives, 
+ * schedule, 
+ * estimation, 
+ * deliverables
+ * resources 
+ required to perform testing for a software product. 
+ 
+ <p>Test Plan helps us determine the effort needed to validate the quality of the application under test. The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.</p>
 
 Follow the seven steps below to create a test plan as per IEEE 829
 1.	Analyze the product
