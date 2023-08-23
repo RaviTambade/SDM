@@ -135,19 +135,17 @@ Deliverables
 * Test metrics
         
 ## Test Plan
-* A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. 
-* Test Plan helps us determine the effort needed to validate the quality of the application under test. 
-* The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
+A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. Test Plan helps us determine the effort needed to validate the quality of the application under test. The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
 
-<p>Follow the seven steps below to create a test plan as per IEEE 829</p>
-* 1.Analyze the product
-* 2.Design the Test Strategy
-* 3.Define the Test Objectives
-* 4.Define Test Criteria
-* 5.Resource Planning
-* 6.Plan Test Environment
-* 7.Schedule & Estimation
-* 8.Determine Test Deliverables
+Follow the seven steps below to create a test plan as per IEEE 829
+1.	Analyze the product
+2.	Design the Test Strategy
+3.	Define the Test Objectives
+4.	Define Test Criteria
+5.	Resource Planning
+6.	Plan Test Environment
+7.	Schedule & Estimation
+8.	Determine Test Deliverables
 
 
 ### Test Plan Template
