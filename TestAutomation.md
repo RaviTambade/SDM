@@ -1,4 +1,11 @@
 # Automation Testing
+
+<img src="/images/SWTesting/TestAutomation.webp" />
+Ten years ago, smartphones, internet, and cloud computing were still in their nascent stages. Applications were standalone and restricted to desktops. But today, the demand for scalable and easily upgradable software products has increased manifolds. there has been a shift from standalone applications to distributed applications. These applications can interact and integrate with other systems. Project scale and size has increased. timelines for projects have shrunk. Now development needs to be more flexible, collaborative and agile. subsequently, product managers are now more open and willing to automate development and testing for efficiency.
+
+test automation in an agile environment allows for testing product features and functions in a real-time environment. for instance, it is now possible to test a feature in agile development in a distributed team by creating thousands of virtual users. Thus test automation balances agile development by enabling a scalable and flexible test environment for creating quality products through much deeper insights into errors than manual testing.
+
+
 Automation Testing or Test Automation is a software testing technique that performs using special automated testing software tools to execute a test case suite.On the contrary, Manual Testing is performed by a human sitting in front of a computer carefully executing the test steps. The automation testing software can also enter test data into the System Under Test, compare expected and actual results and generate detailed test reports. 
 Software Test Automation demands considerable investments of money and resources.
 
