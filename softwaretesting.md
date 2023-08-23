@@ -56,7 +56,7 @@ It Consists of a series of activities carried out by Testers methodologically to
 * Test Execution
 * Test Cycle closure
 
-##### 1.Requirement Analysis
+### 1.Requirement Analysis
 		
 Activities in Requirement Phase Testing:
 * Identify types of tests to be performed. 
@@ -72,7 +72,7 @@ It is  a document that links requirements throughout the validation process. The
 * Automation feasibility report. (if applicable)
 
 	
-#####  2.Test Planning
+### 2.Test Planning
 		
 Activities:
 * Preparation of test plan/strategy document for various types of testing
@@ -85,7 +85,7 @@ Deliverables:
 * Test plan /strategy document.
 * Effort estimation document.
 	
-##### 3.Test case development
+### 3.Test case development
 
 Activities
 * Create test cases, automation scripts (if applicable)
@@ -96,7 +96,7 @@ Deliverables
 * Test cases/scripts
 * Test data	
 
-#####  4.Test Environment setup
+###  4.Test Environment setup
 Activities:
 * Understand the required architecture, environment set-up and prepare hardware 
 		   and software requirement list for the Test Environment.
@@ -107,7 +107,7 @@ Deliverables:
 * Environment ready with test data set up
 * Smoke Test Results.
 
-#####  5.Test Execution
+###  5.Test Execution
 Activities:
 * Execute tests as per plan
 * Document test results, and log defects for failed cases
@@ -121,7 +121,7 @@ Deliverables of Test Execution
 * Defect reports
 
 
-#####  6.Test Cycle closure
+###  6.Test Cycle closure
 Activities:
 * Evaluate cycle completion criteria based on Time, Test coverage, Cost,Software, Critical Business Objectives, Quality
 * Prepare test metrics based on the above parameters.
@@ -134,45 +134,23 @@ Deliverables
 * Test Closure report
 * Test metrics
         
-### Test Plan
-
+## Test Plan
 * A Test Plan is a detailed document that describes the test strategy, objectives, schedule, estimation, deliverables, and resources required to perform testing for a software product. 
 * Test Plan helps us determine the effort needed to validate the quality of the application under test. 
 * The test plan serves as a blueprint to conduct software testing activities as a defined process, which is minutely monitored and controlled by the test manager.
 
-Follow the seven steps below to create a test plan as per IEEE 829
-1.Analyze the product
-2.Design the Test Strategy
-3.Define the Test Objectives
-4.Define Test Criteria
-5.Resource Planning
-6.Plan Test Environment
-7.Schedule & Estimation
-8.Determine Test Deliverables
+<p>Follow the seven steps below to create a test plan as per IEEE 829</p>
+* 1.Analyze the product
+* 2.Design the Test Strategy
+* 3.Define the Test Objectives
+* 4.Define Test Criteria
+* 5.Resource Planning
+* 6.Plan Test Environment
+* 7.Schedule & Estimation
+* 8.Determine Test Deliverables
 
 
-Step 1) Analyze the product
-	You should research clients and the end users to know their needs and expectations from the application
-		Who will use the website?
-		What is it used for?
-		How will it work?
-		What are software/ hardware the product uses?
-
-Step 2) Develop Test Strategy
-	A Test Strategy document, is a high-level document, which is usually developed by Test Manager. 
-	This document defines:
-		The project’s testing objectives and the means to achieve them
-		Determines testing effort and costs
-
-
-Step 3) Define Test Objective
-	To define the test objectives, you should do 2 following steps
-		1.List all the software features (functionality, performance, GUI…) which may need to test.
-		2.Define the target or the goal of  the test based on  above features
-
-
-What is test plan template?
-
+### Test Plan Template
 TEST PLAN TEMPLATE is a detailed document that describes the test strategy, objectives, schedule, estimation and deliverables, and resources required for testing. Test Plan helps us determine the effort needed to validate the quality of the application under test. The test plan serves as a blueprint to conduct software testing activities as a defined process which is minutely monitored and controlled by the test manager.
 
 Creating a Test Plan is mandatory to ensure success of your Software testing project.
@@ -184,6 +162,19 @@ Important aspects like test estimation, test scope, Test Strategy are documented
 
 
 ### Test Case
+
+* A TEST CASE is a set of actions executed to verify a particular feature or functionality of your software application. 
+* A Test Case contains test steps, test data, precondition, postcondition developed for specific test scenario to verify any requirement. 
+* The test case includes specific variables or conditions, using which a testing engineer can compare expected and actual results to determine whether a software product is functioning as per the requirements of the customer.
+
+#### Examples of Test Cases
+
+Test Case 1: Check results on entering valid User Id & Password
+Test Case 2: Check results on entering Invalid User ID & Password
+Test Case 3: Check response when a User ID is Empty & Login Button is pressed, and many more
+
+
+
 Test Case : 1
 
 Description:  Check the results on entering valid user Id and Password
@@ -204,7 +195,6 @@ Actual Result:
 Pass/Fail:
 	   Pass
 
-____________________________________________________________________________________________________________________________________________
 
 
 Test Case : 2
@@ -231,39 +221,38 @@ ________________________________________________________________________________
 
 #### While drafting a test case to include the following information:
 
-.The description of what requirement is being tested
-2.The explanation of how the system will be tested
-3.The test setup like a version of an application under test, software, data files, operating system, hardware, security access, physical or logical date, time of day, prerequisites such as other tests and any other setup information pertinent to the requirements being tested
-4.Inputs and outputs or actions and expected results
-5.Any proofs or attachments
-6.Use active case language
-7.Test Case should not be more than 15 steps
-8.An automated test script is commented with inputs, purpose and expected results
-9.The setup offers an alternative to pre-requisite tests
-10.With other tests, it should be an incorrect business scenario order
+* 1.The description of what requirement is being tested
+* 2.The explanation of how the system will be tested
+* 3.The test setup like a version of an application under test, software, data files, operating system, hardware, security access, physical or logical date, time of day, prerequisites such as other tests and any other setup information pertinent to the requirements being tested
+* 4.Inputs and outputs or actions and expected results
+* 5.Any proofs or attachments
+* 6.Use active case language
+* 7.Test Case should not be more than 15 steps
+* 8.An automated test script is commented with inputs, purpose and expected results
+* 9.The setup offers an alternative to pre-requisite tests
+* 10.With other tests, it should be an incorrect business scenario order
 
 #### Examples of  Usability Test Cases
-1.Web page content should be correct without any spelling or grammatical errors
-2.All fonts should be same as per the requirements.
-3.All the text should be properly aligned.
-4.All the error messages should be correct without any spelling or grammatical errors and the error message should match with the field label.
-5.Tool tip text should be there for every field.
-6.All the fields should be properly aligned.
-7.Enough space should be provided between field labels, columns, rows, and error messages.
-8.All the buttons should be in a standard format and size.
-9.Home link should be there on every single page.
-10.Disabled fields should be grayed out.
-11.Check for broken links and images.
-12.Confirmation message should be displayed for any kind of update and delete operation.
-13.Check the site on different resolutions (640 x 480, 600×800 etc.?)
-14.Check the end user can run the system without frustration.
-15.Check the tab should work properly.
-16.Scroll bar should appear only if required.
-17.If there is an error message on submit, the information filled by the user should be there.
-18.Title should display on each web page
-19.All fields (Textbox, dropdown, radio button, etc) and buttons should be accessible by keyboard shortcuts and the user should be able to perform all operations by using keyboard.
-20.Check if the dropdown data is not truncated due to the field size. Also, check whether the data is hardcoded or managed via administrator.
-
+* 1.Web page content should be correct without any spelling or grammatical errors
+* 2.All fonts should be same as per the requirements.
+* 3.All the text should be properly aligned.
+* 4.All the error messages should be correct without any spelling or grammatical errors and the error message should match with the field label.
+* 5.Tool tip text should be there for every field.
+* 6.All the fields should be properly aligned.
+* 7.Enough space should be provided between field labels, columns, rows, and error messages.
+* 8.All the buttons should be in a standard format and size.
+* 9.Home link should be there on every single page.
+* 10.Disabled fields should be grayed out.
+* 11.Check for broken links and images.
+* 12.Confirmation message should be displayed for any kind of update and delete operation.
+* 13.Check the site on different resolutions (640 x 480, 600×800 etc.?)
+* 14.Check the end user can run the system without frustration.
+* 15.Check the tab should work properly.
+* 16.Scroll bar should appear only if required.
+* 17.If there is an error message on submit, the information filled by the user should be there.
+* 18.Title should display on each web page
+* 19.All fields (Textbox, dropdown, radio button, etc) and buttons should be accessible by keyboard shortcuts and the user should be able to perform all operations by using keyboard.
+* 20.Check if the dropdown data is not truncated due to the field size. Also, check whether the data is hardcoded or managed via administrator.
 
 
 ### Automation Testing
@@ -307,7 +296,6 @@ Software Test Automation demands considerable investments of money and resources
 	Step 3) Planning, Design and Development
 	Step 4) Test Execution
 	Step 5) Maintenance
-
 
 
 #### Test tool selection
