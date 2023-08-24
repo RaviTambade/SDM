@@ -44,7 +44,7 @@ The following category of test cases are not suitable for automation:
 ### Test tool selection
 
 <p>Test Tool selection largely depends on the technology the Application Under Test(AUT) is built on.</p>
-1.	Define the scope of Automation
+1.	<b>Define the scope of Automation</b>
 		<ol>
 			<li>The features that are important for the business</li>
 			<li>Scenarios which have a large amount of data</li>
@@ -55,7 +55,7 @@ The following category of test cases are not suitable for automation:
 			<li>Ability to use the same test cases for cross-browser testing</li>
 		</ol>
 
-2.	Planning, Design, and Development
+2.	<b>Planning, Design, and Development</b>
 		<ol>
 		<li>Automation tools selected</li>
 		<li>Framework design and its features</li>
@@ -66,26 +66,11 @@ The following category of test cases are not suitable for automation:
 		</ol>
 
 
-3.	Test Execution
+3.	<b>Test Execution</b>
 	* Automation Scripts are executed during this phase.</li>
 	* The scripts need input test data before there are set to run.</li>
 	* Once executed they provide detailed test reports.</li>
 	
-
-
-
-
-### Framework for Automation
-
-* Maintaining consistency of Testing</li>
-* Improves test structuring</li>
-* Minimum usage of code</li>
-* Less Maintenance of code</li>
-* Improve re-usability</li>
-* Non Technical testers can be involved in code</li>
-* The training period of using the tool can be reduced</li>
-* Involves Data wherever appropriate</li>
-
 
 ### Benefits of Automation Testing
 * 70% faster than the manual testing
@@ -104,37 +89,29 @@ The following category of test cases are not suitable for automation:
 
 
 #### Types of Automated Testing
-		Smoke Testing
-		Unit Testing
-		Integration Testing
-		Functional Testing
-		Keyword Testing
-		Regression Testing
-		Data Driven Testing
-		Black Box Testing
+* Smoke Testing
+* Unit Testing
+* Integration Testing
+* Regression Testing
+* Black Box Testing
+* White Box Testing
+* Gray Box Testing
 
-#### How to Choose an Automation Tool?
-		Environment Support
-		Ease of use
-		Testing of Database
-		Object identification
-		Image Testing
-		Error Recovery Testing
-		Object Mapping
-		Scripting Language Used
-		Support for various types of test - including functional, test management, mobile, etc...
-		Support for multiple testing frameworks
-		Easy to debug the automation software scripts
-		Ability to recognize objects in any environment
-		Extensive test reports and results
-		Minimize training cost of selected tools
-
-
-#### Automation Testing Tools
-		Testim
-		LambdaTest
-		Selenium
+### Automation Testing Tools
+*	Testim
+*	LambdaTest
+*	Selenium
 		 It is a software testing tool used for Regression Testing. 
 		 It is an open source testing tool that provides playback and recording facility for Regression Testing.
 
-    
+
+### Framework for Automation
+
+* Maintaining consistency of Testing</li>
+* Improves test structuring</li>
+* Minimum usage of code</li>
+* Less Maintenance of code</li>
+* Improve re-usability</li>
+* Non Technical testers can be involved in code</li>
+* The training period of using the tool can be reduced</li>
+* Involves Data wherever appropriate</li>
