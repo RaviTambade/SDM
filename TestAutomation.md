@@ -115,3 +115,18 @@ The following category of test cases are not suitable for automation:
 * Non Technical testers can be involved in code</li>
 * The training period of using the tool can be reduced</li>
 * Involves Data wherever appropriate</li>
+
+### Unit Testing
+
+
+When we talk about test cases, we mostly mean unit tests. It is incorrect to assume that the unit we want to test is always a function. The unit, or unit of work, is a logical unit that constitutes single behavior. This unit should be able to be invoked via a public interface and should be testable independently.
+
+Thus, a unit test can perform the following functions:
+* It tests a single logical function
+* It can run without a specific order of execution
+* It takes care of its own dependencies and mock data
+* It always returns the same result for the same input
+* It should be self-explanatory, maintainable, and readable
+
+
+<a href="https://semaphoreci.com/blog/unit-tests-nodejs-jest"> Unit Testing using Node js and Jest</a>
