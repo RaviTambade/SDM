@@ -127,6 +127,3 @@ Thus, a unit test can perform the following functions:
 * It takes care of its own dependencies and mock data
 * It always returns the same result for the same input
 * It should be self-explanatory, maintainable, and readable
-
-
-<a href="https://semaphoreci.com/blog/unit-tests-nodejs-jest"> Unit Testing using Node js and Jest</a>
