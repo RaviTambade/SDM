@@ -127,3 +127,18 @@ Thus, a unit test can perform the following functions:
 * It takes care of its own dependencies and mock data
 * It always returns the same result for the same input
 * It should be self-explanatory, maintainable, and readable
+
+
+## Integration Testing
+Once all the components or modules are working independently, then we need to check the data flow between the dependent modules is known as integration testing.
+
+### Guidelines for Integration Testing
+
+1.	We go for the integration testing only after the functional testing is completed on each module of the application.
+2.	We always do integration testing by picking module by module so that a proper sequence is followed, and also we don't miss out on any integration scenarios.
+3.	First, determine the test case strategy through which executable test cases can be prepared according to test data.
+4.	Examine the structure and architecture of the application and identify the crucial modules to test them first and also identify all possible scenarios.
+5.	Design test cases to verify each interface in detail.
+6.	Choose input data for test case execution. Input data plays a significant role in testing.
+6.	If we find any bugs then communicate the bug reports to developers and fix defects and retest.
+7.	Perform positive and negative integration testing.
