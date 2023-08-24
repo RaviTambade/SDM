@@ -44,8 +44,7 @@ The following category of test cases are not suitable for automation:
 ### Test tool selection
 
 <p>Test Tool selection largely depends on the technology the Application Under Test(AUT) is built on.</p>
-<ol>
-	<li><p>Define the scope of Automation</p>
+1.	Define the scope of Automation
 		<ol>
 			<li>The features that are important for the business</li>
 			<li>Scenarios which have a large amount of data</li>
@@ -55,11 +54,8 @@ The following category of test cases are not suitable for automation:
 			<li>The complexity of test cases</li>
 			<li>Ability to use the same test cases for cross-browser testing</li>
 		</ol>
-	</li>
-<ol>
-<p></p>
-<ol>
-	<li><p>Planning, Design, and Development</p>
+
+2.	Planning, Design, and Development
 		<ol>
 		<li>Automation tools selected</li>
 		<li>Framework design and its features</li>
@@ -68,50 +64,44 @@ The following category of test cases are not suitable for automation:
 		<li>Schedule and Timeline of scripting and execution</li>
 		<li>Deliverables of Automation Testing</li>
 		</ol>
-	</li>
-</ol>
 
-<ol>
-	<li><p>Test Execution</p>
-		<ol>
-		<li>Automation Scripts are executed during this phase.</li>
-		<li>The scripts need input test data before there are set to run.</li>
-		<li>Once executed they provide detailed test reports.</li>
-		</ol>
-	</li>
-<ol>
 
-<ol>
-	<li><p>Framework for Automation</p>
-		<ol>
-		<li>Maintaining consistency of Testing</li>
-		<li>Improves test structuring</li>
-		<li>Minimum usage of code</li>
-		<li>Less Maintenance of code</li>
-		<li>Improve re-usability</li>
-		<li>Non Technical testers can be involved in code</li>
-		<li>The training period of using the tool can be reduced</li>
-		<li>Involves Data wherever appropriate</li>
-		</ol>
-	</li>
-</ol>
+3.	Test Execution
+	* Automation Scripts are executed during this phase.</li>
+	* The scripts need input test data before there are set to run.</li>
+	* Once executed they provide detailed test reports.</li>
 	
-#### Benefits of Automation Testing
-	<ol>
-		<li>70% faster than the manual testing</li>
-		<li>Wider test coverage of application features</li>
-		<li>Reliable in results</li>
-		<li>Ensure Consistency</li>
-		<li>Saves Time and Cost</li>
-		<li>Improves accuracy</li>
-		<li>Human Intervention is not required while execution</li>
-		<li>Increases Efficiency</li>
-		<li>Better speed in executing tests</li>
-		<li>Re-usable test scripts</li>
-		<li>Test Frequently and thoroughly</li>
-		<li>More cycle of execution can be achieved through automation</li>
-		<li>Early time to market</li>
-	</ol>
+
+
+
+
+### Framework for Automation
+
+* Maintaining consistency of Testing</li>
+* Improves test structuring</li>
+* Minimum usage of code</li>
+* Less Maintenance of code</li>
+* Improve re-usability</li>
+* Non Technical testers can be involved in code</li>
+* The training period of using the tool can be reduced</li>
+* Involves Data wherever appropriate</li>
+
+
+### Benefits of Automation Testing
+* 70% faster than the manual testing
+* Wider test coverage of application features
+* Reliable in results
+* Ensure Consistency
+* Saves Time and Cost
+* Improves accuracy
+* Human Intervention is not required while execution
+* Increases Efficiency
+* Better speed in executing tests
+* Re-usable test scripts
+* Test Frequently and thoroughly
+* More cycle of execution can be achieved through automation
+* Early time to market
+
 
 #### Types of Automated Testing
 		Smoke Testing
