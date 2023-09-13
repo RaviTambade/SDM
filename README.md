@@ -1,4 +1,4 @@
-## Software Development Methodologies (SDM)
+ Software Development Methodologies (SDM)
 
 
 <img src="/images/agile-development.jpg"/>
