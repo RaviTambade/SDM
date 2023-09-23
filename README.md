@@ -1,7 +1,7 @@
 # Software Development Methodologies (SDM)
 
 
-<img src="/images/InnovationCycle.jpeg"/>
+<img src="/images/sdm.webp"/>
 
  
 - Software Development Methodologies are developed to benefit both the development team and customers. Using a software development methodology allows the team to cut down on inefficiency and provide a more accurate delivery timeline. It prevents the team from reacting to every input, but instead, allows them to be more organized and structured when dealing with spontaneous changes. Most of the methodologies fall can be categorized as either a Waterfall, Iterative or Continuous model (Agile).
