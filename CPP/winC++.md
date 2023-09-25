@@ -20,7 +20,7 @@ Windows Programming is the C programming language in which the Microsoft Windows
 - <b>PSTR</b>: This is Pointer to String parameter.It is same as char* but meaning is different.This parameter is same as command line argument(args) in Object-Oriented programming language.
 - <b>MessageBox</b>: This method display a message box.
 - <b>TEXT</b>: This function is same as char* in C/C++ but in windows it is PCWSTR(Pointer to Character Wide String).
-- </b>MB_OK</b>: This is #define function for adding only OK button to messagebox. 
+- <b>MB_OK</b>: This is #define function for adding only OK button to messagebox. 
 
 
 ## Description
@@ -55,19 +55,19 @@ This function returns the generated result message to the WinMain function. WNDC
 
 #### So what are they?
 
-- cb : counts of bytes
-- hbr : handle to brush
-- h : handle
-- lpfn : long pointer to function
-- lpsz : long pointer to string terminated with zero.
+- <b>cb</b> : counts of bytes
+- <b>hbr</b> : handle to brush
+- <b>h</b> : handle
+- <b>lpfn</b> : long pointer to function
+- <b>lpsz</b> : long pointer to string terminated with zero.
 Other important prefixes
 
-- CS : Class Style
-- CW : Create Window
-- DT : Draw Text
-- IDI : ID number for Icon
-- IDC : ID number for Cursor
-- MB : Message Box
-- SND : Sound
-- WM : Window Message
-- WS : Window Style
+- <b>CS</b> : Class Style
+- <b>CW</b> : Create Window
+- <b>DT</b> : Draw Text
+- <b>IDI</b> : ID number for Icon
+- <b>IDC</b> : ID number for Cursor
+- <b>MB</b> : Message Box
+- <b>SND</b> : Sound
+- <b>WM</b> : Window Message
+- <b>WS</b> : Window Style
