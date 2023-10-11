@@ -355,10 +355,10 @@ Stashing takes the Temporary stored state of your working directory. # git  stas
 - git rebase rewrites commit history but doesn’t create extra commit for merging 
 
 56.	How do you undo the last commit? 
-# git  revert  <commit_id> 
+	git  revert  <commit_id> 
 
 57.	How to Change the URL for a remote Git repository? 
-#  git  remote   set-url   origin   git://this.is.new.url 
+	git  remote   set-url   origin   git://this.is.new.url 
 
 58.	What is pull request? 
 	Take some changes from a particular branch and bring them into another branch. 	 
