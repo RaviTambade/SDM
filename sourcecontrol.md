@@ -66,9 +66,9 @@ The remote repository refers to the server repository that may be present anywhe
 ## Git Commands
 Working With Local Repositories
 -  <b>git init</b>
-
+<p>
 The command git init is used to create an empty Git repository. 
-After the git init command is used, a .git folder is created in the directory with some subdirectories. Once the repository is initialized, the process of creating other files begins.
+After the git init command is used, a .git folder is created in the directory with some subdirectories. Once the repository is initialized, the process of creating other files begins.</p>
 
 -  <b>git add</b>
 Add command is used after checking the status of the files, to add those files to the staging area.
