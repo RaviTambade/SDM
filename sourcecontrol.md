@@ -1,4 +1,6 @@
+
 # Source Control ?
+<img src="/images/SourceControl/Git.jpg"/>
 Source cotrol is the tracking and management of changes to code. This ensures that developers are always working on the right version of source code.
 Source control management (SCM) refers to tools that help you keep track of your code with a complete history of changes.
 Source control is important for maintaining a single source of truth for development teams. Using it helps facilitate collaboration and accelerates release velocity.
