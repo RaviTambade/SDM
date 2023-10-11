@@ -28,6 +28,7 @@ This will lead to project failure because of which it is necessary to have a goo
 - Deployment
 - Maintenance.
 
+### SDLC Phases in Detail
 1. Requirement Gathering and Analysis
     During this phase, all the relevant information is collected from the customer to develop a product as per their expectation. Any ambiguities must be resolved in this phase only.
 
