@@ -154,12 +154,11 @@ The command helps in understanding the state of the current branch by showing th
 ### GIT Interview Questions & Answers
 
 1.	What is GIT?  
-✔GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.  
+GIT is a distributed version control system and source code management (SCM) system with an emphasis to handle small and large projects with speed and efficiency.  
 
 2. What is Distributed Control System?  
-✔We work in our local machine and later we transfer the code to Centralized repository (GitHub). We don’t need to connect to centralized repository to work. 
+We work in our local machine and later we transfer the code to Centralized repository (GitHub). We don’t need to connect to centralized repository to work. 
 3. What is GIT version control?  
-✔
 - GIT version control allows you to track the history of a collection of files (code files). 
 - It supports creating different versions of file collection. Each version captures a snapshot of the files at a certain point of time and You can revert the collection of files using the snapshot. (You can develop the code in different versions of java. and you can merge in Git) 
 - VCS allows you to switch between these versions. These versions are stored in a 
@@ -193,8 +192,8 @@ To see the commits. Also, we can find specific commits in your project history- 
  	- git  log 	 	-----> To show the Git Commits 
  	- git  log   -5 	 	-----> To show Recent 5 Commits 
  	- git  log    --oneline -----> To Display the each commit in one line  
-	- git  log   --since=2018-01-21 
-	- git  log   --until=2018-03-18 
+	- git  log   --since=2023-10-21 
+	- git  log   --until=2023-10-18 
  	- git  log   --author="user_name" 
 	- git  log   --grep="Index" 
  	# git  log   --oneline   --author="user_name" 
