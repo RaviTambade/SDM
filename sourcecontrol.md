@@ -39,7 +39,7 @@ It is a free, high-quality distributed version control system suitable for track
 It is a web-based Git repository. This hosting service has cloud-based storage. GitHub offers all distributed version control and source code management functionality of Git while adding its own features. It makes it easier to collaborate using Git. 
 Additionally, GitHub repositories are open to the public. Developers worldwide can interact and contribute to one another’s code, modify or improve it, making GitHub a networking site for web professionals. The process of interaction and contribution is also called social coding.
 
-###  Difference between Git and GitHub
+##  Difference between Git and GitHub
 The main Git vs GitHub difference is in their functionality. While they both provide source code management (SCM) and make merging and sharing code easier, this is pretty much where their similarities end. Think of Git as a single computer and GitHub as a network of multiple interconnected computers, all with the same end goal but a wildly different role for how to get there.
 
 At its core, Git is a free, open-source software distributed version control system (DVCS) designed to manage all source code history. It can keep a history of commits, can reverse changes, and lets developers share code. Each developer must have Git installed on his or her local device to collaborate. It is commonly referred to as one of the best DevOps tools to understand and use in the developer space, and it’s among the most widely used tools today. Companies like Amazon, Facebook, and Microsoft use it, to name a few.
@@ -56,20 +56,17 @@ When it comes to commands, Git focuses exclusively on SCM tasks like push and pu
 
 Git has remained an open-source tool since it was first released in 2005. To this day, it is maintained by the Linux Foundation as part of the open-source ecosystem of tools and technologies (the Linux founder also created Git). By contrast, GitHub was launched as a company in 2008 and acquired by Microsoft in 2018.
 
-## Git and GitHub
-
-
-### Local repository: 
+- <b>Local repository</b> 
 The local repository is present on our computer and consists of all the files and folders. This Repository is used to make changes locally, review history, and commit when offline.
 
-### Remote repository: 
+- <b>Remote repository</b>
 The remote repository refers to the server repository that may be present anywhere. This repository is used by all the team members to exchange the changes made.
 
 
 ## Git Commands
-
 Working With Local Repositories
 -  <b>git init</b>
+
 The command git init is used to create an empty Git repository. 
 After the git init command is used, a .git folder is created in the directory with some subdirectories. Once the repository is initialized, the process of creating other files begins.
 
