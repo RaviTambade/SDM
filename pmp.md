@@ -20,12 +20,13 @@ Iron Triangle in project management shows in graphical form how all projects hav
 The three constraints in Iron Triangle also serves as measurement scale of project’s success or failure.
 
 - <b>Time</b>
-	- Whether the project was completed on time estimated during the planning phase. This is the best guess based on the number/availability of resources, experience of resources involved, complexity of the project, dependencies, obstacles etc.
+	- Whether the project was completed on time estimated during the planning phase. 
+	- This is the best guess based on the number/availability of resources, experience of resources involved, complexity of the project, dependencies, obstacles etc.
 - <b>Cost</b>
-	- Whether the project was completed within the allocated budget. In software development, the cost is mainly a manpower cost which can be measured in persons/month.
+	- Whether the project was completed within the allocated budget. 
+	- In software development, the cost is mainly a manpower cost which can be measured in persons/month.
 - <b>Scope</b>
 	- Whether all the planned features were implemented or not.
-
 - <b>Quality</b>
 	- This is one factor that can be hard to decide on as Quality as it can be defined in several ways.
 
