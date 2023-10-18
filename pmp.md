@@ -41,29 +41,28 @@ The three constraints in Iron Triangle also serves as measurement scale of proje
 
 ### Management Activities
 
-- Project Planning
-Project managers are responsible for planning. estimating and scheduling project development and assigning people to tasks. 
+- <b>Project Planning</b>
+	Project managers are responsible for planning. estimating and scheduling project development and assigning people to tasks. 
 
-- Reporting & Controlling 
+- <b>Reporting & Controlling</b>
 Project managers are usually responsible for reporting on the progress of a project to customers and to the managers of the company developing the software. 
 
--  Risk Management
+- <b>Risk Management</b>
 Project managers assess the risks that may affect a project, monitor these risks and take action when problems arise
 
 ### Management Activities 
 
-- People Management:
-Project managers have to choose people for their team and establish ways of working that leads to effective team performance 
-- Project Planning:
-Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. 
+- <b>People Management</b>:
+	Project managers have to choose people for their team and establish ways of working that leads to effective team performance 
+- <b>Project Planning</b>:
+	Project planning involves breaking down the work into parts and assign these to project team members, anticipate problems that might arise and prepare tentative solutions to those problems. 
+	The project plan, which is created at the start of a project, is used to communicate how the work will be done to the project team and customers, and to help assess progress on the project. 
 
-The project plan, which is created at the start of a project, is used to communicate how the work will be done to the project team and customers, and to help assess progress on the project. 
+### Project Planning Stages 
 
-### Planning Stages 
-
-At the proposal stage, when you are bidding for a contract to develop or provide a software system.
-During the project startup phase, when you have to plan who will work on the project, how the project will be broken down into increments, how resources will be allocated across your company, etc. 
-Periodically throughout the project, when you modify your plan in the light of experience gained and information from monitoring the progress of the work. 
+- At the proposal stage, when you are bidding for a contract to develop or provide a software system.
+- During the project startup phase, when you have to plan who will work on the project, how the project will be broken down into increments, how resources will be allocated across your company, etc. 
+- Periodically throughout the project, when you modify your plan in the light of experience gained and information from monitoring the progress of the work. 
 
 ### Plan-Driven Development 
 
@@ -72,18 +71,15 @@ Periodically throughout the project, when you modify your plan in the light of e
 - A project plan is created that records the work to be done, who will do it, the development schedule and the work products. 
 - Managers use the plan to support project decision making and as a way of measuring progress. 
 
-
-
 #### Plan-Driven Development – Pros and Cons 
 
-The arguments in favor of a plan-driven approach are that early planning allows organizational issues (availability of staff, other projects, etc.) to be closely taken into account, and that potential problems and dependencies are discovered before the project starts, rather than once the project is underway.
-The principal argument against plan-driven development is that many early decisions have to be revised because of changes to the environment in which the software is to be developed and used.
+- The arguments in favor of a plan-driven approach are that early planning allows organizational issues (availability of staff, other projects, etc.) to be closely taken into account, and that potential problems and dependencies are discovered before the project starts, rather than once the project is underway.
+- The principal argument against plan-driven development is that many early decisions have to be revised because of changes to the environment in which the software is to be developed and used.
 
-- Project Plans 
 
+#### Project Plans 
 In a plan-driven development project, a project plan sets out the resources available to the project, the work breakdown and a schedule for carrying out the work. 
-
-- Plan Sections
+- <b>Plan Sections</b>
 	- Introduction
 	- Project organization
 	- Risk analysis
@@ -105,34 +101,34 @@ Staff development plan 	| Describes how the skills and experience of the project
 
 ### The Planning Process 
 
-Project planning is an iterative process that starts when you create an initial project plan during the project startup phase.
-Plan changes are inevitable. As more information about the system and the project team becomes available during the project, you should regularly revise the plan to reflect requirements, schedule and risk changes. 
-Changing business goals also leads to changes in project plans. As business goals change, this could affect all projects, which may then have to be re-planned. 
+- Project planning is an iterative process that starts when you create an initial project plan during the project startup phase.
+- Plan changes are inevitable. As more information about the system and the project team becomes available during the project, you should regularly revise the plan to reflect requirements, schedule and risk changes. 
+- Changing business goals also leads to changes in project plans. As business goals change, this could affect all projects, which may then have to be re-planned. 
 
 ### Project Scheduling
 
-Project scheduling is the process of deciding how the work in a project will be organized as separate tasks, and when and how these tasks will be executed. 
-You estimate the calendar time needed to complete each task, the effort required and who will work on the tasks that have been identified. 
-You also have to estimate the resources needed to complete each task, such as the disk space required on a server, the time required on specialized hardware, such as a simulator, and what the travel budget will be
+- Project scheduling is the process of deciding how the work in a project will be organized as separate tasks, and when and how these tasks will be executed. 
+- You estimate the calendar time needed to complete each task, the effort required and who will work on the tasks that have been identified. 
+- You also have to estimate the resources needed to complete each task, such as the disk space required on a server, the time required on specialized hardware, such as a simulator, and what the travel budget will be
 
 ### Project Scheduling Activities 
 
-Split project into tasks and estimate time and resources required to complete each task. 
-Organize tasks concurrently to make optimal use of workforce. 
-Minimize task dependencies to avoid delays caused by one task waiting for another to complete.
-Dependent on project managers intuition and experience. 
+- Split project into tasks and estimate time and resources required to complete each task. 
+- Organize tasks concurrently to make optimal use of workforce. 
+- Minimize task dependencies to avoid delays caused by one task waiting for another to complete.
+- Dependent on project managers intuition and experience. 
 
 ### Milestones and Deliverables
 
-Milestones are points in the schedule against which you can assess progress, for example, the handover of the system for testing. 
-Deliverables are work products that are delivered to the customer, e.g. a requirements document for the system.
+- <b>Milestones</b> are points in the schedule against which you can assess progress, for example, the handover of the system for testing. 
+- <b>Deliverables</b> are work products that are delivered to the customer, e.g. a requirements document for the system.
 
 ### Scheduling Problems 
 
-Estimating the difficulty of problems and hence the cost of developing a solution is hard. 
-Productivity is not proportional to the number of people working on a task. 
-Adding people to a late project makes it later because of communication overheads. 
-The unexpected always happens. Always allow contingency in planning. 
+- Estimating the difficulty of problems and hence the cost of developing a solution is hard. 
+- Productivity is not proportional to the number of people working on a task. 
+- Adding people to a late project makes it later because of communication overheads. 
+- The unexpected always happens. Always allow contingency in planning. 
 
 
 ## Activity Bart Chart
@@ -150,10 +146,9 @@ The unexpected always happens. Always allow contingency in planning.
 ### Agile Planning Stages
 - Release planning, which looks ahead for several months and decides on the features that should be included in a release of a system. 
 - Iteration planning, which has a shorter term outlook, and focuses on planning the next increment of a system.
-This is typically 2-4 weeks of work for the team.
+- This is typically 2-4 weeks of work for the team.
 
 ### Story-Based Planning 
-
 - The system specification in XP is based on user stories that reflect the features that should be included in the system. 
 - The project team read and discuss the stories and rank them in order of the amount of time they think it will take to implement the story. 
 - Release planning involves selecting and refining the stories that will reflect the features to be implemented in a release of a system and the order in which the stories should be implemented. 
