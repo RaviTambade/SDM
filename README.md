@@ -12,7 +12,7 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwareengg.md"> Software Enggineering</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sdlc.md"> Software Development Life Cycle(SDLC)</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/waterfall.md"> Waterfall Model</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Agile VS Waterfall Model</a>
+
 - <a href="https://github.com/RaviTambade/SDM/blob/main/pmp.md"> Planning and  Management of Software Projects </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/RequirementEngg.md">Requirement Engineering </a>
@@ -20,6 +20,7 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md"> Software Architecture</a>
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/agile.md"> Agile Methodolgy</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Agile VS Waterfall Model</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/scrum.md"> Scrum Framework</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/UserStory.md"> User Stories</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/sourcecontrol.md"> Source Control</a>
