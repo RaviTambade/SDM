@@ -1,5 +1,7 @@
 # software engineering
 
+<img src="/images/software-engineering.png" />
+
 Bjarne Stroustrup, the creator of the C++ programming language, once said that "our civilization runs on software." This statement is impressively backed by reality, in which software controls a huge variety of devices, from cell phones and music players, to smart appliances such as microwave ovens and laundry machines, to personal computers that many people use at work and large mainframe computers that operate in governmental organizations. In fact, it is hard to imagine an area of human activity that does not rely at least partially on software, including professional work, home activities, and entertainment.
 
 Using a basic definition, software means computer programs and their associated documentation. Computer programs, in turn, consist of algorithms (or procedures) applied to various types of data. Software engineering emerged in the late 1960s as a new engineering discipline concerned with all aspects pertaining to software production. It encompasses concepts, principles, theories, techniques and tools that can be used for developing high-quality professional software. First introduced at the 1968 NATO Software Engineering Conference in Garmisch, Germany, software engineering emphasizes a systematic, disciplined approach to software development and evolution and typically applies to the construction of large software systems (or products) in which teams of numerous software engineers are involved.
