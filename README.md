@@ -10,7 +10,9 @@ Let is explore Software Development metholodies by doing.
 Learn by doing not by just reading and watching.
 
 - <a href="https://github.com/RaviTambade/SDM/blob/main/softwareengg.md"> Software Enggineering</a>
-- <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Software Development Life Cycle</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/sdlc.md"> Software Development Life Cycle(SDLC)</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/waterfall.md"> Waterfall Model</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/agilevswaterfall.md"> Agile VS Waterfall Model</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/pmp.md"> Planning and  Management of Software Projects </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/EstimationRiskmgmt.md">Project Estimation And Risk Management </a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/RequirementEngg.md">Requirement Engineering </a>
