@@ -1,5 +1,7 @@
 # Waterfall Model
 
+<img src="/images/waterfallmodel.png"/>
+
 Waterfall model was the first model which was widely used in the software industry.
 It is divided into phases and the output of one phase becomes the input of the next phase. It is mandatory for a phase to be completed before the next phase starts. In short, there is no overlapping in the Waterfall model Each phase of the waterfall model is quite precise and well-defined.  
 
