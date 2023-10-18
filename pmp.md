@@ -14,6 +14,20 @@ A project is a planned activity that involves non-routine tasks and has a clearl
 
 ### The Iron Triangle 
 <img src="/images/PMP/01_IronTriangle.jpg" />
+Iron Triangle in project management shows in graphical form how all projects have certain constraints — normally these are cost, time and scope (thus the name “triple constraints”) with quality as a central theme. For a project to be successful, these three factors need to be balanced. There are other variations of Iron Triangle based on project type where constraints might be different based on industry type, but the concept remains the same. If you break Iron Triangle by making a change to one constraint, other two needs to be adjusted accordingly otherwise quality will suffer.
+
+### Measuring Project Success
+The three constraints in Iron Triangle also serves as measurement scale of project’s success or failure.
+
+- Time
+	Whether the project was completed on time estimated during the planning phase. This is the best guess based on the number/availability of resources, experience of resources involved, complexity of the project, dependencies, obstacles etc.
+- Cost
+	Whether the project was completed within the allocated budget. In software development, the cost is mainly a manpower cost which can be measured in persons/month.
+- Scope
+	Whether all the planned features were implemented or not.
+- Quality
+This is one factor that can be hard to decide on as Quality as it can be defined in several ways.
+
 
 ### Software Management Distinctions
 - The product is intangible. 
