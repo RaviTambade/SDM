@@ -1,6 +1,6 @@
 # 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀
 
-<img src="/images/Container/Kubernetes.png"/>
+<img src="/images/Container/Kubernetes.png" width="200" height="200"/>
 ## W𝗵𝗮𝘁 𝗶𝘀 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀 (𝗞𝟴𝘀)?
 
 Kubernetes or K8 is an open-source container management platform developed by Google which unifies a cluster of machines into a single pool of computing resources. With Kubernetes we can organize applications in container groups which run its docker engine to maintain applications running as per request. Kubernetes keeps track of container applications which are deployed in cloud 
