@@ -30,7 +30,7 @@ Kubernetes or K8 is an open-source container management platform developed by Go
 ## Kubernetes architecture
 
 
-<img src="/images/Container/containerruntime.webp"/>
+<img src="/images/Container/KubernetesArchitecture.gif"/>
 
 Kubernetes architecture consists of two main logical groups:
 
