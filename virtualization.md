@@ -2,6 +2,16 @@
 
 Virtualization is a technology that allows you to create multiple simulated environments or dedicated resources from a single physical hardware system. Essentially, it enables you to run multiple operating systems or applications on a single physical machine, known as a host, and each operating system or application runs in its own virtual environment, called a virtual machine (VM) or container.
 
+The virtualization process follows these steps:
+
+1. Hypervisors detach physical resources from their physical environments.
+2. Resources are taken from the physical environment and divided among various virtual environments.
+3. System users work with and perform computations within the virtual environment.
+4. Once the virtual environment is running, a user or program can send an instruction that requires extra resources from the physical environment. In response, the hypervisor relays the message to the physical machine and stores the changes.
+
+The virtual environment is often referred to as a guest machine or virtual machine. The VM acts like a single data file that can be transferred from one computer to another and opened in both. It should perform the same way on every computer.
+
+
 There are different types of virtualization, including:
 
 1. **Hardware Virtualization**: This involves creating virtual machines that mimic physical computers with their own virtualized hardware, such as CPU, RAM, storage, and network interfaces. Software called a hypervisor manages these virtual machines and allocates physical resources to them.
