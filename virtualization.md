@@ -26,3 +26,21 @@ Hypervisors take the physical resources and separate them for the virtual enviro
 Xen hypervisor is an open source software program that manages the low-level interactions that occur between virtual machines (VMs) and physical hardware. It enables the simultaneous creation, execution and management of various VMs in one physical environment. With the help of the hypervisor, the guest OS, which normally interacts with true hardware, does so with a software emulation of that hardware.
 
 Although OSes running on true hardware often outperform those running on virtual systems, most guest OSes and applications don't fully use the underlying hardware. Virtualization removes dependency on a given hardware platform, creating greater flexibility, control and isolation for environments. Plus, virtualization has spread beyond servers to include applications, networks, data management and desktops.
+
+## Hypervisor 
+Type 1 and Type 2 hypervisors are two different architectures for virtualization, each with its own characteristics and use cases:
+
+1. **Type 1 Hypervisor (Bare Metal Hypervisor)**:
+   - A Type 1 hypervisor runs directly on the physical hardware of a host machine without the need for an underlying operating system.
+   - It is often referred to as a "bare-metal" hypervisor because it operates directly on the hardware.
+   - Type 1 hypervisors typically provide better performance and efficiency compared to Type 2 hypervisors because they have direct access to hardware resources.
+   - Examples of Type 1 hypervisors include VMware ESXi, Microsoft Hyper-V (when installed without a host operating system), and Xen.
+
+2. **Type 2 Hypervisor (Hosted Hypervisor)**:
+   - A Type 2 hypervisor runs on top of a conventional operating system (the host operating system).
+   - It requires the host operating system to manage hardware resources and provide services to the virtual machines.
+   - Type 2 hypervisors are often used for development, testing, and desktop virtualization scenarios where performance is not as critical.
+   - They are easier to set up and use compared to Type 1 hypervisors because they leverage the existing operating system environment.
+   - Examples of Type 2 hypervisors include VMware Workstation, Oracle VirtualBox, and Parallels Desktop.
+
+In summary, Type 1 hypervisors are more suited for production environments and enterprise use cases where performance and resource efficiency are crucial, while Type 2 hypervisors are often used for development, testing, and desktop virtualization where ease of use and flexibility are prioritized.
