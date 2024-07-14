@@ -39,3 +39,4 @@ Learn by doing not by just reading and watching.
 - <a href="https://github.com/RaviTambade/SDM/blob/main/kubernetes.md"> Kubernetes</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/devops.md"> DevOps</a>
 - <a href="https://github.com/RaviTambade/SDM/blob/main/CICD.md"> Continous Integration/ Continous Delivery</a>
+- <a href="https://github.com/RaviTambade/SDM/blob/main/jenkins_install.md"> Using Jenkins Docker Container image</a>

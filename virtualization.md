@@ -25,6 +25,7 @@ There are different types of virtualization, including:
 Virtualization offers several benefits, including improved resource utilization, increased flexibility and scalability, easier management and maintenance, and cost savings through consolidation of hardware resources. It's widely used in data centers, cloud computing environments, and for software development and testing, among other applications.
 
 ## How virtualization works
+
 Virtualization technology abstracts an application, guest operating system or data storage away from its underlying hardware or software.
 
 Organizations that divide their hard drives into different partitions already engage in virtualization. A partition is the logical division of a hard disk drive that, in effect, creates two separate hard drives.
